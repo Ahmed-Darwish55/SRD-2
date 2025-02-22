@@ -1,0 +1,73 @@
+{
+  "showHeader": true,
+  "logos": {
+    "SDA_Logo": "assets/Shared/main/images/SDA-Logo-dark.png",
+    "vision_Logo": "assets/Shared/main/images/visionLogo.png",
+    "mainLogo_href": "#",
+    "id": "slider"
+  },
+  "navigationItems": [
+
+    {
+      "id": "about",
+      "title": "سرد",
+      "href": "#about",
+      "isSelected": false
+    },
+    {
+      "id": "geoSpatial-about",
+      "title": "عن المنطقة",
+      "href": "GEO-Portal/#geoSpatial-about",
+      "isSelected": false
+    },
+    {
+      "id": "productsCatalogue",
+      "title": "المنتجات",
+      "href": "#productsCatalogue",
+      "isSelected": false
+    },
+    {
+      "id": "servicesCatalogue",
+      "title": "الخدمات",
+      "href": "#servicesCatalogue",
+      "isSelected": false
+    },
+    {
+      "id": "dataCatalogue",
+      "title": "البيانات الحضرية",
+      "href": "GEO-Portal/#dataCatalogue",
+      "isSelected": false
+    },
+    {
+      "id": "sectors",
+      "title": "المؤشرات الحضرية",
+      "href": "Statistical-Portal/#sectors",
+      "isSelected":false
+    },
+    {
+      "id": "applicationCatalogue",
+      "title": "التطبيقات الحضرية",
+      "href": "GEO-Portal/#applicationCatalogue",
+      "isSelected": false
+    },
+    {
+      "id": "studiesAndDocuments",
+      "title": "الوثائق والدراسات",
+      "href": "GEO-Portal/#studiesAndDocuments",
+      "isSelected": false
+    },
+    {
+      "id": "partners",
+      "title": "الشركاء",
+      "href": "#partners",
+      "isSelected": false
+    },
+    {
+      "id": "contactUs",
+      "title": "إتصل بنا",
+      "href": "#contactUs",
+      "isSelected": false
+    }
+  ],
+  "test": "test"
+}

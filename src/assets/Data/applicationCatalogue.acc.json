@@ -1,0 +1,74 @@
+{
+  "applicationList": [
+    {
+      "id": "",
+      "name_Ar": " الإستبانات",
+      "name_En": "Survey 123",
+      "description_Ar": "",
+      "description_En": "",
+      "aboutURL": "https://www.esri.com/en-us/arcgis/products/arcgis-survey123/overview",
+      "url": "https://gis-ac.sda.gov.sa/survey123/org/surveys",
+      "icon": "assets/GEO-Portal/application-catalogue/images/Survey123.png"
+    },
+    {
+      "id": "",
+      "name_Ar": "لوحات المعلومات ",
+      "name_En": "ArcGIS Dashboard",
+      "url": "https://gis-ac.sda.gov.sa/portal/apps/dashboards/home",
+      "description_Ar": "",
+      "description_En": "",
+      "aboutURL": "https://www.esri.com/en-us/arcgis/products/arcgis-dashboards/overview",
+      "icon": "assets/GEO-Portal/application-catalogue/images/dashboards.png"
+    },
+    {
+      "id": "",
+      "name_Ar": "التطبيقات الفورية",
+      "name_En": "Instant Apps",
+      "url": "https://gis-ac.sda.gov.sa/portal/apps/instantgallery/index.html?tab=browseAll",
+      "description_Ar": "",
+      "description_En": "",
+      "aboutURL": "https://www.esri.com/en-us/arcgis/products/arcgis-instant-apps/overview",
+      "icon": "assets/GEO-Portal/application-catalogue/images/instant-apps.png"
+    },
+    {
+      "id": "",
+      "name_Ar": "الخرائط الميدانية",
+      "name_En": "Field Maps",
+      "url": "https://gis-ac.sda.gov.sa/portal/apps/fieldmaps/maps",
+      "description_Ar": "",
+      "description_En": "",
+      "aboutURL": "https://www.esri.com/en-us/arcgis/products/arcgis-field-maps/overview",
+      "icon": "assets/GEO-Portal/application-catalogue/images/arcgis-field-maps.png"
+    },
+    {
+      "id": "",
+      "name_Ar": "الإلتقاط السريع",
+      "name_En": "Quick Capture",
+      "url": "https://gis-ac.sda.gov.sa/portal/apps/quickcapture/projects",
+      "description_Ar": "",
+      "description_En": "",
+      "aboutURL": "https://www.esri.com/en-us/arcgis/products/arcgis-quickcapture/overview",
+      "icon": "assets/GEO-Portal/application-catalogue/images/QuickCapture.png"
+    },
+    {
+      "id": "",
+      "name_Ar": "إدارة المهام ",
+      "name_En": "ArcGIS Workforce",
+      "url": "https://gis-ac.sda.gov.sa/portal/apps/workforce/projects",
+      "description_Ar": "",
+      "description_En": "",
+      "aboutURL": "https://www.esri.com/en-us/arcgis/products/arcgis-workforce/overview",
+      "icon": "assets/GEO-Portal/application-catalogue/images/workforce.png"
+    },
+    {
+      "id": "",
+      "name_Ar": "الخرائط القصصية",
+      "name_En": "Story Map",
+      "url": "https://gis-ac.sda.gov.sa/portal/apps/storymaps/stories",
+      "description_Ar": "",
+      "description_En": "",
+      "aboutURL": "https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/overview",
+      "icon": "assets/GEO-Portal/application-catalogue/images/StoryMaps.png"
+    }
+  ]
+}

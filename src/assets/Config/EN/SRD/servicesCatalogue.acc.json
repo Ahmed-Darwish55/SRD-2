@@ -1,0 +1,23 @@
+{
+  "header": "Services",
+  "classification": "Classification",
+  "ownership": "Ownership",
+  "targetCategories": "Target Categories",
+  "serviceCharge": "Service Charge",
+  "more": "For More Information",
+  "name": "Service Name",
+  "url": "Service Request Form",
+  "survey123": "(Survey 123)",
+  "serviceCard": "Service Information Card",
+  "serviceConstraints": "Service Constraints",
+  "avgCompletionPeriod": "Average Service Completion Period",
+  "outcomes": "Outcomes",
+  "contactInfo": "Contact Information",
+  "serviceWorkflow": "Service Workflow",
+  "workflowURL": "View on Platform",
+  "CAMUNDA": "CAMUNDA",
+  "performanceIndicator": "Performance Indicator",
+  "goal": "Goal",
+  "measurementCycle": "Measurement Cycle",
+  "measurementResponsibility": "Measurement Responsibility"
+}

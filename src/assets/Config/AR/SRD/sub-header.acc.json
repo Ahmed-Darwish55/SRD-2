@@ -1,0 +1,10 @@
+{
+  "fromProduct": {
+    "ar": "المنتجات",
+    "en": "Products"
+  },
+  "fromService": {
+    "ar": "الخدمات",
+    "en": "Services"
+  }
+}

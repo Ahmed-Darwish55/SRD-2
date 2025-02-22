@@ -1,0 +1,62 @@
+{
+    "descriptionIcon": "",
+    "subThemesListIcon": "",
+    "backgroundVideo": "",
+    "backgroundImage": "",
+    "centerOverlayMapImage": "assets/GEO-Portal/data-catalogue/images/maps/overlay-Map.png",
+    "centerDefaultImage": "assets/GEO-Portal/data-catalogue/images/maps/default-Map.png",
+
+    "title": "GEO Spatial Data Catalogue",
+    "dataCatalogueImage": "assets/GEO-Portal/data-catalogue/images/library.svg",
+    "dataAvailabilityMeasure": "Geospatial data availability measure",
+    "dataAvailabilityMeasureImage": "assets/GEO-Portal/data-catalogue/images/measure.svg",
+    "subTheme": "Sub Themes List",
+    "subThemesImage": "assets/GEO-Portal/data-catalogue/images/chart-pie.svg",
+    "subThemeAction": "View",
+    "themes": {
+        "location-and-demographic": {
+            "id": "location-and-demographic",
+            "name": "Location and Demographic"
+        },
+        "urban-development": {
+            "id": "urban-development",
+            "name": "Urban Development"
+        },
+        "sustainable-environment": {
+            "id": "sustainable-environment",
+            "name": "Sustainable Environment"
+        },
+        "economic": {
+            "id": "economic",
+            "name": "Economic"
+        },
+        "culture-heritage-and-tourism": {
+            "id": "culture-heritage-and-tourism",
+            "name": "Culture, Heritage and Tourism"
+        },
+        "logistic-and-mobility": {
+            "id": "logistic-and-mobility",
+            "name": "Logistic and Mobility"
+        },
+        "social-services": {
+            "id": "social-services",
+            "name": "Social Services"
+        },
+        "safety-and-security": {
+            "id": "safety-and-security",
+            "name": "Safety and Security"
+        },
+        "initiatives-and-projects": {
+            "id": "initiatives-and-projects",
+            "name": "Initiatives and Projects"
+        },
+        "infrastructure": {
+            "id": "infrastructure",
+            "name": "Infrastructure"
+        },
+        "elevation": {
+            "id": "elevation",
+            "name": "Elevation"
+        }
+    }
+}

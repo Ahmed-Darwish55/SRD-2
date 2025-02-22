@@ -1,0 +1,647 @@
+{
+  "UrbanData": [
+    {
+      "id": "safety-and-security",
+      "name_Ar": "الأمن والسلامة",
+      "name_En": "Safety and Security",
+      "sectorid": 1,
+      "indicators": [
+        {
+          "name_Ar": "متوسط زمن إستجابة المرور للحوادث المرورية بالدقيقة",
+          "name_En": "Average response time to traffic accidents",
+          "identification_Ar": "يقيس المؤشر متوسط زمن الاستجابة للحوادث المرورية أو مجموع مكالمات الاستغاثة الأولية للوصول إلى الموق",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-1.svg",
+          "currentValue": "22.5",
+          "target": "يهدف المؤشر إلى تحديد مدى استجابة الجهات الأمنية لطوارئ الطرق لتجنب الاختناق المروري وسرعة إسعاف الم",
+          "calculationMethod": "متوسط زمن الاستجابة للحوادث المرورية أو مجموع مكالمات الاستغاثة الأولية للوصول إلى الموقع لمسؤولي الحوادث المرورية في دقائق وثواني ÷ إجمالي مكالمات الحوادث المرورية",
+          "measureUnit": "دقائق:ثوان",
+          "sectorName": "الأمن والسلامة",
+          "indicatorReportName": "متوسط زمن الاستجابة للحوادث المرورية"
+        },
+        {
+          "name_Ar": "عدد رجال الإطفاء لكل 100 ألف شخص",
+          "name_En": "Number of firefighters per 100 000 population",
+          "identification_Ar": "يقيس المؤشر عدد رجال الإطفاء لكل 100 ألف شخص، وذلك لقياس مدى الاستجابة لبلاغات المواطنين.",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-2.svg",
+          "currentValue": "41.9",
+          "target": "يهدف المؤشر إلى قياس مدى التجاوب لبلاغات المواطنين وبالتالي قياس مدى الشعور بالأمن والأمان لدى السكا",
+          "calculationMethod": "إجمالي عدد رجال الإطفاء ÷ إجمالي عدد السكان × 100,000",
+          "measureUnit": "رجل إطفاء / 100 ألف شخص",
+          "sectorName": "الأمن والسلامة",
+          "indicatorReportName": "عدد رجال الاطفاء لكل 100 ألف شخص"
+        },
+        {
+          "name_Ar": "نسبة الاستجابة لحالات الطوارئ خلال سبعة دقائق أو أقل",
+          "name_En": "Response time for emrgency response services from initial call",
+          "identification_Ar": "يقيس المؤشر نسبة مكالمات الاستغاثة الأولية التي نجحت فرق الطوارئ والدفاع المدني في التعامل معها بدء\u064B",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-3.svg",
+          "currentValue": "79%",
+          "target": "يهدف المؤشر إلى قياس مستوى أداء خدمات الطوارئ ومدى تجاوبها لبلاغات المواطنين، وبالتالي قياس مدى الشع",
+          "calculationMethod": "مجموع مكالمات الاستغاثة الأولية للوصول إلى الموقع لموظفي الطوارئ في دقائق وثوانيى ÷ إجمالي مكالمات الطوارئ × 100",
+          "measureUnit": "نسبة مئوية (%)",
+          "sectorName": "الأمن والسلامة",
+          "indicatorReportName": "وقت الاستجابة لحالات الطوارئ من المكالمة الأولى"
+        },
+        {
+          "name_Ar": "عدد قضايا الجرائم المبلغ عنها لكل 100 ألف شخص",
+          "name_En": "Crimes against property per 100 000",
+          "identification_Ar": "يقيس المؤشر إجمالي عدد الجرائم المسجلة (القتل - السرقة – الممتلكات) التي وقعت خلال سنة لكل 100 ألف ش",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-4.svg",
+          "currentValue": "73.59",
+          "target": "يهدف المؤشر إلى قياس مدى الشعور بالأمن والأمان لدى السكان، ومن ثم وضع السياسات والبرامج الكفيلة بمعا",
+          "calculationMethod": "عدد الجرائم حسب نوع الجريمة \"القتل - السرقة - الممتلاك\" ÷ إجمالي عدد السكان × 100,000",
+          "measureUnit": "جريمة / 100 ألف شخص",
+          "sectorName": "الأمن والسلامة",
+          "indicatorReportName": "عدد قضايا الجرائم المبلغ عنها لكل 1000 شخص"
+        }
+      ]
+    },
+    {
+      "id": "communications-and-information-technology",
+      "name_Ar": "الاتصالات وتقنية المعلومات",
+      "name_En": "Communications and Information Technology",
+      "sectorid": 2,
+      "indicators": [
+        {
+          "name_Ar": "متوسط سرعة الإنترنت (ميجابيت في الثانية)",
+          "name_En": "Average Broadband Speed (kbit/s or kbps)",
+          "identification_Ar": "مؤشر يقيس متوسط سرعة المدى الترددي للنطاق العريض في الثانية",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-1.svg",
+          "currentValue": "63.67",
+          "target": "يهدف المؤشر إلى قياس السرعة المتوسطة للإنترنت مما ينعكس على الارتقاء بجودة الحياة في المدن السعودية ",
+          "calculationMethod": "مجموع سرعات جميع اشتراكات شبكة النطاق العريض \"منزلي، نحاسي، منزلي فايبر، هوائي، انترنت الجوال،...الخ\" ÷ مجموع اشتراكات شبكة النطاق العريض",
+          "measureUnit": "ميغابايت في الثانية Mbps",
+          "sectorName": "الاتصالات وتقنية المعلومات",
+          "indicatorReportName": "متوسط سرعة الانترنت البرود باند"
+        },
+        {
+          "name_Ar": "نسبة الأسر التي تستخدم الإنترنت في بعض المعاملات الحكومية",
+          "name_En": "Number of landline phone connections per 100 000 population",
+          "identification_Ar": "يهدف إلى معرفة مدي انتشار خدمة الاتصالات التليفونية\r\n كأحد عناصر البنية الأساسية اللازمة لتطوير مناخ",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-2.svg",
+          "currentValue": "89%",
+          "target": "يقيس المؤشر مستوى التطور فى توفير واستخدام وسائل الاتصال المختلفة ومستوى الرفاهية للمجتمع",
+          "calculationMethod": "عدد خطوط الهاتف الارضي ÷ إجمالي عدد السكان × 100,000",
+          "measureUnit": "عدد/100,000",
+          "sectorName": "الاتصالات وتقنية المعلومات",
+          "indicatorReportName": "عدد خطوط الهاتف الارضي لكل 100 ألف شخص"
+        }
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "name_Ar": "البنية التحتية",
+      "name_En": "Infrastructure",
+      "sectorid": 3,
+      "indicators": [
+        {
+          "name_Ar": "نسبة المياه المحلاة من إجمالي كمية المياه المنتجة",
+          "name_En": "The percentage of desalinated water to the total amount of water produced",
+          "identification_Ar": "يقيس المؤشر كميات المياه محلاه وهي المياه المالحة التي يتم تحليتها وتنقيتها لكي تصبح صالحة للشرب قيا",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-1.svg",
+          "currentValue": "71.5%",
+          "target": "يهدف هذا المؤشر إلى قياس ومعرفة كمية المياه المحلاة الداخلة على شبكة المياه وبالتالي العمل على تحديد",
+          "calculationMethod": "المياه المحلاة ÷ إجمالي كمية المياه المنتجة × 100",
+          "measureUnit": "نسبة مئوية (%)",
+          "sectorName": "البنية التحتية",
+          "indicatorReportName": "نسبة المياه المحلاة من اجمالي كمية المياه المنتجة"
+        },
+        {
+          "name_Ar": "نصيب الفرد من الاستهلاك الكلي للمياه (لتر للفرد في اليوم)",
+          "name_En": "Total water consumption per capita (litres/day)",
+          "identification_Ar": "يقيس المؤشر متوسط الاستهلاك الكلي للمياه (لجميع الاستخدامات التجارية والصناعية والسكنية) باللتر للفر",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-2.svg",
+          "currentValue": "342",
+          "target": "ترجع أهمية هذا المؤشر الي أن توفر المياه الصالحة للشرب والاستعمال المنزلي في كثير من المدن غير ثابت ",
+          "calculationMethod": "الاستهلاك الكلي للمياه لجميع الاستخدامات ÷ إجمالي عدد السكان",
+          "measureUnit": "لتر/ فرد",
+          "sectorName": "البنية التحتية",
+          "indicatorReportName": "نصيب الفرد من الاستهلاك الكلي للمياه"
+        },
+        {
+          "name_Ar": "نسبة تسريب المياه بالشبكات",
+          "name_En": "% of water loss (unaccounted for water)",
+          "identification_Ar": "يقيس المؤشر كمية المياه التي تفقد في الشبكة قبل وصولها إلى المستهلك قياسا إلى إجمالي كمية المياه الت",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-3.svg",
+          "currentValue": "30%",
+          "target": "يهدف المؤشر إلى متابعة نسبة التسريب في الشبكة العامة، وتعود أهمية المؤشر إلى شح مصادر المياه العذبة ",
+          "calculationMethod": "كمية المياه المتسربة من الشبكة \"الفاقد\" ÷ إجمالي المياه التي تضخ عن طريق الشبكة × 100",
+          "measureUnit": "نسبة مئوية (%)",
+          "sectorName": "البنية التحتية",
+          "indicatorReportName": "نسبة تسريب المياه بالشبكات"
+        },
+        {
+          "name_Ar": "إجمالي نصيب الفرد من استهلاك الطاقة السكني (كيلو وات ساعة/ سنة)",
+          "name_En": "Total residential electrical energy use per capita (kwh/year)",
+          "identification_Ar": "يقيس المؤشر معدل الاستهلاك السكني للطاقة الكهربائية لكل فرد خلال عام ، ويعتمد استهلاك الفرد للكهرباء",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-4.svg",
+          "currentValue": "4,424.2",
+          "target": "يهدف المؤشر إلى. قياس الوصول إلى مستهدفات رؤية المملكة 2030 في رفع كفاءة استخدام الطاقة.",
+          "calculationMethod": "إجمالي استهلاك الاستعمالات السكنية من الطاقة الكهربية ÷ عدد السكان",
+          "measureUnit": "كيلووات ساعة / فرد / سنة",
+          "sectorName": "الطاقة",
+          "indicatorReportName": "إجمالي نصيب الفرد من استهلاك الطاقة السكني \"كيلو واط ساعة/ سنة \""
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "name_Ar": "البيئة",
+      "name_En": "Environment",
+      "sectorid": 4,
+      "indicators": [
+        {
+          "name_Ar": "نصيب الفرد من المساحة الخضراء بالمتر المربع",
+          "name_En": "Green area (hectares) per capita",
+          "identification_Ar": "مؤشر يقيس مسطح المناطق الخضراء المتاحة داخل حدود المنطقة قياسا إلى عدد سكان المدينة.",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-1.svg",
+          "currentValue": "3.4",
+          "target": "يحدد المؤشر تيسر بلوغ السكان للمتنزهات والحدائق إضافة إلى الأثر البيئي حيث انه كلما تحسنت صحة الإنسا",
+          "calculationMethod": "مساحة المسطحات الخضراء ÷ إجمالي عدد السكان",
+          "measureUnit": "م2/فرد",
+          "sectorName": "البيئة",
+          "indicatorReportName": "نصيب الفرد من المساحة الخضراء"
+        },
+        {
+          "name_Ar": "نسبة النفايات الصلبة المعاد تدويرها",
+          "name_En": "% of the city's solid waste that is recycled",
+          "identification_Ar": "مؤشر يقيس عمليات إعادة تدوير النفايات وهي استخلاص المواد الناتجة عن مرحلة أو أكثر من مراحل عملية الت",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-2.svg",
+          "currentValue": "2.2%",
+          "target": "يهدف هذا المؤشر إلى تحديد نسبة تدوير النفايات الصلبة، لتحقيق هدف رؤية المملكة 2030 في تدوير 100 في ا",
+          "calculationMethod": "كمية النفايات التي يتم التخلص منها بالتدوير ÷ إجمالي كمية النفايات التي تم جمعها × 100",
+          "measureUnit": "نسبة مئوية (%)",
+          "sectorName": "البيئة",
+          "indicatorReportName": "نسبة النفايات الصلبة المعاد تدويرها"
+        },
+        {
+          "name_Ar": "نسبة النفايات الصلبة التي يتم التخلص منها عن طريق الدفن الصحي",
+          "name_En": "% of the city's solid waste that is disposed of in a sanitary landfill",
+          "identification_Ar": "مؤشر يقيس نسبة المخلفات الصلبة التي يتم التخلص منها عن طريق الدفن الصحيح بدلا من تدويرها قياسا إلى إ",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-3.svg",
+          "currentValue": "97.8%",
+          "target": "يهدف المؤشر لرصد وسائل تصريف النفايات الصلبة وتوجيهها بشكل آمن وصحي، وترجع أهمية المؤشر أن تصريف الن",
+          "calculationMethod": "حجم النفايات الصلبة حسب وسيلة التخلص منها عن طريق الدفن الصحي ÷ إجمالي حجم النفايات التي يتم التخلص منها بكافة الوسائل × 100",
+          "measureUnit": "نسبة مئوية (%)",
+          "sectorName": "البيئة",
+          "indicatorReportName": "نسبة النفايات الصلبة التي يتم التخلص منها عن طريق الدفن الصحي"
+        }
+      ]
+    },
+    {
+      "id": "education-and-innovation",
+      "name_Ar": "التعليم والابتكار",
+      "name_En": "Education and Innovation",
+      "sectorid": 5,
+      "indicators": [
+        {
+          "name_Ar": "نسبة طلاب المرحلة الإبتدائية إلى المعلمين (طالب / معلم)",
+          "name_En": "Primary education students/teacher ratio",
+          "identification_Ar": "مؤشر يقيس نصيب كل معلم من الطلاب ويعبر عن إجمالي عدد الطلاب المقيدين في سنة دراسية معينة وفي مرحلة ت",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-1.svg",
+          "currentValue": "16.1",
+          "target": "يهدف هذا المؤشر إلى تقييم نسبة الكوادر الفنية العلمية المطلوبة لرفع كفاءة العملية التعليمية بحيث يحص",
+          "calculationMethod": "إجمالي عدد الطلاب المقيدون \"بغض النظر عن السن\" ÷ إجمالي عدد المعلمين والمعلمات",
+          "measureUnit": "طالب/معلم",
+          "sectorName": "التعليم والابتكار",
+          "indicatorReportName": "نسبة طلاب التعليم الأساسي الى المعلمين"
+        },
+        {
+          "name_Ar": "كثافة الفصول في المرحلة الإبتدائية (طالب / فصل)",
+          "name_En": "Number of students per class (class density)",
+          "identification_Ar": "مؤشر يقيس عدد الطلبة في كل فصل ويحسب لكل من المدارس الابتدائية والمدارس المتوسطة والمدارس الثانوية.",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-2.svg",
+          "currentValue": "24.1",
+          "target": "يهدف المؤشر إلى قياس جودة المرافق التعليمية المتوفرة ومدى كفايتها لتحقيق هدف تحسين وتطوير التعليم ال",
+          "calculationMethod": "عدد الطلاب ÷ عدد الفصول",
+          "measureUnit": "طالب/فصل",
+          "sectorName": "التعليم والابتكار",
+          "indicatorReportName": "عدد الطلاب بالفصل (كثافة الفصل)"
+        },
+        {
+          "name_Ar": "نسبة المباني المدرسية المستأجرة",
+          "name_En": "Percentage of rented school buildings",
+          "identification_Ar": "مؤشر يقيس عدد المباني المدرسية المستأجرة نسبة إلى إجمالي عدد المباني المدرسية في جميع المراحل التعلي",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-3.svg",
+          "currentValue": "22.4%",
+          "target": "يهدف المؤشر إلى قياس نوعية المرافق التعليمية المتوفرة ومدى مطابقتها للمعايير العالمية",
+          "calculationMethod": "عدد المباني المدرسية المستأجرة ÷ إجمالي عدد المدارس × 100",
+          "measureUnit": "نسبة مئوية (%)",
+          "sectorName": "التعليم والابتكار",
+          "indicatorReportName": "نسبة المباني المدرسية المستأجرة"
+        }
+      ]
+    },
+    {
+      "id": "culture-and-heritage",
+      "name_Ar": "الثقافة والتراث",
+      "name_En": "Culture and Heritage",
+      "sectorid": 6,
+      "indicators": [
+        {
+          "name_Ar": "البنى التحتية الثقافية لكل 100 ألف شخص",
+          "name_En": "Cultural infrastructure per 100,000 population",
+          "identification_Ar": "مؤشر يقيس عدد المواقع الثقافية \"المتاحف والمكتبات والمراكز الإعلامية، وأماكن المعارض المخصصة للفنون ",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-1.svg",
+          "currentValue": "0.6",
+          "target": "يعد المؤشر أحد العناصر الهامة في تنمية صناعة السياحة على مستوى المملكة عامة والمنطقة والمحافظات خاصة",
+          "calculationMethod": "عدد البنى التحتية الثقافية ÷ إجمالي عدد السكان × 100,000",
+          "measureUnit": "بنية ثقافية / 100 ألف شخص",
+          "sectorName": "الثقافة والتراث",
+          "indicatorReportName": "البنى التحتية الثقافية لكل 100 ألف من السكان"
+        },
+        {
+          "name_Ar": "عدد الفعاليات التراثية المستضافة",
+          "name_En": "Number of heritage events hosted",
+          "identification_Ar": "مؤشر يقيس عدد الفعاليات التراثية المستضافة بالمنطقة سنويا.",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-2.svg",
+          "currentValue": "2",
+          "target": "يهدف المؤشر إلى قياس مدى تحقيق أهداف برنامج جودة الحياة من زيادة الفعاليات والمهرجانات الوطنية / الإ",
+          "calculationMethod": "عدد الفعاليات التراثية المستضافة",
+          "measureUnit": "فعالية",
+          "sectorName": "الثقافة والتراث",
+          "indicatorReportName": "عدد الفعاليات التراثية المستضافة"
+        },
+        {
+          "name_Ar": "نسبة الزوار للمهرجانات التراثية والثقافية",
+          "name_En": "Number of visitors to heritage and cultural festivals",
+          "identification_Ar": "مؤشر يقيس معدلات الزائرين للمهرجانات التراثية والثقافية نسبة إلى إجمالي سكان بالمنطقة خلال عام.",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-3.svg",
+          "currentValue": "1.5%",
+          "target": "يستخدم المؤشر في قراءة استراتيجية مستقبلية للتنمية السياحية وتنشيط الجانب الثقافي للسكان باعتبار الأ",
+          "calculationMethod": "عدد الزوار للمهرجانات التراثية والثقافية ÷ إجمالي السكان × 100",
+          "measureUnit": "نسبة مئوية (%)",
+          "sectorName": "الثقافة والتراث",
+          "indicatorReportName": "نسبة الزوار للمهرجانات التراثية والثقافية"
+        },
+        {
+          "name_Ar": "عدد المكتبات العامة لكل 100 ألف شخص",
+          "name_En": "Total public libraries Per capita",
+          "identification_Ar": "مؤشر يقيس عدد المكتبات العامة قياس\u064Bا إلى كل 100 ألف شخص من سكان المدينة.",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-4.svg",
+          "currentValue": "0.13",
+          "target": "يهدف المؤشر إلى زيادة الوعي الثقافي للمجتمع من خلال زيادة عدد المكتبات العامة التي بدورها تعزز التعل",
+          "calculationMethod": "عدد المكتبات العامة ÷  إجمالي السكان × 100,000",
+          "measureUnit": "مكتبة عامة / 100 ألف شخص",
+          "sectorName": "الثقافة والتراث",
+          "indicatorReportName": "نصيب الفرد من المكتبات العامة"
+        }
+      ]
+    },
+    {
+      "id": "economic-characteristics",
+      "name_Ar": "الخصائص الاقتصادية",
+      "name_En": "Economic Characteristics",
+      "sectorid": 7,
+      "indicators": [
+        {
+          "name_Ar": "معدل البطالة",
+          "name_En": "City’s unmplpument rate",
+          "identification_Ar": "عدد الأشخاص في سن العمل (ذكورا\u064B وإناثا\u064B) القادرين على العمل والراغبين فيه، ولكنهم عاجزون عن الحصول ع",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-1.svg",
+          "currentValue": "3.8%",
+          "target": "دارسة حجم قضية البطالة بين الرجال والنساء في المجتمع.",
+          "calculationMethod": "عدد الأفراد العاطلين عن العمل داخل قوة العمل \"حسب الجنس\" ÷ جملة أفراد قوة العمل × 100",
+          "measureUnit": "نسبة مئوية (%)",
+          "sectorName": "الخصائص الاقتصادية",
+          "indicatorReportName": "معدل البطالة حسب الجنس"
+        },
+        {
+          "name_Ar": "نسبة السكان الناشطين اقتصادياً (15-64 سنة)",
+          "name_En": "Percentage of the economically active population (15-64 years old)",
+          "identification_Ar": "جميع الأفراد من الذكور والإناث داخل الفئة العمرية (15 – 64)، ويمثلون السكان في سن العمل (القوى العام",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-2.svg",
+          "currentValue": "74.2%",
+          "target": "يهدف المؤشر إلى التعرف على نسبة السكان في سن العمل (قوة العمل) وما تمثله من مورد هام من موارد التنمي",
+          "calculationMethod": "إجمالي عدد السكان في الفئة العمرية من 15 إلى 64 سنة ÷ إجمالي عدد السكان × 100",
+          "measureUnit": "نسبة مئوية (%)",
+          "sectorName": "الخصائص الاقتصادية",
+          "indicatorReportName": "نسبة السكان الناشطين اقتصاديا\u064B \"15 - 64 سنة\""
+        },
+        {
+          "name_Ar": "متوسط دخل الاسرة السعودية بالريال السعودي",
+          "name_En": "The average number of years of owning a villa for Saudis",
+          "identification_Ar": "مؤشر معني بقياس عدد السنوات اللازمة لتملك فيلا للسعوديين وذلك عن طريق قياس متوسط سعر الفيلا إلى متوس",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-3.svg",
+          "currentValue": "17,058",
+          "target": "قياس قدرة المجتمعات، حسب مستويات الدخل فيها، على توفير المسكن الملائم. ويعبر عنه بعدد السنوات اللازم",
+          "calculationMethod": "متوسط سعر الفيلا ÷ متوسط دخل الاسرة السنوي",
+          "measureUnit": "سنة",
+          "sectorName": "الخصائص الاقتصادية",
+          "indicatorReportName": "متوسط عدد سنوات تملك الفيلا للسعوديين"
+        },
+        {
+          "name_Ar": "نسبة مشاركة المرأة في القوى العاملة",
+          "name_En": "Women's participation rate in the labor force by Saudi and Non Saudi Nationals.",
+          "identification_Ar": "مؤشر يقيس أعداد النساء العاملات في القوة العاملة بأنواعها المختلفة نسبة\u064B إلى إجمالي عدد السكان النسا",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-4.svg",
+          "currentValue": "35.8%",
+          "target": "التعرف على مدى مشاركة المرأة في سوق العمل والاقتصاد.",
+          "calculationMethod": "عدد النساء في قوة العمل (حسب الجنسية) ÷ إجمالي السكان النساء (15 سنة فاكثر) (حسب الجنسية) × 100",
+          "measureUnit": "نسبة مئوية (%)",
+          "sectorName": "الخصائص الاقتصادية",
+          "indicatorReportName": "نسبة مشاركة المرأة في القوى العاملة حسب الجنسية"
+        }
+      ]
+    },
+    {
+      "id": "population-and-housing-characteristics",
+      "name_Ar": "الخصائص السكانية والإسكان",
+      "name_En": "Population and Housing Characteristics",
+      "sectorid": 8,
+      "indicators": [
+        {
+          "name_Ar": "معدل النمو السكاني (2010 - 2022)",
+          "name_En": "land consumption rate to population growth rate (urban sprawl)",
+          "identification_Ar": "مؤشر يقيس  معدل استهلاك الأراضي إلى معدل النمو السكاني (الزحف العمراني)",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-1.svg",
+          "currentValue": "2.87%",
+          "target": null,
+          "calculationMethod": "معدل استهلاك الأراضي ÷ معدل النمو السكاني × 100",
+          "measureUnit": "%",
+          "sectorName": "الخصائص السكانية والإسكان",
+          "indicatorReportName": "نسبة معدل استهلاك الأراضي إلى معدل النمو السكاني (الزحف العمراني)"
+        },
+        {
+          "name_Ar": "نسبة السكان دون سن 30 سنة",
+          "name_En": "% of city population living in slums",
+          "identification_Ar": "مؤشر يقيس عدد السكان في الأحياء الفقيرة، وهي الأحياء التي تتصف مساكنها بـ(المساكن غير الملائمة: الوص",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-2.svg",
+          "currentValue": "48.89%",
+          "target": "\"يستفاد بالمؤشر في دراسات الفقر والمقارنات الدولية وسياسات محاربة الفقر وخاصة في الحضر, يفيد المؤشر ",
+          "calculationMethod": "عدد السكان في الأحياء الفقيرة \"المساكن غير الملائمة للوصول إلى المياه المحسنة، والوصول إلى الصرف الصحي المحسن، والمتانة الهيكلية، والاكتظاظ، وضمان الحيازة\" ÷ عدد السكان × 100 %",
+          "measureUnit": "%",
+          "sectorName": "الخصائص السكانية والإسكان",
+          "indicatorReportName": "نسبة السكان في المناطق الفقيرة"
+        },
+        {
+          "name_Ar": "نسبة السكان السعوديين",
+          "name_En": "Percentage of population that are adult (25-64)",
+          "identification_Ar": "مؤشر يقيس نسبة السكان في الفئة العمرية (25-64) من اجمالي السكان",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-3.svg",
+          "currentValue": "57.56%",
+          "target": null,
+          "calculationMethod": "اجمالي السكان في الفئة العمرية (25-64) ÷ اجمالي عدد السكان × 100",
+          "measureUnit": "%",
+          "dependable": "غير معتمد",
+          "sectorName": "الخصائص السكانية والإسكان",
+          "indicatorReportName": "نسبة البالغين من السكان (25-64)"
+        },
+        {
+          "name_Ar": "الكثافة السكانية العامة (فرد / كم2)",
+          "name_En": "General population density",
+          "identification_Ar": "يعبر المؤشر عن متوسط عدد الأشخاص في الكيلو متر المربع من مساحة الأراضي داخل الحدود الإدارية للدولة أ",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-4.svg",
+          "currentValue": "9.7",
+          "target": "يستخدم المؤشر في تقييم سياسات الاستدامة الحضرية وكفاءة استخدامات الأراضي والاسكان والمرافق والخدمات ",
+          "calculationMethod": "إجمالي عدد السكان ÷ مساحة الارض داخل الحدود الجغرافية",
+          "measureUnit": "فرد/كلم2",
+          "sectorName": "الخصائص السكانية والإسكان",
+          "indicatorReportName": "الكثافة السكانية العامة"
+        }
+      ]
+    },
+    {
+      "id": "health-care",
+      "name_Ar": "الرعاية الصحية",
+      "name_En": "Health Care",
+      "sectorid": 9,
+      "indicators": [
+        {
+          "name_Ar": "معدل المراكز الرعاية الصحية الأولية لكل 100 ألف شخص",
+          "name_En": "The rate of primary health care centers per 100.000 population",
+          "identification_Ar": "ممؤشر يقيس عدد مراكز الرعاية الصحية الأولية الحكومية لكل 100 ألف شخص.",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-1.svg",
+          "currentValue": "4.03",
+          "target": "يهدف إلى قياس مدى توفر مراكز الرعاية الصحية الأولية الحكومية عدديا وبالتالي التحكم في اتخاذ القرارات",
+          "calculationMethod": "اعداد المراكز الرعاية الصحية الأولية ÷ عدد السكان × 100,000",
+          "measureUnit": "عدد/100,000",
+          "sectorName": "الرعاية الصحية",
+          "indicatorReportName": "معدل مراكز الرعاية الصحية الأولية لكل 100 ألف شخص"
+        },
+        {
+          "name_Ar": "معدل مراكز الهلال الأحمر/1000 نسمة",
+          "name_En": "Average number of Red Crescent centers  per 1000 population",
+          "identification_Ar": "مؤشر يقيس معدل مراكز الهلال الأحمر لكل 100 ألف شخص من السكان",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-2.svg",
+          "currentValue": "1.2",
+          "target": "يهدف إلى قياس مدى توفر مراكز الهلال الأحمر عددي\u064Bا وبالتالي التحكم في اتخاذ القرارات الخاصة بأعداد ال",
+          "calculationMethod": "عدد مراكز الهلال الأحمر ÷ العدد الإجمالي للسكان × 100,000",
+          "measureUnit": "مركز للهلال الأحمر / 100,000 شخص",
+          "sectorName": "الرعاية الصحية",
+          "indicatorReportName": "معدل مراكز الهلال الأحمر لكل 100 ألف شخص"
+        },
+        {
+          "name_Ar": "عدد أسرة  التنويم بالمستشفيات لكل 100 ألف شخص",
+          "name_En": "Number of in-patient hospital beds per 100,000 population",
+          "identification_Ar": "مؤشر يقيس عدد الأسرة المتاحة للتنويم داخل المستشفيات قياسا إلى كل 10 آلاف شخص من السكان، ويشمل الأسر",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-3.svg",
+          "currentValue": "23.4",
+          "target": "يهدف المؤشر إلى مقارنة الدول والمدن في توفر أسرة المستشفيات للمواطنين بجانب المؤشرات الخاصة بالرعاية",
+          "calculationMethod": "عدد الأسرة بمستشفيات وزارة الصحة ÷ إجمالي عدد السكان × 10,000",
+          "measureUnit": "سرير تنويم / 10 ألاف شخص",
+          "sectorName": "الرعاية الصحية",
+          "indicatorReportName": "عدد أسرة التنويم بالمستشفيات لكل 10,000 شخص"
+        },
+        {
+          "name_Ar": "كثافة الأطباء لكل 100 ألف شخص",
+          "name_En": "Number of physicians per 100000 population",
+          "identification_Ar": "يساعد في قياس حجم الموارد البشرية المؤهلة المتوفرة في القطاع الصحي ومدى كفايتها لتحقيق هدف الصحة بمف",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-4.svg",
+          "currentValue": "2.6",
+          "target": "يستخدم المؤشر في تحليل مدى كفاءة القطاع الصحي من حيث كثافة الأطباء لكل 1000 شخص، ومدى كفايتها لتحقيق",
+          "calculationMethod": "عدد الأطباء بمستشفيات القطاع العام والخاص ÷ إجمالي عدد السكان × 100,000",
+          "measureUnit": "طبيب / 100,000 شخص",
+          "sectorName": "الرعاية الصحية",
+          "indicatorReportName": "كثافة الأطباء لكل 100 ألف شخص"
+        }
+      ]
+    },
+    {
+      "id": "tourism-and-entertainment",
+      "name_Ar": "السياحة والترفيه",
+      "name_En": "Tourism and Entertainment",
+      "sectorid": 10,
+      "indicators": [
+        {
+          "name_Ar": "معدل الإنفاق اليومي للسائح الوافد بالريال السعودي",
+          "name_En": "Average daily expenditure of a tourist",
+          "identification_Ar": "مؤشر يقيس إجمالي المبالغ التي ينفقها السائح في اليوم الواحد أثناء رحلته السياحية بأنواعها المختلفة، ",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-1.svg",
+          "currentValue": "460",
+          "target": "يهدف المؤشر إلى دعم مقدمي الخدمات السياحية من المستثمرين والعاملين في الرحلات السياحية بالمنطقة لتطو",
+          "calculationMethod": "إجمالي الإنفاق السياحي ÷ عدد السياح × 100",
+          "measureUnit": "ريال سعودي في اليوم / للسائح",
+          "sectorName": "السياحة والترفيه",
+          "indicatorReportName": "معدل الإنفاق اليومي للسائح"
+        },
+        {
+          "name_Ar": "نصيب الفرد من المساحة الترفيهية بالمتر المربع من الأماكن العامة المفتوحة",
+          "name_En": "Square meters of public outdoor recreation space per capita",
+          "identification_Ar": "يقيس المؤشر نصيب الفرد من إجمالي المساحة الترفيهية للأماكن الترفيهية المفتوحة وهي (الحدائق والمنتزها",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-2.svg",
+          "currentValue": "2.3",
+          "target": "يحدد المؤشر تيسر بلوغ السكان للمتنزهات وأماكن الترفيه، إضافة إلى الأثر البيئي حيث أنه كلما زاد متوسط",
+          "calculationMethod": "مساحة الحدائق والمنتزهات والواجهات البحرية والمماشي ÷ إجمالي عدد السكان",
+          "measureUnit": "متر مربع/ فرد",
+          "sectorName": "السياحة والترفيه",
+          "indicatorReportName": "نصيب الفرد من المساحة الترفيهية بالمتر المربع من الأماكن العامة المفتوحة"
+        },
+        {
+          "name_Ar": "نسبة الأشخاص الممارسين للأنشطة الرياضية والبدنية بشكل أسبوعي",
+          "name_En": "Percentage of people practicing sports and physical activities at least once a week",
+          "identification_Ar": "مؤشر يقيس معدلات ممارسي الرياضة مرة على الأقل أسبوعيا في الفئة العمرية 15 سنة فأكثر قياسا إلى إجمالي",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-3.svg",
+          "currentValue": "23.3%",
+          "target": "يهدف المؤشر إلى تحديد الدلالات الخاصة بالصحة العامة للأفراد وبالتالي المساهمة في رسم سياسات وخطط رفع",
+          "calculationMethod": "عدد السكان الممارسين للرياضة واللياقة البدنية مرة على الأقل أسبوعيا ÷ عدد السكان × 100",
+          "measureUnit": "نسبة مئوية (%)",
+          "sectorName": "السياحة والترفيه",
+          "indicatorReportName": "نسبة الأشخاص الممارسين للأنشطة الرياضية والبدنية بشكل أسبوعي"
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "name_Ar": "الطاقة",
+      "name_En": "Energy",
+      "sectorid": 11,
+      "indicators": [
+        {
+          "name_Ar": "معدل النمو في عدد المصانع المنتجة",
+          "name_En": "Total Production  of clean/renewable energy",
+          "identification_Ar": "الط\u0651اقة المتجددة هي الط\u0651اقة الم\u064Fست\u064Eم\u0651دة من الموارد الطبيعية  مثل الرياح والمياه والشمس، والمؤشر يوضح",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-1.svg",
+          "currentValue": "7.3%",
+          "target": "يعتبر تعزيز مصادر الطاقة المتجددة أولوية قصوى للاستدامة التنمية، ولحماية البيئة وتنويع مصادر إمدادات",
+          "calculationMethod": "حجم الانتاج من الطاقة النظيفة ÷ إجمالي الطاقة المنتجة × 100",
+          "measureUnit": "%",
+          "sectorName": "الطاقة",
+          "indicatorReportName": "حجم الانتاج من الطاقة النظيفة  / المتجددة"
+        },
+        {
+          "name_Ar": "معدل النمو للمشتغلين في المصانع",
+          "name_En": "Total electricity consumption in all uses kwh",
+          "identification_Ar": "يقيس المؤشر إجمالي استهلاك الكهرباء في كل قطاع من القطاعات المختلفة بنطاق جغرافي معين نسبة إلى إجمال",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-2.svg",
+          "currentValue": "2%",
+          "target": "يهدف المؤشر إلى معرفة إجمالي الاستهلاك ومن ثم قياس مدى الحاجة إلى تنويع مصادر الطاقة من خلال التخطيط",
+          "calculationMethod": "إجمالي استهلاك الكهرباء في جميع الاستخدامات",
+          "measureUnit": "كيلوواط/ساعة",
+          "sectorName": "الطاقة",
+          "indicatorReportName": "إجمالي استهلاك الكهرباء في جميع الاستخدامات"
+        },
+        {
+          "name_Ar": "معدل النمو في رأس المال للمصانع",
+          "name_En": "Energy consumption of public buildings per year (kwh/m2)",
+          "identification_Ar": "مؤشر يقيس معدل استهلاك مساحة المباني العامة للطاقة الكهربية في لكل متر2 في السنة",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-3.svg",
+          "currentValue": "13%",
+          "target": null,
+          "calculationMethod": "كمية استهلاك الطاقة في المباني العامة ÷ إجمالي مساحة المباني العامة",
+          "measureUnit": "كيلوواط/ساعة/م2",
+          "sectorName": "الطاقة",
+          "indicatorReportName": "استهلاك الطاقة الكهربائية في المباني العامة في السنة \"كيلو واط ساعة/ متر مربع\""
+        }
+      ]
+    },
+    {
+      "id": "transportation-and-logistic-services",
+      "name_Ar": "النقل والخدمات اللوجستية",
+      "name_En": "transportation and logistic services",
+      "sectorid": 12,
+      "indicators": [
+        {
+          "name_Ar": "عدد الحوادث على الطرق السريعة لكل 100 ألف شخص",
+          "name_En": "Number of accidents on regional roads",
+          "identification_Ar": "يقيس المؤشر عدد حوادث الطرق الإقليمية التي يتم تسجيلها لكل 100 ألف من السكان.",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-1.svg",
+          "currentValue": "253.1",
+          "target": "يهدف المؤشر إلى تعزيز السلامة المرورية والوقوف على أسباب الارتفاع في حوادث السير، وحجم الخسائر الماد",
+          "calculationMethod": "عدد حوادث على الطرق الإقليمية ÷ إجمالي عدد السكان × 100,000",
+          "measureUnit": "حادث / 100 ألف شخص",
+          "sectorName": "النقل والخدمات اللوجستية",
+          "indicatorReportName": "عدد الحوادث  على الطرق الإقليمية"
+        },
+        {
+          "name_Ar": "عدد الرحلات الدولية لمطارات الشرقية",
+          "name_En": "The number of international flights from Eastern airports",
+          "identification_Ar": "مؤشر يقيس عدد الرحلات الدولية من وإلى المطارات الإقليمية والدولية بالمنطقة.",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-2.svg",
+          "currentValue": "19,637",
+          "target": "يهدف المؤشر إلى قياس حجم حركة الرحلات الدولية القادمة والمغادرة من المنطقة الشرقية ومؤشراتها، حيث تس",
+          "calculationMethod": "عدد الرحلات الدولية من وإلى مطارات الشرقية",
+          "measureUnit": "رحلة دولية",
+          "sectorName": "النقل والخدمات اللوجستية",
+          "indicatorReportName": "عدد الرحلات الدولية من مطارات الشرقية"
+        },
+        {
+          "name_Ar": "نسبة التغير السنوية لحركة السيارات عبر جسر الملك فهد",
+          "name_En": "Annual percentage change in the movement of cars and trucks across the King Fahd Causeway",
+          "identification_Ar": "يقيس المؤشر نسبة التغير بالزيادة أو النقصان لإجمالي حركة السيارات والشاحنات عبر جسر الملك فهد",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-3.svg",
+          "currentValue": "58%",
+          "target": "يهدف المؤشر إلى رصد الحركة السياحية وحجم التبادل التجاري بين المملكة العربية السعودية ومملكة البحرين",
+          "calculationMethod": "(أعداد السيارات والشاحنات في العام الحالي - أعداد السيارات والشاحنات في العام السابق) ÷ أعداد السيارات والشاحنات في العام السابق  × 100",
+          "measureUnit": "نسبة مئوية (%)",
+          "sectorName": "النقل والخدمات اللوجستية",
+          "indicatorReportName": "نسبة التغير السنوية حركة السيارات والشاحنات عبر جسر الملك فهد"
+        },
+        {
+          "name_Ar": "متوسط زمن الرحلات اليومية للعمل ذهاباً وإياباً بالدقيقة",
+          "name_En": "Percentage of public transportation use",
+          "identification_Ar": "مؤشر يقيس نسبة مستخدمي وسائل المواصلات العامة (النقل العام وسيارات الأجرة ونقل المجموعات للعمل والمد",
+          "identification_En": null,
+          "indicator_icon": "assets/Urban-Observatory/Sectors/icons/d-4.svg",
+          "currentValue": "41.5",
+          "target": "رصد قيم المؤشر تساهم في تحليل الوضع الحالي لوسائل المواصلات العامة للوقوف على مدى توفير وسائل أخرى ص",
+          "calculationMethod": "إجمالي المستخدمين للمواصلات العامة ÷ اجمالي وسائل المواصلات المستخدمة × 100 %",
+          "measureUnit": "نسبة مئوية (%)",
+          "sectorName": "النقل والخدمات اللوجستية",
+          "indicatorReportName": "نسبة استخدام وسائل المواصلات العامة"
+        }
+      ]
+    }
+  ]
+}

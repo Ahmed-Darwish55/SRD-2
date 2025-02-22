@@ -1,0 +1,25 @@
+{
+    "title": "Eastern Province Urban Data Center (SRD)",
+    "subTitle": "Sharqia Region Urban Data Hub (SRD)",
+    "sliders": [{
+            "source": "assets/SRD/slider/videos/SRD_Main_Intro.mp4",
+            "isVideo": true
+        },
+        {
+            "source": "assets/SRD/slider/videos/SRD V4.1_1.mp4",
+            "isVideo": true
+        },
+        {
+            "source": "assets/SRD/slider/videos/SRD-Intro.mp4",
+            "isVideo": true
+        },
+        {
+            "source": "assets/SRD/slider/videos/SRD.mp4",
+            "isVideo": true
+        },
+        {
+            "source": "assets/SRD/slider/videos/Intro.mp4",
+            "isVideo": true
+        }
+    ]
+}

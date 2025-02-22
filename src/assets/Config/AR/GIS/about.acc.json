@@ -1,0 +1,111 @@
+{
+    "videoURL": "assets/GEO-Portal/about/videos/AboutIntro.mp4",
+    "defaultImageURL": "assets/GEO-Portal/about/images/Geography-default-Image.png",
+    "geography": {
+        "mapURL": "",
+        "imageURL": "",
+        "videoURL": "assets/GEO-Portal/about/videos/geography.mp4",
+        "title": "الجغرافيا والمكان",
+        "description": "تعد المنطقة الشرقية بوابة المملكة لدول الخليج العربية، وهي أرض لحضارات متنوعة وضاربة في عمق التاريخ، شكلت المنطقة وجغرافيتها على مدار القرون الماضية. تتكون المنطقة من ثلاثة عشر محافظة، متنوعة في ثقافتها وفي تضاريسها ومكوناتها المختلفة، وتقدر مساحة المنطقة بحوالى (530,000 كم2)",
+        "Governorate": {
+            "Ahsa": {
+                "title": "الإحساء",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-ar/Ahsa.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "Alodaid": {
+                "title": "العديد",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-ar/Alodaid.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "Bayda": {
+                "title": "البيضاء",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-ar/Bayda.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "Buqayq": {
+                "title": "بقيق",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-ar/Buqayq.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "Dammam": {
+                "title": "الدمام",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-ar/Dammam.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "Dhahran": {
+                "title": "الظهران",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-ar/Khobar.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "HafarAlBatin": {
+                "title": "حفر الباطن",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-ar/HafarAlBatin.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "Jubail": {
+                "title": "الجبيل",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-ar/Jubail.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "Khafji": {
+                "title": "الخفجي",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-ar/Khafji.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "Khobar": {
+                "title": "الخبر",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-ar/Khobar.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "Nairyah": {
+                "title": "النعيرية",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-ar/Nairyah.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "QaryatAlUlya": {
+                "title": "قرية العليا",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-ar/QaryatAlUlya.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "Qatif": {
+                "title": "القطيف",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-ar/Qatif.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "RasTanura": {
+                "title": "راس تنورة",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-ar/RasTanura.jpg",
+                "description": "",
+                "hidden": true
+            }
+        }
+    },
+    "accessibility": {
+        "mapURL": "",
+        "imageURL": "",
+        "videoURL": "assets/GEO-Portal/about/videos/Accessability.mp4",
+        "description": "",
+        "title": "الوصولية"
+    },
+    "supervisoryScope": {
+        "mapURL": "",
+        "imageURL": "",
+        "videoURL": "assets/GEO-Portal/about/videos/supervisoryScope.mp4",
+        "description": "تعنى هيئة تطوير المنطقة الشرقية باثني عشر محافظة، للقيام بمهامها واختصاصاتها، ويمتد النطاق الإشرافي للهيئة ليشمل حوالى (147,000 كم2) من النطاق الإشرافي للمنطقة الشرقية، حيث تمارس الهيئة داخل النطاق -بالتنسيق مع شركائها- مهام التخطيط والتطوير الشامل، والتنسيق لتوحيد القرار التنموي",
+        "title": "النطاق الإشرافي"
+    }
+}

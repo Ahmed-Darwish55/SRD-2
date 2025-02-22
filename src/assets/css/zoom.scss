@@ -1,0 +1,74 @@
+.screen150zoom {
+    app-about {
+        .heading {
+            font-size: 25px;
+        }
+    }
+    app-geo-spatial-about {
+        .mt-all {
+            top: 39vh;
+        }
+        h1 {
+            font-size: 1.5rem;
+        }
+        .fix-font {
+            font-size: 14px;
+        }
+    }
+    app-products-catalogue {
+        .product {
+            zoom: 0.85;
+        }
+    }
+    app-services-catalogue {
+        .carousel-item {
+            zoom: 0.85;
+        }
+        .carousel__container {
+            margin-top: 0;
+        }
+    }
+    app-data-catalogue {
+        .gsp-bg {
+            align-items: center;
+            display: flex;
+        }
+        .sda-container {
+            zoom: 0.85;
+        }
+        // .row.res-row {
+        //     zoom: 0.85;
+        // }
+    }
+    app-sectors {
+        .sector-wrapper {
+            margin: 0px auto 0px auto;
+        }
+        .sectors-wrapper {
+            zoom: 0.85;
+        }
+    }
+    app-application-catalogue {
+        .mt-h {
+            margin-top: 30px;
+        }
+        .card-main-title {
+            font-size: 18px;
+        }
+    }
+    app-studies-and-documents {
+        .mt-h {
+            margin-top: 30px;
+        }
+    }
+    app-partners {
+        .mt-all {
+            margin: 30px auto 0 !important;
+        }
+    }
+    app-footer {
+        .container-fluid {
+            zoom: 0.8;
+        }
+    }
+}

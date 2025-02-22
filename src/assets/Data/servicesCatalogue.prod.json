@@ -1,0 +1,965 @@
+{
+  "services": [
+    {
+      "coverURL": "assets/SRD/products-catalogue/images/SDA-BI-SV-001-Cover.jpg",
+      "imageURL": "assets/SRD/services-catalogue/images/SDA-BI-SV-001.jpg",
+      "id": "SDA-SV-001",
+      "title": {
+        "ar": "طلب بيانات حضرية",
+        "en": "Urban Data Request"
+      },
+      "ownership": {
+        "ar": "تبعا للإدارة المختصة",
+        "en": "According to the Relevant Department"
+      },
+      "targetCategories": {
+        "ar": "داخلي",
+        "en": "Internal"
+      },
+      "serviceCharge": {
+        "ar": "مجانية",
+        "en": "Free"
+      },
+      "description": {
+        "ar": "توفير او تحديث بيانات سواء إحصائية او جيومكانية او صور أخرى من البيانات عند الحاجة عن طريق القنوات الرسمية من خلال الإدارات والاقسام داخل الهيئة وتحديد نوعها والغرض من الاستخدام والنطاق الى جانب تفاصيل أخرى فتقوم الإدارة بمشاركة البيانات حال توافرها وفى حاله عدم التوافر تطلب من مزودي البيانات عن طريق القنوات الرسمية لتبادل البيانات بعد عقد اتفاقيات تبادل البيانات او مذكرات التفاهم بين الجهات والهيئة",
+        "en": "Providing or updating data, whether statistical, geospatial, or other forms of data when needed, through official channels through the departments of SDA, and specifying the type, purpose of use, and scope, along with other details. The administration shares the data when available, and in the event of unavailability, it requests the Data providers through official data exchange channels after concluding data exchange agreements or memorandums of understanding between the authorities and SDA"
+      },
+      "ServiceDeliveryChannels": {
+        "ar": "نموذج طلب الخدمة على المنصة",
+        "en": "Service Request Form on Portal"
+      },
+      "avgCompletionPeriod": {
+        "ar": "تحقيق الاستجابة وفق اتفاقية مستوى خدمة المعلومات الحضرية",
+        "en": "Achieving response in accordance with the urban information service level agreement"
+      },
+      "outcomes": {
+        "ar": "البيانات المطلوبة بالصيغة المناسبة",
+        "en": "Data with Suitable Format"
+      },
+      "serviceConstraints": {
+        "ar": "لايوجد",
+        "en": "None"
+      },
+      "link": "https://gis.sda.gov.sa/survey123/share/2633502e5327491eb49d6eccfa58410a",
+
+      "workflowURL": {
+        "ar": "assets/SRD/services-catalogue/images/workflow/SDA-DUS-BP-002-Ar.jpg",
+        "en": "assets/SRD/services-catalogue/images/workflow/SDA-DUS-BP-002.jpg"
+      },
+      "contactInfo": [
+        {
+          "name": {
+            "ar": " : الخط المباشر",
+            "en": "Direct Line"
+          },
+          "contact": "+966 (13) 8303036"
+        },
+        {
+          "name": {
+            "ar": " : البريد الإلكتروني",
+            "en": "Email"
+          },
+          "contact": "srd@sda.gov.sa"
+        }
+      ],
+      "performanceMeasurements": [
+        {
+          "performanceIndicator": {
+            "ar": "نسبة الرضا عن الخدمة",
+            "en": "Service Satisfaction Rate"
+          },
+          "goal": 0.75,
+          "measurementCycle": {
+            "ar": "نصف سنوي",
+            "en": "Biannual"
+          },
+          "measurementResponsibility": {
+            "ar": "تبعا للإدارة المختصة",
+            "en": "According to the Relevant Department"
+          },
+          "measurementUnit": {
+            "ar": "نسبة مئوية",
+            "en": "Percentage"
+          },
+          "calculation": {
+            "ar": "متوسط نسبة تقييم الرضا عن الخدمة",
+            "en": "Average Percentage of Satisfaction Rate"
+          }
+        },
+        {
+          "performanceIndicator": {
+            "ar": "نسبة الرضا عن النتائج",
+            "en": "Results Satisfaction Rate"
+          },
+          "goal": 0.85,
+          "measurementCycle": {
+            "ar": "سنوي",
+            "en": "Annual"
+          },
+          "measurementResponsibility": {
+            "ar": "تبعا للإدارة المختصة",
+            "en": "According to the Relevant Department"
+          },
+          "measurementUnit": {
+            "ar": "نسبة مئوية",
+            "en": "Percentage"
+          },
+          "calculation": {
+            "ar": "متوسط نسبة تقييم الرضا عن النتائج",
+            "en": "Average Percentage of Satisfaction Rate"
+          }
+        }
+      ],
+      "serviceLink": {
+        "isLinked": false,
+        "linkType": "",
+        "linkOrganization": ""
+      },
+      "serviceStructure": {
+        "ar": "فرعية",
+        "en": "Subsidiary"
+      }
+    },
+    {
+      "coverURL": "assets/SRD/products-catalogue/images/SDA-BI-SV-002-Cover.jpg",
+      "imageURL": "assets/SRD/services-catalogue/images/SDA-BI-SV-002.jpg",
+      "id": "SDA-SV-002",
+      "title": {
+        "ar": "طلب تطبيق حضري متخصص",
+        "en": "Custom Urban Application"
+      },
+      "ownership": {
+        "ar": "تبعا للإدارة المختصة",
+        "en": "According to the Relevant Department"
+      },
+      "targetCategories": {
+        "ar": "داخلي",
+        "en": "Internal"
+      },
+      "serviceCharge": {
+        "ar": "مجانية",
+        "en": "Free"
+      },
+      "description": {
+        "ar": "انشاء التطبيقات المتخصصة او تحديث تطبيقات قائمة بناء على طلب الجهات الداخلية (الإدارات داخل الهيئة) حيث يتم جمع المتطلبات والتحقق منها ثم دراستها وتحليلها مرورا بالتصميم والتنفيذ والاختبار ثم النشر مع مراعاة الموائمة التقنية للأنظمة والالتزام بكافة المعايير والسياسات المعمول بها داخل الهيئة",
+        "en": "Creating Custom applications or updating existing applications based on the request of departments of SDA, where requirements are collected and verified, then studied, and analysed, through design, implementation, testing, and then publication, considering the technical compatibility of the systems and adherence to all standards and policies in force within the SDA."
+      },
+      "ServiceDeliveryChannels": {
+        "ar": "نموذج طلب الخدمة على المنصة",
+        "en": "Service Request Form on Portal"
+      },
+      "avgCompletionPeriod": {
+        "ar": "تحقيق الاستجابة وفق اتفاقية مستوى خدمة المعلومات الحضرية",
+        "en": "Achieving response in accordance with the urban information service level agreement"
+      },
+      "outcomes": {
+        "ar": "التطبيقات المطلوبة",
+        "en": "Required Application"
+      },
+      "serviceConstraints": {
+        "ar": "لايوجد",
+        "en": "None"
+      },
+      "link": "https://gis.sda.gov.sa/survey123/share/bc9fbccadd894182950b280281d1ce24",
+
+      "workflowURL": {
+        "ar": "assets/SRD/services-catalogue/images/workflow/SDA-DUS-BP-001-Ar.jpg",
+        "en": "assets/SRD/services-catalogue/images/workflow/SDA-DUS-BP-001.jpg"
+      },
+      "contactInfo": [
+        {
+          "name": {
+            "ar": " : الخط المباشر",
+            "en": "Direct Line"
+          },
+          "contact": "+966 (13) 8303036"
+        },
+        {
+          "name": {
+            "ar": " : البريد الإلكتروني",
+            "en": "Email"
+          },
+          "contact": "srd@sda.gov.sa"
+        }
+      ],
+      "performanceMeasurements": [
+        {
+          "performanceIndicator": {
+            "ar": "نسبة الرضا عن الخدمة",
+            "en": "Service Satisfaction Rate"
+          },
+          "goal": 0.75,
+          "measurementCycle": {
+            "ar": "نصف سنوي",
+            "en": "Biannual"
+          },
+          "measurementResponsibility": {
+            "ar": "تبعا للإدارة المختصة",
+            "en": "According to the Relevant Department"
+          },
+          "measurementUnit": {
+            "ar": "نسبة مئوية",
+            "en": "Percentage"
+          },
+          "calculation": {
+            "ar": "متوسط نسبة تقييم الرضا عن الخدمة",
+            "en": "Average Percentage of Satisfaction Rate"
+          }
+        },
+        {
+          "performanceIndicator": {
+            "ar": "نسبة الرضا عن النتائج",
+            "en": "Results Satisfaction Rate"
+          },
+          "goal": 0.85,
+          "measurementCycle": {
+            "ar": "سنوي",
+            "en": "Annual"
+          },
+          "measurementResponsibility": {
+            "ar": "تبعا للإدارة المختصة",
+            "en": "According to the Relevant Department"
+          },
+          "measurementUnit": {
+            "ar": "نسبة مئوية",
+            "en": "Percentage"
+          },
+          "calculation": {
+            "ar": "متوسط نسبة تقييم الرضا عن النتائج",
+            "en": "Average Percentage of Satisfaction Rate"
+          }
+        }
+      ],
+      "serviceLink": {
+        "isLinked": false,
+        "linkType": "",
+        "linkOrganization": ""
+      },
+      "serviceStructure": {
+        "ar": "فرعية",
+        "en": "Subsidiary"
+      }
+    },
+    {
+      "coverURL": "assets/SRD/products-catalogue/images/SDA-GS-SV-001-Cover.jpg",
+      "imageURL": "assets/SRD/services-catalogue/images/SDA-GS-SV-001.jpg",
+      "id": "SDA-SV-003",
+      "title": {
+        "ar": "خرائط حضرية متخصصة",
+        "en": "Custom Urban Maps"
+      },
+      "ownership": {
+        "ar": "المعلومات والحلول الجيومكانية",
+        "en": "Geospatial Information and Solutions"
+      },
+      "targetCategories": {
+        "ar": "داخلي - خارجي",
+        "en": "Internal - External"
+      },
+      "serviceCharge": {
+        "ar": "تحدد بناءً على حجم العمل بعد دراسة الطلب",
+        "en": "Determined based on the scope of work after studying the request"
+      },
+      "description": {
+        "ar": "إنتاج خرائط حضرية متخصصة إبداعية تحتوي على البيانات الجيومكانية، الخاصة بالمحافظات او المدن والاحياء في المنطقة والتفاصيل المطلوبة والخدمات بناء على طلب الجهة بالاعتماد على التقنيات والنظم العالمية المتطورة.",
+        "en": "Producing specialized, creative urban maps that contain geospatial data for governorates, cities, and Districts in the region, as well as the required details and services at the request of the entity, relying on advanced global technologies and systems."
+      },
+      "ServiceDeliveryChannels": {
+        "ar": "نموذج طلب الخدمة على المنصة",
+        "en": "Service Request Form on Portal"
+      },
+      "avgCompletionPeriod": {
+        "ar": "تحقيق الاستجابة وفق اتفاقية مستوى خدمة المعلومات الحضرية",
+        "en": "Achieving response in accordance with the urban information service level agreement"
+      },
+      "outcomes": {
+        "ar": "خرائط حضرية بالصيغة المناسبة",
+        "en": "Urban Maps with Suitable Format"
+      },
+      "serviceConstraints": {
+        "ar": "توافر الميزانية اللازمة لتنفيذ الإجراء",
+        "en": "Availability of the necessary budget to implement the procedure"
+      },
+      "link": "https://gis.sda.gov.sa/survey123/share/044c2c9598b1421e95631aceb3134bf7",
+
+      "workflowURL": {
+        "ar": "assets/SRD/services-catalogue/images/workflow/SDA-DUS-BP-001-Ar.jpg",
+        "en": "assets/SRD/services-catalogue/images/workflow/SDA-DUS-BP-001.jpg"
+      },
+      "contactInfo": [
+        {
+          "name": {
+            "ar": " : الخط المباشر",
+            "en": "Direct Line"
+          },
+          "contact": "+966 (13) 8303036"
+        },
+        {
+          "name": {
+            "ar": " : البريد الإلكتروني",
+            "en": "Email"
+          },
+          "contact": "srd@sda.gov.sa"
+        }
+      ],
+      "performanceMeasurements": [
+        {
+          "performanceIndicator": {
+            "ar": "نسبة الرضا عن الخدمة",
+            "en": "Service Satisfaction Rate"
+          },
+          "goal": 0.75,
+          "measurementCycle": {
+            "ar": "نصف سنوي",
+            "en": "Biannual"
+          },
+          "measurementResponsibility": {
+            "ar": "المعلومات والحلول الجيومكانية",
+            "en": "Geospatial Information and Solutions"
+          },
+          "measurementUnit": {
+            "ar": "نسبة مئوية",
+            "en": "Percentage"
+          },
+          "calculation": {
+            "ar": "متوسط نسبة تقييم الرضا عن الخدمة",
+            "en": "Average Percentage of Satisfaction Rate"
+          }
+        },
+        {
+          "performanceIndicator": {
+            "ar": "متوسط نسبة تقييم الرضا عن النتائج",
+            "en": "Average Percentage of Satisfaction Rate"
+          },
+          "goal": 0.85,
+          "measurementCycle": {
+            "ar": "سنوي",
+            "en": "Annual"
+          },
+          "measurementResponsibility": {
+            "ar": "المعلومات والحلول الجيومكانية",
+            "en": "Geospatial Information and Solutions"
+          },
+          "measurementUnit": {
+            "ar": "نسبة مئوية",
+            "en": "Percentage"
+          },
+          "calculation": {
+            "ar": "متوسط نسبة الرضا عن النتائج",
+            "en": "Average Results Satisfaction Rate"
+          }
+        }
+      ],
+      "serviceLink": {
+        "isLinked": false,
+        "linkType": "",
+        "linkOrganization": ""
+      },
+      "serviceStructure": {
+        "ar": "فرعية",
+        "en": "Subsidiary"
+      }
+    },
+    {
+      "coverURL": "assets/SRD/products-catalogue/images/SDA-GS-SV-002-Cover.jpg",
+      "imageURL": "assets/SRD/services-catalogue/images/SDA-GS-SV-002.jpg",
+      "id": "SDA-SV-004",
+      "title": {
+        "ar": "إجراء أعمال جيومكانية متخصصة",
+        "en": "Custom Geospatial Activities"
+      },
+      "ownership": {
+        "ar": "المعلومات والحلول الجيومكانية",
+        "en": "Geospatial Information and Solutions"
+      },
+      "targetCategories": {
+        "ar": "داخلي - خارجي",
+        "en": "Internal - External"
+      },
+      "serviceCharge": {
+        "ar": "تحدد بناءً على حجم العمل بعد دراسة الطلب",
+        "en": "Determined based on the scope of work after studying the request"
+      },
+      "description": {
+        "ar": "اجراء أعمال جيومكانية متخصصة بما في ذلك الاستشارات والدراسات وإنتاج الاعمال المساحية وتحليل البيانات الداعمة لأصحاب القرار والجهات المختصة وبناء على طلب أصحاب المصلحة بالاعتماد على التقنيات والنظم العالمية المتطورة وفقا لأفضل الممارسات الدولية، واستناداً إلى اللوائح والأنظمة المعتمدة في المملكة",
+        "en": "Conducting Custom geospatial Activities, including consultations, studies, producing survey works, and analysing data for supporting decision makers and competent authorities, and at the request of stakeholders, relying on advanced global technologies and systems in accordance with international best practices, and based on the regulations and systems approved in the Kingdom"
+      },
+      "ServiceDeliveryChannels": {
+        "ar": "نموذج طلب الخدمة على المنصة",
+        "en": "Service Request Form on Portal"
+      },
+      "avgCompletionPeriod": {
+        "ar": "تحقيق الاستجابة وفق اتفاقية مستوى خدمة المعلومات الحضرية",
+        "en": "Achieving response in accordance with the urban information service level agreement"
+      },
+      "outcomes": {
+        "ar": "مخرجات تنفيذ الأعمال بالصيغة المناسبة",
+        "en": "Geospatial Result with Suitable Format"
+      },
+      "serviceConstraints": {
+        "ar": "توافر الميزانية اللازمة لتنفيذ الإجراء",
+        "en": "Availability of the necessary budget to implement the procedure"
+      },
+      "link": "https://gis.sda.gov.sa/survey123/share/bbef053a77ab4e1cb5c5f60517764779",
+
+      "workflowURL": {
+        "ar": "assets/SRD/services-catalogue/images/workflow/SDA-DUS-BP-001-Ar.jpg",
+        "en": "assets/SRD/services-catalogue/images/workflow/SDA-DUS-BP-001.jpg"
+      },
+      "contactInfo": [
+        {
+          "name": {
+            "ar": " : الخط المباشر",
+            "en": "Direct Line"
+          },
+          "contact": "+966 (13) 8303036"
+        },
+        {
+          "name": {
+            "ar": " : البريد الإلكتروني",
+            "en": "Email"
+          },
+          "contact": "srd@sda.gov.sa"
+        }
+      ],
+      "performanceMeasurements": [
+        {
+          "performanceIndicator": {
+            "ar": "نسبة الرضا عن الخدمة",
+            "en": "Service Satisfaction Rate"
+          },
+          "goal": 0.75,
+          "measurementCycle": {
+            "ar": "نصف سنوي",
+            "en": "Biannual"
+          },
+          "measurementResponsibility": {
+            "ar": "المعلومات والحلول الجيومكانية",
+            "en": "Geospatial Information and Solutions"
+          },
+          "measurementUnit": {
+            "ar": "نسبة مئوية",
+            "en": "Percentage"
+          },
+          "calculation": {
+            "ar": "متوسط نسبة تقييم الرضا عن الخدمة",
+            "en": "Average Percentage of Satisfaction Rate"
+          }
+        },
+        {
+          "performanceIndicator": {
+            "ar": "نسبة الرضا عن النتائج",
+            "en": "Results Satisfaction Rate"
+          },
+          "goal": 0.85,
+          "measurementCycle": {
+            "ar": "سنوي",
+            "en": "Annual"
+          },
+          "measurementResponsibility": {
+            "ar": "المعلومات والحلول الجيومكانية",
+            "en": "Geospatial Information and Solutions"
+          },
+          "measurementUnit": {
+            "ar": "نسبة مئوية",
+            "en": "Percentage"
+          },
+          "calculation": {
+            "ar": "متوسط نسبة تقييم الرضا عن النتائج",
+            "en": "Average Percentage of Satisfaction Rate"
+          }
+        }
+      ],
+      "serviceLink": {
+        "isLinked": false,
+        "linkType": "",
+        "linkOrganization": ""
+      },
+      "serviceStructure": {
+        "ar": "فرعية",
+        "en": "Subsidiary"
+      }
+    },
+    {
+      "coverURL": "assets/SRD/products-catalogue/images/SDA-GS-SV-005-Cover.jpg",
+      "imageURL": "assets/SRD/services-catalogue/images/SDA-GS-SV-005.jpg",
+      "id": "SDA-SV-005",
+      "title": {
+        "ar": "طلب صور حضرية (فوتوغرافيه)",
+        "en": "Urban Photos Request"
+      },
+      "ownership": {
+        "ar": "المعلومات والحلول الجيومكانية",
+        "en": "Geospatial Information and Solutions"
+      },
+      "targetCategories": {
+        "ar": "داخلي",
+        "en": "Internal"
+      },
+      "serviceCharge": {
+        "ar": "مجانية",
+        "en": "Free"
+      },
+      "description": {
+        "ar": "توفير صور حضرية ذات جودة عالية للمنطقة الشرقية بمختلف انواعها داخل محافظات او مدن او احياء المنطقة لتظهر اهم المعالم والأماكن المتميزة وتبين حالة عمليات التنمية الحضرية والمشروعات الاستراتيجية المعنية بالتطوير في المنطقة",
+        "en": "Providing high-quality urban Photos of the Eastern Region of various types within the governorates, cities, or Districts of the region to show the most important landmarks and distinct places and show the status of urban development processes and strategic projects concerned with development in the region."
+      },
+      "ServiceDeliveryChannels": {
+        "ar": "نموذج طلب الخدمة على المنصة",
+        "en": "Service Request Form on Portal"
+      },
+      "avgCompletionPeriod": {
+        "ar": "تحقيق الاستجابة وفق اتفاقية مستوى خدمة المعلومات الحضرية",
+        "en": "Achieving response in accordance with the urban information service level agreement"
+      },
+      "outcomes": {
+        "ar": "صور حضرية",
+        "en": "Urban Photos"
+      },
+      "serviceConstraints": {
+        "ar": "لايوجد",
+        "en": "None"
+      },
+      "link": "https://gis.sda.gov.sa/survey123/share/0efc652453924e028e7e6043aeb595ca",
+
+      "workflowURL": {
+        "ar": "assets/SRD/services-catalogue/images/workflow/SDA-DUS-BP-001-Ar.jpg",
+        "en": "assets/SRD/services-catalogue/images/workflow/SDA-DUS-BP-001.jpg"
+      },
+      "contactInfo": [
+        {
+          "name": {
+            "ar": " : الخط المباشر",
+            "en": "Direct Line"
+          },
+          "contact": "+966 (13) 8303036"
+        },
+        {
+          "name": {
+            "ar": " : البريد الإلكتروني",
+            "en": "Email"
+          },
+          "contact": "srd@sda.gov.sa"
+        }
+      ],
+      "performanceMeasurements": [
+        {
+          "performanceIndicator": {
+            "ar": "نسبة الرضا عن الخدمة",
+            "en": "Service Satisfaction Rate"
+          },
+          "goal": 0.75,
+          "measurementCycle": {
+            "ar": "نصف سنوي",
+            "en": "Biannual"
+          },
+          "measurementResponsibility": {
+            "ar": "المعلومات والحلول الجيومكانية",
+            "en": "Geospatial Information and Solutions"
+          },
+          "measurementUnit": {
+            "ar": "نسبة مئوية",
+            "en": "Percentage"
+          },
+          "calculation": {
+            "ar": "متوسط نسبة تقييم الرضا عن الخدمة",
+            "en": "Average Percentage of Satisfaction Rate"
+          }
+        },
+        {
+          "performanceIndicator": {
+            "ar": "نسبة الرضا عن النتائج",
+            "en": "Results Satisfaction Rate"
+          },
+          "goal": 0.85,
+          "measurementCycle": {
+            "ar": "سنوي",
+            "en": "Annual"
+          },
+          "measurementResponsibility": {
+            "ar": "المعلومات والحلول الجيومكانية",
+            "en": "Geospatial Information and Solutions"
+          },
+          "measurementUnit": {
+            "ar": "نسبة مئوية",
+            "en": "Percentage"
+          },
+          "calculation": {
+            "ar": "متوسط نسبة تقييم الرضا عن النتائج",
+            "en": "Average Percentage of Satisfaction Rate"
+          }
+        }
+      ],
+      "serviceLink": {
+        "isLinked": false,
+        "linkType": "",
+        "linkOrganization": ""
+      },
+      "serviceStructure": {
+        "ar": "فرعية",
+        "en": "Subsidiary"
+      }
+    },
+    {
+      "coverURL": "assets/SRD/products-catalogue/images/SDA-UO-SV-001-Cover.jpg",
+      "imageURL": "assets/SRD/services-catalogue/images/SDA-UO-SV-001.jpg",
+      "id": "SDA-SV-006",
+      "title": {
+        "ar": "طلب إجراء مسح ميداني (احصائى)",
+        "en": "Custom Field Survey (Statistical)"
+      },
+      "ownership": {
+        "ar": "المرصد الحضري",
+        "en": "Urban Observatory"
+      },
+      "targetCategories": {
+        "ar": "داخلي - خارجي",
+        "en": "Internal - External"
+      },
+      "serviceCharge": {
+        "ar": "تحدد بناء على حجم العمل بعد دراسة الطلب",
+        "en": "Determined based on the workload after studying the request"
+      },
+      "description": {
+        "ar": "اجراء مسح ميداني لغرض محدد بناء على طلب صاحب المصلحة بما في ذلك تصميم النماذج وجمع البيانات وتحليل النتائج واعداد التقارير بعد دراسة الطلب وتحديد المخرجات وتوفير الميزانية والتعاقد عند اللزوم وفقا لأفضل الممارسات الدولية، واستناداً إلى اللوائح والعمليات المتعلقة بالأنظمة المعتمدة في المملكة",
+        "en": "Conducting a field survey for a specific purpose at the request of the stakeholder, including designing models, collecting data, analysing the results, and preparing reports after studying the request, determining the outputs, providing the budget, and contracting, when necessary, in accordance with international best practices, and based on the regulations and processes related to the systems approved in the Kingdom."
+      },
+      "ServiceDeliveryChannels": {
+        "ar": "نموذج طلب الخدمة على المنصة",
+        "en": "Service Request Form on Portal"
+      },
+      "avgCompletionPeriod": {
+        "ar": "تحقيق الاستجابة وفق اتفاقية مستوى خدمة المعلومات الحضرية",
+        "en": "Achieving response in accordance with the urban information service level agreement"
+      },
+      "outcomes": {
+        "ar": "الدراسة المطلوبة بالصيغة المناسبة",
+        "en": "Survey Result with Suitable Format"
+      },
+      "serviceConstraints": {
+        "ar": "توافر الميزانية اللازمة لتنفيذ الإجراء",
+        "en": "Availability of the necessary budget to implement the procedure"
+      },
+      "link": "https://gis.sda.gov.sa/survey123/share/f1bbd6b6659f4b21bfb43fc352cf9926",
+      "workflowURL": {
+        "ar": "assets/SRD/services-catalogue/images/workflow/SDA-DUS-BP-001-Ar.jpg",
+        "en": "assets/SRD/services-catalogue/images/workflow/SDA-DUS-BP-001.jpg"
+      },
+      "contactInfo": [
+        {
+          "name": {
+            "ar": " : الخط المباشر",
+            "en": "Direct Line"
+          },
+          "contact": "+966 (13) 8303036"
+        },
+        {
+          "name": {
+            "ar": " : البريد الإلكتروني",
+            "en": "Email"
+          },
+          "contact": "srd@sda.gov.sa"
+        }
+      ],
+      "performanceMeasurements": [
+        {
+          "performanceIndicator": {
+            "ar": "نسبة الرضا عن الخدمة",
+            "en": "Service Satisfaction Rate"
+          },
+          "goal": 0.75,
+          "measurementCycle": {
+            "ar": "نصف سنوي",
+            "en": "Biannual"
+          },
+          "measurementResponsibility": {
+            "ar": "المرصد الحضري",
+            "en": "Urban Observatory"
+          },
+          "measurementUnit": {
+            "ar": "نسبة مئوية",
+            "en": "Percentage"
+          },
+          "calculation": {
+            "ar": "متوسط نسبة تقييم الرضا عن الخدمة",
+            "en": "Average Percentage of Satisfaction rate"
+          }
+        },
+        {
+          "performanceIndicator": {
+            "ar": "نسبة الرضا عن النتائج",
+            "en": "Results Satisfaction Rate"
+          },
+          "goal": 0.85,
+          "measurementCycle": {
+            "ar": "سنوي",
+            "en": "Annual"
+          },
+          "measurementResponsibility": {
+            "ar": "المرصد الحضري",
+            "en": "Urban Observatory"
+          },
+          "measurementUnit": {
+            "ar": "نسبة مئوية",
+            "en": "Percentage"
+          },
+          "calculation": {
+            "ar": "متوسط نسبة تقييم الرضا عن النتائج",
+            "en": "Average Percentage of Satisfaction rate"
+          }
+        }
+      ],
+      "serviceLink": {
+        "isLinked": false,
+        "linkType": "",
+        "linkOrganization": ""
+      },
+      "serviceStructure": {
+        "ar": "فرعية",
+        "en": "Subsidiary"
+      }
+    },
+    {
+      "coverURL": "assets/SRD/products-catalogue/images/SDA-UO-SV-002-Cover.jpg",
+      "imageURL": "assets/SRD/services-catalogue/images/SDA-UO-SV-002.jpg",
+      "id": "SDA-SV-007",
+      "title": {
+        "ar": "طلب تقارير حضرية",
+        "en": "Urban Report Request"
+      },
+      "ownership": {
+        "ar": "المرصد الحضري",
+        "en": "Urban Observatory"
+      },
+      "targetCategories": {
+        "ar": "داخلي - خارجي",
+        "en": "Internal - External"
+      },
+      "serviceCharge": {
+        "ar": "تحدد بناء على حجم العمل بعد دراسة الطلب",
+        "en": "Determined based on the workload after studying the request"
+      },
+      "description": {
+        "ar": "طلب تقارير حضرية متخصصة في الجوانب الاقتصادية والاجتماعية والتي تعنى بحالة التنمية الحضرية في المنطقة وفق المعايير العامة والممارسات الدولية والتي تخدم الأهداف والاستراتيجيات الخاصة بتنمية المنطقة الشرقية.",
+        "en": "Specialized urban reports on economic and social aspects that are concerned with the state of urban development in the region in accordance with general standards and international practices, which serve the goals and strategies for the development of the eastern region."
+      },
+      "ServiceDeliveryChannels": {
+        "ar": "نموذج طلب الخدمة على المنصة",
+        "en": "Service Request Form on Portal"
+      },
+      "avgCompletionPeriod": {
+        "ar": "تحقيق الاستجابة وفق اتفاقية مستوى خدمة المعلومات الحضرية",
+        "en": "Achieving response in accordance with the urban information service level agreement"
+      },
+      "outcomes": {
+        "ar": "التقرير المطلوب بالصيغة المناسبة",
+        "en": "Report with Suitable Format"
+      },
+      "serviceConstraints": {
+        "ar": "توافر الميزانية اللازمة لتنفيذ الإجراء",
+        "en": "Availability of the necessary budget to implement the procedure"
+      },
+      "link": "https://gis.sda.gov.sa/survey123/share/4affc2f2731a49f1ab7415443f8c0c3b",
+
+      "workflowURL": {
+        "ar": "assets/SRD/services-catalogue/images/workflow/SDA-DUS-BP-001-Ar.jpg",
+        "en": "assets/SRD/services-catalogue/images/workflow/SDA-DUS-BP-001.jpg"
+      },
+      "contactInfo": [
+        {
+          "name": {
+            "ar": " : الخط المباشر",
+            "en": "Direct Line"
+          },
+          "contact": "+966 (13) 8303036"
+        },
+        {
+          "name": {
+            "ar": " : البريد الإلكتروني",
+            "en": "Email"
+          },
+          "contact": "srd@sda.gov.sa"
+        }
+      ],
+      "performanceMeasurements": [
+        {
+          "performanceIndicator": {
+            "ar": "نسبة الرضا عن الخدمة",
+            "en": "Service Satisfaction Rate"
+          },
+          "goal": 0.75,
+          "measurementCycle": {
+            "ar": "نصف سنوي",
+            "en": "Biannual"
+          },
+          "measurementResponsibility": {
+            "ar": "المرصد الحضري",
+            "en": "Urban Observatory"
+          },
+          "measurementUnit": {
+            "ar": "نسبة مئوية",
+            "en": "Percentage"
+          },
+          "calculation": {
+            "ar": "متوسط نسبة تقييم الرضا عن الخدمة",
+            "en": "Average Percentage of Satisfaction Rate"
+          }
+        },
+        {
+          "performanceIndicator": {
+            "ar": "نسبة الرضا عن النتائج",
+            "en": "Results Satisfaction Rate"
+          },
+          "goal": 0.85,
+          "measurementCycle": {
+            "ar": "سنوي",
+            "en": "Annual"
+          },
+          "measurementResponsibility": {
+            "ar": "المرصد الحضري",
+            "en": "Urban Observatory"
+          },
+          "measurementUnit": {
+            "ar": "نسبة مئوية",
+            "en": "Percentage"
+          },
+          "calculation": {
+            "ar": "متوسط نسبة تقييم الرضا عن النتائج",
+            "en": "Average Percentage of Satisfaction Rate"
+          }
+        }
+      ],
+      "serviceLink": {
+        "isLinked": false,
+        "linkType": "",
+        "linkOrganization": ""
+      },
+      "serviceStructure": {
+        "ar": "فرعية",
+        "en": "Subsidiary"
+      }
+    },
+    {
+      "coverURL": "assets/SRD/products-catalogue/images/SDA-UO-SV-003-Cover.jpg",
+      "imageURL": "assets/SRD/services-catalogue/images/SDA-UO-SV-003.jpg",
+      "id": "SDA-SV-008",
+      "title": {
+        "ar": "طلب مؤشرات حضرية",
+        "en": "Urban Index Request"
+      },
+      "ownership": {
+        "ar": "المرصد الحضري",
+        "en": "Urban Observatory"
+      },
+      "targetCategories": {
+        "ar": "داخلي - خارجي",
+        "en": "Internal - External"
+      },
+
+      "serviceCharge": {
+        "ar": "تحدد بناء على حجم العمل بعد دراسة الطلب",
+        "en": "Determined based on the workload after studying the request"
+      },
+      "description": {
+        "ar": "طلب مؤشرات حضرية كمقياس تنموي لمتابعة التغيرات الدورية نحو التقدم او التراجع في تحقيق اهداف وخطط التنمية المستدامة للتجمعات الحضرية لتساعد في وضع الخطط والسياسات ومعرفة النتائج المتحققة على أرض الواقع وتحديد أوجه القصور او المشاكل التي تواجه القطاعات والتعرف على اسبابها لصياغة الاستراتيجيات ووضع البرامج اللازمة لمعالجتها",
+        "en": "Requesting urban indicators as a development measure to follow periodic changes towards progress or decline in achieving sustainable development goals and plans for urban communities to help in developing plans and policies, knowing the results achieved on the ground, identifying deficiencies or problems facing sectors and identifying their causes, in order to formulate strategies and develop the necessary programs to address them."
+      },
+      "ServiceDeliveryChannels": {
+        "ar": "نموذج طلب الخدمة على المنصة",
+        "en": "Service Request Form on Portal"
+      },
+      "avgCompletionPeriod": {
+        "ar": "تحقيق الاستجابة وفق اتفاقية مستوى خدمة المعلومات الحضرية",
+        "en": "Achieving response in accordance with the urban information service level agreement"
+      },
+      "outcomes": {
+        "ar": "نتائج المؤشرات المطلوبة",
+        "en": "Index Result with Suitable Format"
+      },
+      "serviceConstraints": {
+        "ar": "توافر الميزانية اللازمة لتنفيذ الإجراء",
+        "en": "Availability of the necessary budget to implement the procedure"
+      },
+      "link": "https://gis.sda.gov.sa/survey123/share/339216d9f995484490cd82c4e872e369",
+
+      "workflowURL": {
+        "ar": "assets/SRD/services-catalogue/images/workflow/SDA-DUS-BP-001-Ar.jpg",
+        "en": "assets/SRD/services-catalogue/images/workflow/SDA-DUS-BP-001.jpg"
+      },
+      "contactInfo": [
+        {
+          "name": {
+            "ar": " : الخط المباشر",
+            "en": "Direct Line"
+          },
+          "contact": "+966 (13) 8303036"
+        },
+        {
+          "name": {
+            "ar": " : البريد الإلكتروني",
+            "en": "Email"
+          },
+          "contact": "srd@sda.gov.sa"
+        }
+      ],
+      "performanceMeasurements": [
+        {
+          "performanceIndicator": {
+            "ar": "نسبة الرضا عن الخدمة",
+            "en": "Service Satisfaction Rate"
+          },
+          "goal": 0.75,
+          "measurementCycle": {
+            "ar": "نصف سنوي",
+            "en": "Biannual"
+          },
+          "measurementResponsibility": {
+            "ar": "المرصد الحضري",
+            "en": "Urban Observatory"
+          },
+          "measurementUnit": {
+            "ar": "نسبة مئوية",
+            "en": "Percentage"
+          },
+          "calculation": {
+            "ar": "متوسط نسبة تقييم الرضا عن الخدمة",
+            "en": "Average Percentage of Satisfaction Rate"
+          }
+        },
+        {
+          "performanceIndicator": {
+            "ar": "نسبة الرضا عن النتائج",
+            "en": "Results Satisfaction Rate"
+          },
+          "goal": 0.85,
+          "measurementCycle": {
+            "ar": "سنوي",
+            "en": "Annual"
+          },
+          "measurementResponsibility": {
+            "ar": "المرصد الحضري",
+            "en": "Urban Observatory"
+          },
+          "measurementUnit": {
+            "ar": "نسبة مئوية",
+            "en": "Percentage"
+          },
+          "calculation": {
+            "ar": "متوسط نسبة تقييم الرضا عن النتائج",
+            "en": "Average Percentage of Satisfaction Rate"
+          }
+        }
+      ],
+      "serviceLink": {
+        "isLinked": false,
+        "linkType": "",
+        "linkOrganization": ""
+      },
+      "serviceStructure": {
+        "ar": "فرعية",
+        "en": "Subsidiary"
+      }
+    }
+   
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "sectionName": "SRD",
+  "sectionHeader": {
+    "subHeaderOne": "Urban Data",
+    "subHeaderTwo": "Center",
+    "subHeaderThree": "For the Eastern Province Development Authority"
+  },
+  "description": "SRD is an incubator for urban information, which provides a package of diverse services and products, and displays urban information, maps and indicators related to Sharqia Region, which supports comprehensive planning and development work in various areas of development. This system enables users to create and share innovative applications and allows integration with other global technologies.",
+  "target": {
+    "title": "Our Goals",
+    "icon": "assets/SRD/about/images/icon1.png",
+    "whiteIcon": "assets/SRD/about/images/icon1-1.png",
+    "content": "",
+    "principles": [
+      {
+        "title": "- Supporting urban planning, digital transformation, and improving decision-making efficiency."
+      },
+      {
+        "title": "- Collaborating to collect and govern urban data."
+      },
+      {
+        "title": "- Promoting cooperation with various entities to exchange information and make it available in accordance with regulations."
+      }
+    ]
+  },
+  "vision": {
+    "title": "Our Vision",
+    "icon": "assets/SRD/about/images/icon2.jpg",
+    "whiteIcon": "assets/SRD/about/images/icon2-2.png",
+    "content": "To be a distinguished model for a comprehensive and integrated platform in the field of urban information, which we provide in accordance with the best technologies, with ease and convenience for various users, and to contribute effectively to achieving the development goals and vision for the region."
+  },
+  "images": {
+    "imageOne": "assets/SRD/about/images/pic-2.jpg",
+    "imageTwo": "assets/SRD/about/images/pic-3_1-p-500.jpg",
+    "imageThree": "assets/SRD/about/images/pic-3.jpg"
+  }
+}

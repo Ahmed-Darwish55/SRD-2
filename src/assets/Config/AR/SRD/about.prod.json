@@ -1,0 +1,37 @@
+{
+  "sectionName": "سرد",
+  "sectionHeader": {
+    "subHeaderOne": "منصة",
+    "subHeaderTwo": "المعلومات الحضرية",
+    "subHeaderThree": "بالمنطقة الشرقية سرد"
+  },
+  "description": "تقدم سرد حزمة من الخدمات والمنتجات المتنوعة، وتعرض المعلومات الحضرية والخرائط والمؤشرات المتعلقة بالمنطقة الشرقية، التي تدعم أعمال التخطيط والتطوير الشامل في مختلف مجالات التنمية، عبر حلول تقنية حديثة.",
+  "target": {
+    "title": "أهدافنا",
+    "icon": "assets/SRD/about/images/icon1.png",
+    "whiteIcon": "assets/SRD/about/images/icon1-1.png",
+    "content": "",
+    "principles": [
+      {
+        "title": "- دعم عمليات التخطيط الحضري والتحول الرقمي ورفع كفاءة اتخاذ القرار."
+      },
+      {
+        "title": "- تضافر الجهود في جمع وحوكمة البيانات الحضرية."
+      },
+      {
+        "title": "- تعزيز التعاون مع الجهات المختلفة لتبادل المعلومات وإتاحتها وفق الأنظمة ."
+      }
+    ]
+  },
+  "vision": {
+    "title": "رؤيتنا",
+    "icon": "assets/SRD/about/images/icon2.jpg",
+    "whiteIcon": "assets/SRD/about/images/icon2-2.png",
+    "content": "نموذج شامل ومتكامل في مجال المعلومات الحضرية، وفق أفضل التقنيات للإسهام في تحقيق أهداف التنمية للمنطقة الشرقية."
+  },
+  "images": {
+    "imageOne": "assets/SRD/about/images/pic-2.jpg",
+    "imageTwo": "assets/SRD/about/images/pic-3_1-p-500.jpg",
+    "imageThree": "assets/SRD/about/images/pic-3.jpg"
+  }
+}

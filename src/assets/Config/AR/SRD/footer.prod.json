@@ -1,0 +1,21 @@
+{
+  "ourServices": "المعلومات الحضرية",
+  "contactUs": "اتصل بنا",
+  "district": "شارع سلمان الفارسي  - حي الأعمال Q3-02",
+  "address": "الدمام – حي الخالدية الجنوبية ",
+  "tel": "+966138303036",
+  "telephone": "13-8303036 (966)+",
+  "email": "info@sda.com",
+  "SDALogo": "assets/Shared/footer/images/logo-w.png",
+  "LinkedIn": "https://www.linkedin.com/company/sharqia-development-authority",
+  "Twitter": "https://twitter.com/SDA_Sharqia",
+  "TwitterIcon": "assets/Shared/footer/images/twitter-logo.png",
+  "CopyRight": "جميع الحقوق محفوظة لهيئة تطوير المنطقة الشرقية",
+  "CopyRightYear":"2023",
+  "Version":"رقم الاصدار",
+  "VersionNO":"1.0", 
+  "privacyPolicy_URL":"https://sda.gov.sa/privacy-policy",
+  "privacyPolicy_Text":"سياسة الخصوصية والسرية",
+  "principlesOfUse_URL":"https://sda.gov.sa/principles-of-use",
+  "principlesOfUse_Text":"مبادئ الاستخدام"
+}

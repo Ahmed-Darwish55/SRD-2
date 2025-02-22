@@ -1,0 +1,599 @@
+{
+  "products": [
+    {
+      "coverURL": "assets/SRD/products-catalogue/images/SDA-BI-PR-006-Cover.jpg",
+      "imageURL": "assets/SRD/products-catalogue/images/SDA-BI-PR-006.jpg",
+      "url": "https://gis.sda.gov.sa/ComingSoon/",
+      "isDeveloped": false,
+      "id": "SDA-PR-001",
+      "title": {
+        "ar": "إستراتيجية إدارة البيانات الحضرية وحوكمتها",
+        "en": "Urban data management and governance strategy"
+      },
+      "mainClassification": {
+        "ar": "السياسات والمعايير",
+        "en": "Policies and standards"
+      },
+      "ownership": {
+        "ar": "جميع إدارات التحول الاقليمى",
+        "en": "All Regional Transformation Departments"
+      },
+      "subClassification": {
+        "ar": "",
+        "en": ""
+      },
+      "description": {
+        "ar": "استراتيجية لإدارة البيانات الحضرية وحوكمتها لتحقيق أهداف الأعمال، بالتوافق مع الاستراتيجية المؤسسية لحوكمة البيانات. حيث تغطي الاستراتيجية المجالات التالية:</br>1- المتطلبات الاستراتيجية وتشمل استراتيجية عمل الجهة والاستراتيجية الوطنية لإدارة البيانات وحوكمتها</br>2- رؤية ورسالة إدارة البيانات الحضرية، وأهدافها الاستراتيجية</br>3- الإجراءات والسياسات الخاصة بالبيانات</br>4- أمن البيانات </br>5- جودة البيانات</br>6- مؤشرات الأداء الاستراتيجية والتشغيلية مع أهداف تمتد على مدار مدة تطبيق الاستراتيجية",
+        "en": "A strategy for managing urban data and its governance to achieve business goals, in line with the institutional strategy for data governance. The strategy covers the following areas:</br>1- Strategic requirements, including the entity's business strategy and the national strategy for data management and governance</br>2- Vision and mission of urban data management, and its strategic objectives</br>3- Procedures and policies related to data</br>4- Data security</br>5- Data quality</br>6- Strategic and operational performance indicators with objectives extending throughout the duration of the strategy implementation."
+      },
+      "goal": {
+        "ar": "إدارة وحوكمة البيانات",
+        "en": "Data management and governance"
+      },
+      "standards": [
+        {
+          "name": {
+            "ar": "السياسات والمعايير الوطنية",
+            "en": "National Policies and Standards"
+          }
+        },
+        {
+          "name": {
+            "ar": "أفضل الممارسات العالمية الحديثة",
+            "en": "International best practices"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": {
+            "ar": "ُExcel",
+            "en": "Excel"
+          }
+        },
+        {
+          "name": {
+            "ar": "Adobe PDF",
+            "en": "Adobe PDF"
+          }
+        },
+        {
+          "name": {
+            "ar": "Word",
+            "en": "Word"
+          }
+        }
+      ],
+      "beneficiaryCategory": [
+        {
+          "name": {
+            "ar": "داخلي",
+            "en": "Internal"
+          }
+        }
+      ],
+      "usageMean": "",
+      "examples": []
+    },
+    {
+      "coverURL": "assets/SRD/products-catalogue/images/SDA-GS-PR-006-Cover.jpg",
+      "imageURL": "assets/SRD/products-catalogue/images/SDA-GS-PR-006.jpg",
+      "url": "https://gis.sda.gov.sa/portal/apps/experiencebuilder/experience/?id=4c9db790cdee43748d7cf3f726eaa4ff",
+      "isDeveloped": true,
+      "id": "SDA-PR-002",
+      "title": {
+        "ar": "الخريطة التفاعلية ثنائية الابعاد",
+        "en": "2D Interactive Map"
+      },
+      "mainClassification": {
+        "ar": "التطبيقات",
+        "en": "Applications"
+      },
+      "ownership": {
+        "ar": "المعلومات والحلول الجيومكانية",
+        "en": "Geospatial Information and Solutions"
+      },
+      "subClassification": {
+        "ar": "",
+        "en": ""
+      },
+      "description": {
+        "ar": "مستكشف جيومكانى للمنطقة الشرقية يتيح للمستخدمين الاستعراض والاستعلام عن المعلومات الجيومكانية المتوفرة ، كما يحتوي على مجموعة من الأدوات التي يمكن الاستفادة منها في اجراء استفسارات وتحليلات متنوعة اعتمادا على البيانات المتاحة، ومن ثم إتاحة تقديم نتائج الاستفسارات والتحليلات كخرائط ورسومات بيانية وأشكال تخطيطية وتقارير كما يتيح للمستخدم إمكانية طباعة الخرائط.",
+        "en": "An interactive map as a geospatial explorer for the Eastern Region that allows users to review and Explore available geospatial information . It also contains a set of tools that can be used to conduct various inquiries and analyzes based on the available data, and then allows the results to be presented as maps ,graphs, diagrams and reports, it also allows the user to print maps."
+      },
+      "goal": {
+        "ar": "استكشاف واستعراض البيانات الجيومكانية والاستفادة بها لتلبية احتياجات العمل.",
+        "en": "Explore, review, and leverage geospatial data to meet business needs."
+      },
+      "standards": [
+        {
+          "name": {
+            "ar": "المعايير الوطنية المعتمدة",
+            "en": "Approved National standards"
+          }
+        },
+        {
+          "name": {
+            "ar": "أفضل الممارسات العالمية والتقنيات الحديثة",
+            "en": "Global best practices and modern technologies"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": {
+            "ar": "ArcGIS Experience Builder",
+            "en": "ArcGIS Experience Builder"
+          }
+        },
+        {
+          "name": {
+            "ar": "ArcGIS Map Viewer",
+            "en": "ArcGIS Map Viewer"
+          }
+        }
+      ],
+      "beneficiaryCategory": [
+        {
+          "name": {
+            "ar": "داخلي",
+            "en": "Internal"
+          }
+        },
+        {
+          "name": {
+            "ar": "خارجي",
+            "en": "External"
+          }
+        }
+      ],
+      "usageMean": "",
+      "examples": []
+    },
+    {
+      "coverURL": "assets/SRD/products-catalogue/images/SDA-GS-PR-007-Cover.jpg",
+      "imageURL": "assets/SRD/products-catalogue/images/SDA-GS-PR-007.jpg",
+      "url": "https://gis.sda.gov.sa/portal/apps/instant/3dviewer/index.html?appid=104bc5e37b3148eaaffb0b8503f2cefc",
+      "isDeveloped": false,
+      "id": "SDA-PR-003",
+      "title": {
+        "ar": "الخريطة التفاعلية ثلاثية الابعاد",
+        "en": "3D Interactive Map"
+      },
+      "mainClassification": {
+        "ar": "التطبيقات",
+        "en": "Applications"
+      },
+      "ownership": {
+        "ar": "المعلومات والحلول الجيومكانية",
+        "en": "Geospatial Information and Solutions"
+      },
+      "subClassification": {
+        "ar": "",
+        "en": ""
+      },
+      "description": {
+        "ar": "مستكشف جيومكانى ثلاثى الابعاد  لاستعراض المشاهد المجسمة للمنطقة الشرقية يتيح للمستخدمين الاستعراض والاستعلام عن المعلومات الجيومكانية المتوفرة ، كما يحتوي على مجموعة من الأدوات المتنوعة لاستعراض البيانات.",
+        "en": "An interactive map  for Exploring  3D Scenes  of the Eastern Region. It allows users to review and inquire about available geospatial information. It also contains a set of various tools to Navigate and Visualize Data."
+      },
+      "goal": {
+        "ar": "استكشاف واستعراض البيانات الجيومكانية ثلاثية الابعاد والاستفادة بها لتلبية احتياجات العمل.",
+        "en": "Explore, review, and leverage 3D geospatial data to meet business needs."
+      },
+      "standards": [
+        {
+          "name": {
+            "ar": "المعايير الوطنية المعتمدة",
+            "en": "Approved National standards"
+          }
+        },
+        {
+          "name": {
+            "ar": "أفضل الممارسات العالمية والتقنيات الحديثة",
+            "en": "Global best practices and modern technologies"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": {
+            "ar": "ArcGIS Scene Viewer",
+            "en": "ArcGIS Scene Viewer"
+          }
+        },
+
+        {
+          "name": {
+            "ar": "ArcGIS Experience Builder",
+            "en": "ArcGIS Experience Builder"
+          }
+        }
+      ],
+      "beneficiaryCategory": [
+        {
+          "name": {
+            "ar": "داخلي",
+            "en": "Internal"
+          }
+        },
+        {
+          "name": {
+            "ar": "خارجي",
+            "en": "External"
+          }
+        }
+      ],
+      "usageMean": "",
+      "examples": []
+    },
+    {
+      "coverURL": "assets/SRD/products-catalogue/images/SDA-GS-PR-008-Cover.jpg",
+      "imageURL": "assets/SRD/products-catalogue/images/SDA-GS-PR-008.jpg",
+      "url": "https://gis.sda.gov.sa/portal/apps/experiencebuilder/experience/?id=fdb60a0e9fa04fbfaf2cf2861862d707",
+      "isDeveloped": false,
+      "id": "SDA-PR-004",
+      "title": {
+        "ar": "مستكشف المخططات الحضرية الشاملة",
+        "en": "Master Plan Explorer"
+      },
+      "mainClassification": {
+        "ar": "التطبيقات",
+        "en": "Applications"
+      },
+      "ownership": {
+        "ar": "المعلومات والحلول الجيومكانية",
+        "en": "Geospatial Information and Solutions"
+      },
+      "subClassification": {
+        "ar": "",
+        "en": ""
+      },
+      "description": {
+        "ar": "خارطة تفاعلية للمخطط العام للمنطقة الشرقية يتيح للمستخدمين استكشاف واستعراض المخطط العام للمنطقة الشرقية أو المحافظات والمدن والاحياء على الخريطة والاستعلام عن المعلومات المتوفرة بناء على الصلاحيات المخولة، كما يحتوي على مجموعة من الأدوات التي يمكن الاستفادة منها في اجراء استفسارات وتحليلات متنوعة اعتمادا على البيانات المتاحة.",
+        "en": "An interactive map of the general master plan of the Eastern Region. It allows users to explore and review the general master plan on the map and inquire about the available information based on the authorized permissions. It also contains a set of tools that can be used to conduct various inquiries and analyzes based on the available data."
+      },
+      "goal": {
+        "ar": "استكشاف واستعراض المخطط العام للمنطقة أو المحافظات والمدن والاحياء على الخريطة.",
+        "en": "Explore and review the general Masrer plan of the region, provinces, cities, and Distrect on the map."
+      },
+      "standards": [
+        {
+          "name": {
+            "ar": "المعايير الوطنية المعتمدة",
+            "en": "Approved National standards"
+          }
+        },
+        {
+          "name": {
+            "ar": "أفضل الممارسات العالمية والتقنيات الحديثة",
+            "en": "Global best practices and modern technologies"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": {
+            "ar": "ArcGIS Experience Builder",
+            "en": "ArcGIS Experience Builder"
+          }
+        },
+        {
+          "name": {
+            "ar": "ArcGIS Map Viewer",
+            "en": "ArcGIS Map Viewer"
+          }
+        }
+      ],
+      "beneficiaryCategory": [
+        {
+          "name": {
+            "ar": "داخلي",
+            "en": "Internal"
+          }
+        },
+        {
+          "name": {
+            "ar": "خارجي",
+            "en": "External"
+          }
+        }
+      ],
+      "usageMean": "",
+      "examples": []
+    },
+    {
+      "coverURL": "assets/SRD/products-catalogue/images/SDA-GS-PR-003-Cover.jpg",
+      "imageURL": "assets/SRD/products-catalogue/images/SDA-GS-PR-003.jpg",
+      "url": "https://gis.sda.gov.sa/portal/apps/experiencebuilder/experience/?id=324d5df0ddff4103a714604b6b015541",
+      "isDeveloped": false,
+      "id": "SDA-PR-005",
+      "title": {
+        "ar": "مكتبة الصور الحضرية (الفوتوجرافية)",
+        "en": "Urban Photos (Photography)"
+      },
+      "mainClassification": {
+        "ar": "التطبيقات",
+        "en": "Applications"
+      },
+      "ownership": {
+        "ar": "المعلومات والحلول الجيومكانية",
+        "en": "Geospatial Information and Solutions"
+      },
+      "subClassification": {
+        "ar": "",
+        "en": ""
+      },
+      "description": {
+        "ar": "هي صور حضريه لإظهار معالم المنطقة الشرقية والتي تعبر عن هويتها الخاصة، مثل المناظر الطبيعية والمباني المعمارية المميزة والأماكن التراثية وغيرها من الأماكن التي تعبر عن ثقافة وأصالة المنطقة.",
+        "en": "Urban photos to show the features of the Eastern Region that express its special identity, such as natural landscapes, distinctive architectural buildings, heritage places, and other places that express the culture and authenticity of the region."
+      },
+      "goal": {
+        "ar": "صور حضرية تغطى أهم معالم المنطقة الشرقية بكافة التفاصيل وبدقة عالية.",
+        "en": "Urban photos covering the most important landmarks of the Eastern Province in all details and with high accuracy."
+      },
+      "standards": [
+        {
+          "name": {
+            "ar": "أفضل الممارسات والسياسات والمعايير الوطنية والعالمية",
+            "en": "National Policies and Standards"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": {
+            "ar": "Image Files",
+            "en": "Image Files"
+          }
+        },
+        {
+          "name": {
+            "ar": "ArcGIS StoryMaps",
+            "en": "ArcGIS StoryMaps"
+          }
+        }
+      ],
+      "beneficiaryCategory": [
+        {
+          "name": {
+            "ar": "داخلي",
+            "en": "Internal"
+          }
+        },
+        {
+          "name": {
+            "ar": "خارجي",
+            "en": "External"
+          }
+        }
+      ],
+      "usageMean": "",
+      "examples": []
+    },
+    {
+      "coverURL": "assets/SRD/products-catalogue/images/SDA-GS-PR-001-Cover.jpg",
+      "imageURL": "assets/SRD/products-catalogue/images/SDA-GS-PR-001.jpg",
+      "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?locale=ar",
+      "isDeveloped": false,
+      "id": "SDA-PR-006",
+      "title": {
+        "ar": "مكتبة البيانات",
+        "en": "Data Catalogue"
+      },
+      "mainClassification": {
+        "ar": "التطبيقات",
+        "en": "Applications"
+      },
+      "ownership": {
+        "ar": "المعلومات والحلول الجيومكانية",
+        "en": "Geospatial Information and Solutions"
+      },
+      "subClassification": {
+        "ar": "",
+        "en": ""
+      },
+      "description": {
+        "ar": "تتيح مكتبة البيانات لمستخدمي منصة البيانات الحضرية القدرة على البحث واستكشاف البيانات المتاحة على المنصة من خلال البيانات الوصفية والتي تحتوي على بعض البيانات مثل الوصف ونوع البيانات ومصدرها وتاريخ اخر تحديث والكلمات الدلالية",
+        "en": "Ability to search and explore the data available on the Portal through metadata, which contains some data such as description, data type, source, date of last update, and Keywords."
+      },
+      "goal": {
+        "ar": "سهولة استكشاف والوصول الى البيانات التي تلبى احتياجات العمل.",
+        "en": "Ease of discovery and access to data that meets business needs."
+      },
+      "standards": [
+        {
+          "name": {
+            "ar": "معايير ISO/TC 211",
+            "en": "ISO/TC 211 Standards"
+          }
+        },
+        {
+          "name": {
+            "ar": "معايير OGC",
+            "en": "OGC Standards"
+          }
+        },
+        {
+          "name": {
+            "ar": "توصيات معايير UN-GGIM",
+            "en": "UN-GGIM Standards Recommendations"
+          }
+        },
+        {
+          "name": {
+            "ar": "معايير ISO 19115 (بيانات وبيانات وصفية للخدمات)",
+            "en": "ISO 19115 (Data and Services metadata)"
+          }
+        },
+        {
+          "name": {
+            "ar": "معايير ISO 19110 (منهجية لفهرسة الميزات)",
+            "en": "ISO 19110 (Methodology for Feature Cataloguing)"
+          }
+        },
+        {
+          "name": {
+            "ar": "معايير W3C DCATv2 (التقاط بيانات الويب الدلالية)",
+            "en": "W3C DCATv2 (Semantic Web Metadata Capturing)"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": {
+            "ar": "ArcGIS Sites",
+            "en": "ArcGIS Sites"
+          }
+        }
+      ],
+      "beneficiaryCategory": [
+        {
+          "name": {
+            "ar": "داخلي",
+            "en": "Internal"
+          }
+        },
+        {
+          "name": {
+            "ar": "خارجي",
+            "en": "External"
+          }
+        }
+      ],
+      "usageMean": "",
+      "examples": []
+    },
+    {
+      "coverURL": "assets/SRD/products-catalogue/images/SDA-UO-PR-007-Cover.jpg",
+      "imageURL": "assets/SRD/products-catalogue/images/SDA-UO-PR-007.jpg",
+      "url": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false",
+      "isDeveloped": false,
+      "id": "SDA-PR-007",
+      "title": {
+        "ar": "لوحة معلومات المؤشرات الحضرية",
+        "en": "Urban Observatory Dashboard"
+      },
+      "mainClassification": {
+        "ar": "التطبيقات",
+        "en": "Applications"
+      },
+      "ownership": {
+        "ar": "المرصد الحضري",
+        "en": "Urban Observatory"
+      },
+      "subClassification": {
+        "ar": "",
+        "en": ""
+      },
+      "description": {
+        "ar": "لوحة معلومات حضرية تفاعلية لعرض مؤشرات التنمية والتخطيط الحضري، والتي تعتمد في الغالب على بيانات حضرية كبيرة، وتظهر الملف الشخصي للمدينة او المنطقة، والمؤشرات الحضرية الخاصة بها من خلال الاستفادة بإمكانيات الخرائط، مما يسهل فهم واستخدام إطار الاستدامة الحضرية والوصول إلى المؤشرات المتعلقة بالتنمية الحضرية المستدامة. ويتكون من أدوات مرئية منها خرائط ورسوم بيانية تفاعلية ومترابطة، ومقاييس ومؤشرات ويمكن توسيعها باستخدام وظائف الاستكشاف.",
+        "en": "An interactive urban dashboard to display urban development and planning indicators, and show the profile of a city or region, and its urban indicators by taking advantage of mapping capabilities, which facilitates understanding and using the urban sustainability framework and accessing indicators related to sustainable urban development. . It consists of visual tools, including interactive and interconnected maps and graphs, metrics and indicators, and can be expanded using exploration functions."
+      },
+      "goal": {
+        "ar": "لوحة معلومات حضرية تفاعلية لعرض مؤشرات التنمية والتخطيط الحضري بناءً على احتياجات أصحاب المصلحة، مثل المخططين الحضريين وصناع القرار والسياسات.",
+        "en": "Display urban development and planning indicators based on the needs of stakeholders, such as urban planners, decision makers and policy makers."
+      },
+      "standards": [
+        {
+          "name": {
+            "ar": "أفضل الممارسات والسياسات والمعايير الوطنية والعالمية",
+            "en": "National and International best practices, policies and standards"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": {
+            "ar": "Power BI",
+            "en": "Power BI"
+          }
+        }
+      ],
+      "beneficiaryCategory": [
+        {
+          "name": {
+            "ar": "داخلي",
+            "en": "Internal"
+          }
+        },
+        {
+          "name": {
+            "ar": "خارجي",
+            "en": "External"
+          }
+        }
+      ],
+      "usageMean": "",
+      "examples": []
+    },
+    {
+      "coverURL": "assets/SRD/products-catalogue/images/SDA-UO-PR-003-Cover.jpg",
+      "imageURL": "assets/SRD/products-catalogue/images/SDA-UO-PR-003.jpg",
+      "url": "https://gis.sda.gov.sa/portal/apps/sites/#/urban-documents",
+      "isDeveloped": false,
+      "id": "SDA-PR-008",
+      "title": {
+        "ar": "التقارير الحضرية",
+        "en": "Urban Reports"
+      },
+      "mainClassification": {
+        "ar": "التقارير",
+        "en": "Reports"
+      },
+      "ownership": {
+        "ar": "المرصد الحضري",
+        "en": "Urban Observatory"
+      },
+      "subClassification": {
+        "ar": "",
+        "en": ""
+      },
+      "description": {
+        "ar": "تقارير حضرية متخصصة في الجوانب الاقتصادية والاجتماعية والتي تعنى بحالة التنمية الحضرية في المنطقة وفق المعايير العامة والممارسات الدولية لدعم اتخاذ القرار في الهيئة والجهات المختصة بناء على الأهداف والاستراتيجيات الخاصة بتنمية المنطقة الشرقية.",
+        "en": "Urban reports Specialized on economic and social aspects that deal with the state of urban development in the region in accordance with general standards and international practices to support decision-making in the Authority and the competent authorities based on the goals and strategies for the development of the Eastern Region."
+      },
+      "goal": {
+        "ar": "متابعة حالة التنمية الحضرية في المنطقة",
+        "en": "Follow up on the status of urban development in the region"
+      },
+      "standards": [
+        {
+          "name": {
+            "ar": "أفضل الممارسات والسياسات والمعايير العالمية",
+            "en": "Best Practices, Policies, and Global Standards"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": {
+            "ar": "Adobe PDF",
+            "en": "Adobe PDF"
+          }
+        },
+        {
+          "name": {
+            "ar": "Word",
+            "en": "Word"
+          }
+        }
+      ],
+      "beneficiaryCategory": [
+        {
+          "name": {
+            "ar": "داخلي",
+            "en": "Internal"
+          }
+        },
+        {
+          "name": {
+            "ar": "خارجي",
+            "en": "External"
+          }
+        }
+      ],
+      "usageMean": "",
+      "examples": []
+    }
+  ]
+}

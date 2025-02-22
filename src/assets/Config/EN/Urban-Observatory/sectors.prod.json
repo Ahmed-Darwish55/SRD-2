@@ -1,0 +1,113 @@
+{
+  "urbanFeatureService": "https://gis.sda.gov.sa/hosting/rest/services/DataCatalog/Urban_Observatory/FeatureServer/8",
+  "mainPage": {
+    "videoURL": "assets/Urban-Observatory/Sectors/charts.mp4"
+  },
+  "BIDashboard": {
+    "buttonText": "Urban Observatory Dashboard",
+    "icon": "assets/Urban-Observatory/Sectors/branches/results.svg",
+    "url": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+  },
+  "indicatorCards": {
+    "buttonTitle": "Indicator Card",
+    "title": "Indicator",
+    "backText": "Back",
+    "icon": "assets/Urban-Observatory/Sectors/branches/card.svg",
+    "backIcon": "assets/Urban-Observatory/Sectors/back.png",
+    "referenceIcon": "assets/Urban-Observatory/Sectors/branches/reference.svg",
+    "identification": {
+      "icon": "assets/Urban-Observatory/Sectors/branches/description.svg",
+      "title": "Indicator identification"
+    },
+    "calculationMethod": {
+      "icon": "assets/Urban-Observatory/Sectors/branches/calculate.svg",
+      "title": "Calculation method"
+    },
+    "target": {
+      "icon": "assets/Urban-Observatory/Sectors/branches/target.svg",
+      "title": "Target"
+    },
+    "measureUnit": {
+      "icon": "assets/Urban-Observatory/Sectors/branches/measurement.svg",
+      "title": "Measure Unit"
+    }
+  },
+  "sectors": {
+    "safety-and-security": {
+      "id": "safety-and-security",
+      "name": "Safety and Security",
+      "icon": "assets/Urban-Observatory/Sectors/safety-and-security.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    },
+    "communications-and-information-technology": {
+      "id": "communications-and-information-technology",
+      "name": "Communications and Information Technology",
+      "icon": "assets/Urban-Observatory/Sectors/communications-and-information-technology.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    },
+    "infrastructure": {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "icon": "assets/Urban-Observatory/Sectors/infrastructure.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    },
+    "environment": {
+      "id": "environment",
+      "name": "Environment",
+      "icon": "assets/Urban-Observatory/Sectors/environment.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    },
+    "education-and-innovation": {
+      "id": "education-and-innovation",
+      "name": "Education and Innovation",
+      "icon": "assets/Urban-Observatory/Sectors/education-and-innovation.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    },
+    "culture-and-heritage": {
+      "id": "culture-and-heritage",
+      "name": "Culture and Heritage",
+      "icon": "assets/Urban-Observatory/Sectors/culture-and-heritage.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    },
+    "economic-characteristics": {
+      "id": "economic-characteristics",
+      "name": "Economic Characteristics",
+      "icon": "assets/Urban-Observatory/Sectors/economic-characteristics.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    },
+    "population-and-housing-characteristics": {
+      "id": "population-and-housing-characteristics",
+      "name": "Population and Housing Characteristics",
+      "icon": "assets/Urban-Observatory/Sectors/population-and-housing-characteristics.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    },
+    "health-care": {
+      "id": "health-care",
+      "name": "Health Care",
+      "icon": "assets/Urban-Observatory/Sectors/health-care.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    },
+    "tourism-and-entertainment": {
+      "id": "tourism-and-entertainment",
+      "name": "Tourism and Entertainment",
+      "icon": "assets/Urban-Observatory/Sectors/tourism-and-entertainment.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    },
+    "energy": {
+      "id": "energy",
+      "name": "Energy",
+      "icon": "assets/Urban-Observatory/Sectors/energy.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    },
+    "transportation-and-logistic-services": {
+      "id": "transportation-and-logistic-services",
+      "name": "transportation and logistic services",
+      "icon": "assets/Urban-Observatory/Sectors/transportation-and-logistic-services.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    }
+  },
+  "indicatorSectionButtons": {
+    "mostImportantIndicatorsButtonTitle": "The most important indicators",
+    "readIndicatorsButtonTitle": "Read indicators"
+  }
+}

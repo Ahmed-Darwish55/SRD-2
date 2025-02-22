@@ -1,0 +1,17 @@
+{
+  "header":"المنتجات",
+  "mainClassification":" التصنيف الرئيسي",
+  "ownership":" الإدارة",
+  "subClassification":" التصنيف الفرعي",
+  "description":" الوصف",
+  "target":" الهدف",
+  "more":"...المزيد",
+  "name":" إسم المنتج",
+  "beneficiaryCategory":"فئة المستفيد",
+  "url":"رابط استخدام المنتج",
+  "productCard":"بطاقة معلومات المنتج",
+  "standards":"المعايير المتبعة",
+  "technologies":"التقنيات المستخدمة",
+  "examples":"أمثلة",
+  "noExamples":"لاتوجد أمثلة متوفرة"
+}

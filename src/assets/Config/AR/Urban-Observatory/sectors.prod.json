@@ -1,0 +1,113 @@
+{
+  "urbanFeatureService": "https://gis.sda.gov.sa/hosting/rest/services/DataCatalog/Urban_Observatory/FeatureServer/8",
+  "mainPage": {
+    "videoURL": "assets/Urban-Observatory/Sectors/charts.mp4"
+  },
+  "BIDashboard": {
+    "buttonText": "لوحة المعلومات الحضرية",
+    "icon": "assets/Urban-Observatory/Sectors/branches/results.svg",
+    "url": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+  },
+  "indicatorCards": {
+    "buttonTitle": "بطاقة المؤشر",
+    "title": "مؤشر",
+    "backText": "عودة",
+    "icon": "assets/Urban-Observatory/Sectors/branches/card.svg",
+    "backIcon": "assets/Urban-Observatory/Sectors/back.png",
+    "referenceIcon": "assets/Urban-Observatory/Sectors/branches/reference.svg",
+    "identification": {
+      "icon": "assets/Urban-Observatory/Sectors/branches/description.svg",
+      "title": "تعريف المؤشر"
+    },
+    "calculationMethod": {
+      "icon": "assets/Urban-Observatory/Sectors/branches/calculate.svg",
+      "title": "طريقة الحساب"
+    },
+    "target": {
+      "icon": "assets/Urban-Observatory/Sectors/branches/target.svg",
+      "title": "الهدف من المؤشر"
+    },
+    "measureUnit": {
+      "icon": "assets/Urban-Observatory/Sectors/branches/measurement.svg",
+      "title": "وحده قياس المؤشر"
+    }
+  },
+  "sectors": {
+    "safety-and-security": {
+      "id": "safety-and-security",
+      "name": "الأمن والسلامة",
+      "icon": "assets/Urban-Observatory/Sectors/safety-and-security.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    },
+    "communications-and-information-technology": {
+      "id": "communications-and-information-technology",
+      "name": "الاتصالات وتقنية المعلومات",
+      "icon": "assets/Urban-Observatory/Sectors/communications-and-information-technology.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    },
+    "infrastructure": {
+      "id": "infrastructure",
+      "name": "البنية التحتية",
+      "icon": "assets/Urban-Observatory/Sectors/infrastructure.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    },
+    "environment": {
+      "id": "environment",
+      "name": "البيئة",
+      "icon": "assets/Urban-Observatory/Sectors/environment.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    },
+    "education-and-innovation": {
+      "id": "education-and-innovation",
+      "name": "التعليم والابتكار",
+      "icon": "assets/Urban-Observatory/Sectors/education-and-innovation.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    },
+    "culture-and-heritage": {
+      "id": "culture-and-heritage",
+      "name": "الثقافة والتراث",
+      "icon": "assets/Urban-Observatory/Sectors/culture-and-heritage.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    },
+    "economic-characteristics": {
+      "id": "economic-characteristics",
+      "name": "الخصائص الاقتصادية",
+      "icon": "assets/Urban-Observatory/Sectors/economic-characteristics.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    },
+    "population-and-housing-characteristics": {
+      "id": "population-and-housing-characteristics",
+      "name": "الخصائص السكانية والإسكان",
+      "icon": "assets/Urban-Observatory/Sectors/population-and-housing-characteristics.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    },
+    "health-care": {
+      "id": "health-care",
+      "name": "الرعاية الصحية",
+      "icon": "assets/Urban-Observatory/Sectors/health-care.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    },
+    "tourism-and-entertainment": {
+      "id": "tourism-and-entertainment",
+      "name": "السياحة والترفيه",
+      "icon": "assets/Urban-Observatory/Sectors/tourism-and-entertainment.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    },
+    "energy": {
+      "id": "energy",
+      "name": "الطاقة",
+      "icon": "assets/Urban-Observatory/Sectors/energy.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    },
+    "transportation-and-logistic-services": {
+      "id": "transportation-and-logistic-services",
+      "name": "النقل والخدمات اللوجستية",
+      "icon": "assets/Urban-Observatory/Sectors/transportation-and-logistic-services.svg",
+      "powerBILink": "https://uo.sda.gov.sa/reports/powerbi/Urban%20Observatory/SDA?rs:Command=Render&rc:Toolbar=false"
+    }
+  },
+  "indicatorSectionButtons": {
+    "mostImportantIndicatorsButtonTitle": "أهم المؤشرات",
+    "readIndicatorsButtonTitle": "قراءة المؤشرات"
+  }
+}

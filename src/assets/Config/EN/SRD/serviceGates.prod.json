@@ -1,0 +1,38 @@
+{
+  "mainTitle": "Urban Information",
+  "buttonTitle": "View",
+  "gates": [
+    {
+      "title": "Geospatial Information",
+      "description": "A comprehensive portal for geospatial information and solutions serving the Eastern Province, it includes a geospatial data management system, an interactive system for applications and tools, with the ability to integrate with different systems to enable beneficiaries to analyze data, build specialized applications, and conduct geospatial studies.",
+      "url": "GEO-Portal",
+      "image": "assets/SRD/service-gates/images/GIS.jpg",
+      "video": "",
+      "isAvailable": true
+    },
+    {
+      "title": "Urban Indicators",
+      "description": "This portal includes different types of urban indicators (such as: social indicators, economic indicators, etc.), studies and statistical reports on the Eastern Province, which clarify the state of development in the region and the main urban issues, and the ability to analyze and compare data.",
+      "url": "Statistical-Portal",
+      "image": "assets/SRD/service-gates/images/Urban.png",
+      "video": "",
+      "isAvailable": true
+    },
+    {
+      "title": "Smart Cities",
+      "description": "This portal enables beneficiaries to access services related to smart cities, and the journey of transformation towards collecting data through modern and emerging technologies, analyzing it, and benefiting from it in developing and managing the city.",
+      "url": "#",
+      "image": "assets/SRD/service-gates/images/smartCities-UnderDevelopment.png",
+      "video": "",
+      "isAvailable": false
+    },
+    {
+      "title": "Open Data",
+      "description": "A set of open data provided by government and private entities for use without restrictions, used for development and innovation purposes, and also contributes to enhancing transparency and a data-driven economy.",
+      "url": "#",
+      "image": "assets/SRD/service-gates/images/OpenData-UnderDevelopment.png",
+      "video": "",
+      "isAvailable": false
+    }
+  ]
+}

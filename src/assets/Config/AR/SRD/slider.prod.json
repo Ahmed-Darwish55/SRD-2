@@ -1,0 +1,10 @@
+{
+  "title": "منصة المعلزمات الحضرية بالمنطقة الشرقية (سرد)",
+  "subTitle": "Sharqia Region urban Data hub (SRD)",
+  "sliders": [
+    {
+      "source": "assets/SRD/slider/videos/SRD_Main_Intro.mp4",
+      "isVideo": true
+    }
+  ]
+}

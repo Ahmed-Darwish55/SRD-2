@@ -1,0 +1,11 @@
+{
+  "ProductAndServices":{
+    "separator":"assets/SRD/main/images/line1.png"
+  },
+  "partners":{
+    "dropLogo":"assets/SRD/partners/images/zakhraf-2.jpg"
+  },
+  "portalURL":"https://gis.sda.gov.sa/portal",
+  "enableCheckIfUserHasPortalAccess":true,
+  "redirectPageIfNotAccess":"https://gis.sda.gov.sa/cantAccessPortal"
+}

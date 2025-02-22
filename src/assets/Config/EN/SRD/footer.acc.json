@@ -1,0 +1,21 @@
+{
+  "ourServices": "Urban Information",
+  "contactUs": "Contact Us",
+  "district": "Salman Al-Farisi Street - Business District Q3-02",
+  "address": "Dammam - Al-Khalidiyah South District",
+  "tel": "+966138303036",
+  "telephone": "13-8303036 (966)+",
+  "email": "info@sda.com",
+  "SDALogo": "assets/Shared/footer/images/logo-w.png",
+  "LinkedIn": "https://www.linkedin.com/company/sharqia-development-authority",
+  "Twitter": "https://twitter.com/SDA_Sharqia",
+  "TwitterIcon": "assets/Shared/footer/images/twitter-logo.png",
+  "CopyRight": "All rights reserved to the Eastern Province Development Authority",
+  "CopyRightYear": "2023",
+  "Version":"Version",
+  "VersionNO":"1.0", 
+  "privacyPolicy_URL": "https://sda.gov.sa/privacy-policy",
+  "privacyPolicy_Text": "Privacy Policy",
+  "principlesOfUse_URL": "https://sda.gov.sa/principles-of-use",
+  "principlesOfUse_Text": "Terms of Use"
+}

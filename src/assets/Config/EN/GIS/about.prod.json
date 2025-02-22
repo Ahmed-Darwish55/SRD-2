@@ -1,0 +1,111 @@
+{
+    "videoURL": "assets/GEO-Portal/about/videos/AboutIntro.mp4",
+    "defaultImageURL": "assets/GEO-Portal/about/images/Geography-default-Image.png",
+    "geography": {
+        "mapURL": "",
+        "imageURL": "",
+        "videoURL": "assets/GEO-Portal/about/videos/geography-en.mp4",
+        "title": "Geography and location",
+        "description": "The Eastern Province is the Kingdom's gateway to the Arab Gulf countries. It is a land of diverse and deep-rooted civilizations throughout history, shaping the region and its geography over the centuries. The region consists of thirteen governorates, diverse in culture, topography, and various components, with an estimated area of about (530.000 km2).",
+        "Governorate": {
+            "Ahsa": {
+                "title": "Al Ahsa",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-en/Ahsa.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "Alodaid": {
+                "title": "Alodaid",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-en/Alodaid.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "Bayda": {
+                "title": "Al Bayda",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-en/Bayda.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "Buqayq": {
+                "title": "Buqayq",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-en/Buqayq.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "Dammam": {
+                "title": "Al Dammam",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-en/Dammam.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "Dhahran": {
+                "title": "Al Dhahran",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-en/Khobar.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "HafarAlBatin": {
+                "title": "Hafar Al Batin",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-en/HafarAlBatin.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "Jubail": {
+                "title": "Al Jubail",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-en/Jubail.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "Khafji": {
+                "title": "Khafji",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-en/Khafji.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "Khobar": {
+                "title": "Al Khobar",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-en/Khobar.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "Nairyah": {
+                "title": "Nairyah",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-en/Nairyah.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "QaryatAlUlya": {
+                "title": "Qaryat Al Ulya",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-en/QaryatAlUlya.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "Qatif": {
+                "title": "Al Qatif",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-en/Qatif.jpg",
+                "description": "",
+                "hidden": true
+            },
+            "RasTanura": {
+                "title": "Ras Tanura",
+                "imageURL": "assets/GEO-Portal/about/images/location-and-geographic-en/RasTanura.jpg",
+                "description": "",
+                "hidden": true
+            }
+        }
+    },
+    "accessibility": {
+        "mapURL": "",
+        "imageURL": "",
+        "videoURL": "assets/GEO-Portal/about/videos/Accessability.mp4",
+        "description": "",
+        "title": "Accessibility"
+    },
+    "supervisoryScope": {
+        "mapURL": "",
+        "imageURL": "",
+        "videoURL": "assets/GEO-Portal/about/videos/supervisoryScope.mp4",
+        "description": "The Eastern Province Development Authority oversees twelve governorates to perform their tasks and functions. The authority's supervisory scope extends to approximately (147.000 km2) of the Eastern Province's supervisory area. The authority, in coordination with its partners, practices comprehensive planning and development tasks within the scope to unify developmental decisions.",
+        "title": "Supervisory Scope"
+    }
+}

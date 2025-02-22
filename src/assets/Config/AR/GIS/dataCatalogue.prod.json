@@ -1,0 +1,62 @@
+{
+    "descriptionIcon": "",
+    "subThemesListIcon": "",
+    "backgroundVideo": "",
+    "backgroundImage": "",
+    "centerOverlayMapImage": "assets/GEO-Portal/data-catalogue/images/maps/overlay-Map.png",
+    "centerDefaultImage": "assets/GEO-Portal/data-catalogue/images/maps/default-Map.png",
+
+    "title": "البيانات الحضرية",
+    "dataCatalogueImage": "assets/GEO-Portal/data-catalogue/images/library.svg",
+    "dataAvailabilityMeasure": "مقياس توفر البيانات الحضرية",
+    "dataAvailabilityMeasureImage": "assets/GEO-Portal/data-catalogue/images/measure.svg",
+    "subTheme": "قائمة التصنيفات الفرعية",
+    "subThemesImage": "assets/GEO-Portal/data-catalogue/images/chart-pie.svg",
+    "subThemeAction": "إستعراض",
+    "themes": {
+        "location-and-demographic": {
+            "id": "location-and-demographic",
+            "name": "الموقع والديموغرافيا"
+        },
+        "urban-development": {
+            "id": "urban-development",
+            "name": "التنمية الحضرية"
+        },
+        "sustainable-environment": {
+            "id": "sustainable-environment",
+            "name": "البيئة المستدامة"
+        },
+        "economic": {
+            "id": "economic",
+            "name": "المجموعة الاقتصادية"
+        },
+        "culture-heritage-and-tourism": {
+            "id": "culture-heritage-and-tourism",
+            "name": "الثقافة والتراث والسياحة"
+        },
+        "logistic-and-mobility": {
+            "id": "logistic-and-mobility",
+            "name": "النقل والخدمات اللوجستية"
+        },
+        "social-services": {
+            "id": "social-services",
+            "name": "الخدمات الاجتماعية"
+        },
+        "safety-and-security": {
+            "id": "safety-and-security",
+            "name": "الأمن و السلامة"
+        },
+        "initiatives-and-projects": {
+            "id": "initiatives-and-projects",
+            "name": "المبادرات والمشاريع"
+        },
+        "infrastructure": {
+            "id": "infrastructure",
+            "name": "البنية التحتية"
+        },
+        "elevation": {
+            "id": "elevation",
+            "name": "الارتفاعات"
+        }
+    }
+}

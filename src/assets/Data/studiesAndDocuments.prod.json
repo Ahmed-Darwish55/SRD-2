@@ -1,0 +1,222 @@
+{
+  "studiesAndDocuments": [
+    
+    {
+      "id": "1",
+      "name_Ar": "الشرقية فى ارقام 28 8 2023",
+      "name_En": "Eastern province in numbers August 28, 2023",
+      "description_Ar": "يمثل هذا  تقارير البيانات الحضرية",
+      "description_En": "This represents urban data reports",
+      "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+      "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/589b31b241264921a23e65b8fbc084f2/data"
+    }, {
+      "id": "2",
+      "name_Ar": "مكونات النظام الوطني للإسناد المكاني الموحد المملكة العربية السعودية (SANSRS)",
+      "name_En": "Components of the National Unified Spatial Reference System in the Kingdom of Saudi Arabia (SANSRS)",
+      "description_Ar": "المملكة العربية السعودية – مكونات النظام الوطني للإسناد المكاني الموحد الإطار المرجعي الجيوديسي الوطني، الإطار المرجعي الرأسي الوطني، الجيوديسي الوطني",
+      "description_En": "Kingdom of Saudi Arabia – Components of unified National Spatial Reference System: National Geodetic Reference Frame, National Vertical Reference Frame, National Geoid",
+      "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+      "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/8168d732c9164aeab0cb213e0df58363/data"
+    }, {
+      "id": "3",
+      "name_Ar": "النموذج الوصفي للبيانات الجيومكانية",
+      "name_En": "Descriptive Model for Geospatial Data",
+      "description_Ar": "تحدد هذه الوثيقة الملف الرسمي للبيانات الوصفية الجغرافية المكانية الوطنية للمملكة العربية السعودية، والذي يعتمد على معيار البيانات الوصفية ISO 19115 المكون من ثلاثة أجزاء. والغرض الرئيسي منه هو تمكين الأمناء ومنتجي البيانات من إنشاء بيانات منظمة بشكل متسق البيانات الوصفية لجميع مواضيع المؤسسة",
+      "description_En": "This document defines the formal KSA National Geospatial Metadata Profile for Saudi Arabia, which is based on the -3part ISO 19115 Metadata Standard. Its main purpose is to enable Custodians and Data Producers to create consistently structured metadata for all Foundation Themes",
+      "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+      "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/649dc383b8274c419f46dc172bc24714/data"
+    }
+    , {
+      "id": "4",
+      "name_Ar": "النموذج الوطني للبيانات الجيومكانية",
+      "name_En": "National Geospatial Data Model",
+      "description_Ar": "تدعم النظم البيئية الجغرافية المكانية الحديثة العديد من أنواع البيانات المختلفة",
+      "description_En": "Modern geospatial ecosystems support many different taypes of data",
+      "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+      "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/f6e70c8d30d2419287f3519cbff8e984/data"
+    }
+    , {
+      "id": "5",
+      "name_Ar": "القاموس الوطني للبيانات الجيومكانية",
+      "name_En": "National Geospatial Data Dictionary",
+      "description_Ar": "الغرض من هذه الوثيقة هو وصف قاموس المفاهيم المميزة الوطنية في المملكة العربية السعودية الذي يحتوي على كل من الموضوعات الأساسية ومفاهيم الميزات التي سيتم استخدامها داخل المملكة.",
+      "description_En": "The purpose of this document is to describe the KSA National Feature Concept Dictionary containing both Foundation Themes and Feature Concepts which will be used within the Kingdom.",
+      "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+      "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/6e03952d30dd412cbe2a4e6b5f92d69d/data"
+    }, {
+      "id": "6",
+      "name_Ar": "الاجتماع الافتتاحي",
+      "name_En": "The Opening Meeting",
+      "description_Ar": "ملف الاجتماع الافتتاحي الذي أقيم بتاريخ 22 مارس 2022",
+      "description_En": "Kick off meeting held on March 22, 2022",
+      "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+      "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/4432246a70e54c618c05f6bb88de24dc/data"
+    }, {
+      "id": "7",
+      "name_Ar": "سياسات البيانات الجيومكانية الوطنية",
+      "name_En": "National Geospatial Data Policies",
+      "description_Ar": "سيســاعد االلتــزام بهــذه المبــادئ علــى تنفيــذ حوكمــة بيانــات الطبقــة األساســية واالمتثــال لهــا",
+      "description_En": "Adherence to these principles will help implement basic layer data governance and compliance.",
+      "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+      "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/7a2bedeca5084e9484c786ac5b5a1d7b/data"
+    }, {
+      "id": "8",
+      "name_Ar": "معايير البيانات الجيومكانية الوطنية",
+      "name_En": "National Geospatial Data Standards",
+      "description_Ar": "تعتمــد عناصــر تقييــم جــودة البيانــات علــى معيــار المنظمــة الدوليــة للمعاييــر (الايزو) ١٩١٥٧",
+      "description_En": "Data quality assessment elements are based on the International Organization for Standardization (ISO) 19157 standard.",
+      "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+      "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/7176012937754febbef4c24626ee3691/data"
+    }, {
+      "id": "9",
+      "name_Ar": "نظره عامه على المعايير الجيومكانية الوطنية",
+      "name_En": "An Overview of National Geospatial Data Standards",
+      "description_Ar": "تهدف الوثيقة الى توفير مرجعية وطنية لوصف المعايير العالمية لجمع وتحديث وصيانة المعلومات الجيومكانية وآليات التشغيل البيني للبيانات بشكل عام",
+      "description_En": "The document aims to provide a national reference to describe global standards for collecting, updating and maintaining geospatial information and data interoperability mechanisms in general.",
+      "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+      "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/ce8d814066b84e9fb88bdf3ba6a400ea/data"
+    }
+    , {
+      "id": "10",
+      "name_Ar": "مؤشر جهازية البنية التحتية للمعرفة الجغرافية المكانية",
+      "name_En": "Indicator of Geospatial Knowledge Infrastructure Readiness",
+      "description_Ar": "مؤشر جهازية البنية التحتية للمعرفة الجغرافية المكانية لتعزيزالاقتصاد العالمي والمجتمع والبيئة",
+      "description_En": "Indicator: Systematic geospatial knowledge infrastructure to enhance the global economy, society and environment",
+      "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+      "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/b82dfb30006c401a9f58667b4293a718/data"
+    } , {
+      "id": "11",
+      "name_Ar": "التكامل بين نظم المعلومات الجغرافية ونمذجة معلومات المبانى",
+      "name_En": "Integration between Geographic Information Systems and Building Information Modeling",
+      "description_Ar": "",
+      "description_En": "",
+      "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+      "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/549b6db130814583871c4c5aa32b21dc/data"
+    }
+    , {
+      "id": "12",
+      "name_Ar": "البنية التحتية للمعرفة الجغرافية المكانية لتعزيز الاقتصاد العالمي والمجتمع والبيئة",
+      "name_En": "The Geospatial Knowledge Infrastructure to Enhance the Global Economy, Society, and Environment",
+      "description_Ar": "الهدف من هذه الورقة هو تحديد مفهوم البنية التحتية للمعرفة الجغرافية المكانية التي تدعم الحكومات والصناعة لتحقيق فوائد اقتصادية واجتماعية وبيئية مستدامة لكوكب الأرض وسكانه، كجزء من النظم الإيكولوجية والبنى التحتية الرقمية والمعرفية الناشئة.",
+      "description_En": "The aim of this Paper is to set out the concept of a Geospatial Knowledge Infrastructure that supports governments and industry deliver sustainable economic, social and environmental benefits to Planet Earth and its people, as part of emerging digital and knowledge ecosystems and infrastructures.",
+      "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+      "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/6d8444b88288425b83b727651b94cc8a/data"
+    }
+    , {
+      "id": "13",
+      "name_Ar": "تقييم الأثر الاجتماعي والاقتصادي للبيانات الجغرافية المكانية",
+      "name_En": "Assessment of the Social and Economic Impact of Geospatial Data",
+      "description_Ar": "هذه الدراسة حول 'تقييم الأثر الاجتماعي والاقتصادي للبيانات الجيومكانية في المملكة العربية السعودية'",
+      "description_En": "This study on “Socio-Economic Impact Assessment of Geospatial Data in the Kingdom of Saudi Arabia”",
+      "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+      "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/e9753f62b677491a851ed9d832e67c1b/data"
+    }   , {
+      "id": "14",
+      "name_Ar": "مبادئ الذكاء الاصطناعى التوليدى",
+      "name_En": "Principles of Generative Artificial Intelligence",
+      "description_Ar": "تقدم هذه الوثيقة مبادئ للعاملين فى الجهات الحكومية فيما يتعلق باستخدام ومعالجه البيانات الحكومية فى ادوات الذكاء الاصطناعى التوليدى",
+      "description_En": "This document provides principles for government employees regarding the use and processing of government data in generative artificial intelligence tools.",
+      "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+      "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/17b67fee71784bccbda0d8e6087a7b00/data"
+    },
+     {
+      "id": "15",
+      "name_Ar": "اللوائح التنفيذية لنظام حماية البيانات الشخصية",
+      "name_En": "Executive regulations of the Personal Data Protection System",
+      "description_Ar": "اللوائح التنفيذية لنظام حماية البيانات الشخصية",
+      "description_En": "Executive regulations of the personal data protection system",
+      "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+      "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/5fee3fa23ce241dd827f9cdde8903ce6/data"
+    },
+    {
+     "id": "16",
+     "name_Ar": "الدليل الإرشادي لاستخدام المرجع المكاني الوطني للمملكة",
+     "name_En": "Guide to the use of the Kingdom &apos; s national spatial reference",
+     "description_Ar": "توفر هذه الوثيقة الإرشادات العملية لإستخدام المرجع المكاني الوطني للمملكة العربية السعودية  في الأنشطة اليومية لمستخدمي البيانات الجيومكانية وبيانات تحديد المواقع",
+     "description_En": "This document provides practical guidance for using the National Spatial Reference of the Kingdom of Saudi Arabia (SANSRS) in the daily activities of users of geospatial and positioning data.",
+     "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+     "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/ce5ffc6c8f2b4a13b85158b9664c88be/data"
+   },
+   {
+    "id": "17",
+    "name_Ar": "تـحـلــيــلات الـبـيـانــــات للتنفيذيين",
+    "name_En": "Analysis of data for executives",
+    "description_Ar": "تـؤدي تحليـات البيانـات دوراً مهمـاً فــي بنـاء التنبـؤات وتمكيـن االبتـكار واكتسـاب ميـزة تنافسـية  فـــي األعمـــال ودعـــم عمليـــة اتخـــاذ القـــرار. وتجلـــت أهميـــة تحليـــات البيانـــات مـــع انتشـــار البيانـــات الضخمــة بمختلــف أنواعهــا والحاجــة الماســة لتحليلهــا واســتنباط الــرؤى منهــا",
+    "description_En": "Data analytics plays an important role in building predictions, enabling innovation, gaining a competitive advantage in business, and supporting the decision-making process. The importance of data analytics became clear with the spread of big data of all kinds and the urgent need to analyze it and derive insights from it.",
+    "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+    "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/6e9ae6f919f04b65bf872dd54e7fe15d/data"
+  },
+  {
+   "id": "18",
+   "name_Ar": "المعايير العالمية للذكاء الاصطناعي",
+   "name_En": "Global standards of artificial intelligence",
+   "description_Ar": "يهـدف هـذا التقريـر إلـى تسـليط الضـوء علـى معاييـر الـذكاء االصطناعـي وكيفيـة تطويرهـا واسـتعراض أبـرز جهـود جهـات تطويـر المعاييـر العالميـة",
+   "description_En": "This report aims to shed light on artificial intelligence standards and how to develop them, and to review the most prominent efforts of global standards development bodies.",
+   "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+   "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/3171a6aa58df45b3b48f6a795e02c429/data"
+ }
+ ,
+  {
+   "id": "19",
+   "name_Ar": "نظام حماية البيانات الشخصية",
+   "name_En": "Personal Data Protection System",
+   "description_Ar": "نظام حماية البيانات الشخصية",
+   "description_En": "Personal data protection system",
+   "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+   "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/ea4cc0e1fb2941979f98a828a4b97ad9/data"
+ },
+ {
+  "id": "20",
+  "name_Ar": "تقدير القيمة الاقتصادية للمعلومات والتقنيات الجيومكانية",
+  "name_En": "Assessment of the economic value of geospatial information and techniques",
+  "description_Ar": "تقدير القيمة الاقتصادية للمعلومات والتقنيات الجيومكانية لاقتصاد المملكة العربية السعودية",
+  "description_En": "Estimating the Economic Value of Geospatial Information and Technologies to the Economy of Saudi Arabia",
+  "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+  "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/5b5b32ff67364cefb19f51b55d4e837a/data"
+},
+{
+ "id": "21",
+ "name_Ar": "إطار حوكمة البيانات الجيومكانية الوطنية",
+ "name_En": "National geospatial data governance framework",
+ "description_Ar": "تقــدم هــذه الوثيقــة وصفــاً شــامالً إلطــار حوكمــة الطبقــات األساســية الجيومكانيــة الوطنيــة. وتحــدد الهيــكل التنظيمـي للحوكمـة، واألدوار، والمسـؤوليات والمبـادئ، والسياسـات التــي تحكـم التطويـر، والصيانـة، ومشـاركة الطبقــات األساســية الجيومكانيــة علـــى المســتوى الوطنـــي",
+ "description_En": "This document provides a comprehensive description of the national geospatial substrate governance framework. It defines the organizational structure of governance, roles, responsibilities, principles, and policies governing the development, maintenance, and participation of geospatial backbones at the national level.",
+ "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+ "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/deefc35ece524613aec7a89ed96c628b/data"
+},
+{
+ "id": "22",
+ "name_Ar": "ملخص حالة التنمية 30_8_2023",
+ "name_En": "Summary of the state of development 30_8_2023",
+ "description_Ar": "يمثل هذا  تقارير البيانات الحضرية",
+ "description_En": "This represents urban data reports",
+ "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+ "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/8c36c79a111847a0b745cba3a6b26c21/data"
+},
+{
+ "id": "23",
+ "name_Ar": "التقرير المؤشرات 20 8 2023",
+ "name_En": "Indicators Report 20 8 2023",
+ "description_Ar": "يمثل هذا  تقارير البيانات الحضرية",
+ "description_En": "This represents urban data reports",
+ "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+ "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/d2135a985bd948f1b9298f28af06eece/data"
+},
+{
+ "id": "24",
+ "name_Ar": "الشرقية فى ارقام باللغة الانجليزية 28 8 2023",
+ "name_En": "Eastern province in numbers in English August 28, 2023",
+ "description_Ar": "يمثل هذا  تقارير البيانات الحضرية",
+ "description_En": "This represents urban data reports",
+ "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+ "url": "https://gis.sda.gov.sa/portal/sharing/rest/content/items/4baee98069ab48e284fff8c32f6e0789/data"
+},{
+  "id": "25",
+  "name_Ar": "فهرس الخرائط الملاحية الورقية والالكترونية للخليج العربى",
+  "name_En": "This document represents an Arabian Gulf PNC and ENC charts index",
+  "description_Ar": "فهرس الخرائط الملاحية الورقية والالكترونية للخليج العربى هو دليل شامل يتضمن قائمة بالخرائط الملاحية الورقية والإلكترونية التي تغطي منطقة الخليج العربي. يهدف الفهرس إلى تزويد البحارة والملاحين بمعلومات دقيقة حول الخرائط المتاحة للملاحة البحرية، بما في ذلك تفاصيل حول أنواع الخرائط، نطاق التغطية، وأحدث التحديثات المتوفرة. يساعد هذا الفهرس في تعزيز السلامة البحرية من خلال توفير موارد ملاحية موثوقة ومحدثة للملاحة في مياه الخليج العربي",
+  "description_En": "It is a comprehensive guide that includes a list of paper and electronic nautical charts covering the Arabian Gulf region. The index aims to provide sailors and navigators with accurate information about the available charts for marine navigation, including details on the types of charts, coverage areas, and the latest updates available. This index helps enhance maritime safety by providing reliable and up-to-date navigational resources for navigating the waters of the Arabian Gulf",
+  "imageUrl": "assets/GEO-Portal/studies-and-documents/images/study.jpg",
+  "url": "https://gis.sda.gov.sa/portal/home/item.html?id=59d1c901729b40d295f0ff0d2ee0ac27/data"
+ }
+  ]
+}

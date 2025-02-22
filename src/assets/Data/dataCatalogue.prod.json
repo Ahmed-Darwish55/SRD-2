@@ -1,0 +1,364 @@
+{
+  "dataCatalogue": {
+    "description_Ar": "تضم مكتبة البيانات الحضرية مجموعة من البيانات والخرائط والأدوات التي تتعلق بالمواقع الجغرافية والمعالم الطبيعية على مستوى المنطقة، كما تتضمن أدوات لتحليل الطبقات، في مجالات متعددة (مثل: التخطيط- البيئة- الأمن-البنية التحتية..الخ)، وتساعد المكتبة على فهم العلاقات المكانية بين العناصر المختلفة، وإنشاء نماذج وتصورات للظواهر الحضرية",
+    "description_En": "Geospatial data Catalogue is a collection of data, maps and tools that relate to geographic locations and natural and human features on the surface of the earth. This library is used to support geospatial analysis and applications in fields such as engineering, planning, environment and security. The geospatial data library helps to understand the spatial relationships between different elements and create models and visualizations of geospatial phenomena."
+  },
+  "themes": [
+    {
+      "id": "location-and-demographic",
+      "name": "Location and Demographic",
+      "percentage": "5.13",
+      "NoOfFeature": "50",
+      "SDAFeature": "35",
+      "image": "assets/GEO-Portal/data-catalogue/images/themes/location-and-demographic.svg",
+      "line": "assets/GEO-Portal/data-catalogue/images/lines/location-and-demographic.svg",
+      "mapImage": "assets/GEO-Portal/data-catalogue/images/maps/location-and-demographic-Map.png",
+      "description_Ar": "تتكون هذه المجموعة على مفاهيم تتعلق بالحدود الرسمية أو القانونية أو المعترف بها للوحدات الإدارية في المملكة العربية السعودية. تحتوي المجموعة أيضًا على مفاهيم تتعلق بموقع الخصائص بناءً على معرف العنوان بالإضافة إلى مجموعة بيانات توزيع السكان والتوزيع الديموغرافي التي تحتوي على الطبقات الجغرافية للكثافة السكانية وتوزيع المناطق المحرومة والبيانات الإحصائية المرتبطة بها",
+      "description_EN": "This group consists of concepts which relate to the official, legal, or recognized boundaries of administrative Units in the Kingdom of Saudi Arabia. The group also contains concepts which relate to location of properties based on address identifier as well as the population and demographics distribution dataset contains the geographic layers of population densities, the distribution of deprived areas, and the associated statistical data.",
+      "subThemes": [
+        {
+          "id": "administrative-regions",
+          "name_Ar": "الحدود الإدارية",
+          "name_En": "Administrative Regions",
+          "percentage": "81.82",
+          "NoOfFeature": "33",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=administrativeregions"
+        },
+        {
+          "id": "national-address",
+          "name_Ar": "العنوان الوطني",
+          "name_En": "National Address",
+          "percentage": "12.50",
+          "NoOfFeature": "8",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=nationaladdress"
+        },
+        {
+          "id": "population-distribution-and-demography",
+          "name_Ar": "التوزيع السكاني والديموغرافيا",
+          "name_En": "Population Distribution And Demography",
+          "percentage": "77.78",
+          "NoOfFeature": "9",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=populationdistributionanddemography"
+        }
+      ]
+    },
+    {
+      "id": "urban-development",
+      "name": "Urban Development",
+      "percentage": "16.86",
+      "NoOfFeature": "134",
+      "SDAFeature": "115",
+      "image": "assets/GEO-Portal/data-catalogue/images/themes/urban-development.svg",
+      "line": "assets/GEO-Portal/data-catalogue/images/lines/urban-development.svg",
+      "mapImage": "assets/GEO-Portal/data-catalogue/images/maps/urban-development-Map.png",
+      "description_Ar": "يندرج تحت هذه الفئة مجموعات فرعية تضم معلومات حول بيانات استخدامات الأراضي، والأنشطة المبنية والطبيعية، والاستخدامات الحالية والمستقبلية للأراضي والموارد الطبيعية. كما تحتوي معلومات عن السمات الخاصة بقطع الأراضي والمباني، وأيضاً المفاهيم المتعلقة بنموذج المبنى ثلاثي الأبعاد",
+      "description_EN": "This group cover a wide range of subgroups in the context of urban development. It hold land use dataset which describes human activities in the built and natural environments and includes both existing and future uses of land and natural resources. The land parcel subgroup contains detailed geometry and other attribute information for land parcels and building Footprints. This group also consists of concepts related to 3D building model.",
+      "subThemes": [
+        {
+          "id": "3d-model",
+          "name_Ar": "النماذج ثلاثية الأبعاد",
+          "name_En": "3D Model",
+          "percentage": "100.00",
+          "NoOfFeature": "37",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=3dmodel"
+        },
+        {
+          "id": "land-parcels",
+          "name_Ar": "قطع الأرض",
+          "name_En": "Land Parcels",
+          "percentage": "75.00",
+          "NoOfFeature": "12",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=landparcels"
+        },
+        {
+          "id": "land-use",
+          "name_Ar": "إستخدامات الأراضي",
+          "name_En": "Land Use",
+          "percentage": "81.18",
+          "NoOfFeature": "85",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=landuse"
+        }
+      ]
+    },
+    {
+      "id": "sustainable-environment",
+      "name": "Sustainable Environment",
+      "percentage": "6.30",
+      "NoOfFeature": "172",
+      "SDAFeature": "43",
+      "image": "assets/GEO-Portal/data-catalogue/images/themes/sustainable-environment.svg",
+      "line": "assets/GEO-Portal/data-catalogue/images/lines/sustainable-environment.svg",
+      "mapImage": "assets/GEO-Portal/data-catalogue/images/maps/sustainable-environment-Map.png",
+      "description_Ar": "تغطي هذه المجموعة طبقات واسعة ومتنوعة تتعلق بالبيئة والغطاء النباتي، ومسارات الأودية، وغرها من المعلومات المتعلقة بالأنشطة الزلزالية، والغطاء المادي والبيولوجي لسطح الأرض، ومواقع الأسطح الصناعية والغابات والمناطق الزراعي والمسطحات المائية والأراضي الرطبة، وغيرها من المجموعات الفرعية. كما توضح المجموعة توزيع المرافق المتعلقة بالمراقبة البيئية، مثل محطات قياس جودة الهواء، الطقس، وغيرها من المرافق. إضافةً إلى مجموعات فرعية تتعلق بالأحوال الجوية، والمواقع المحمية، وغيرها من المعلومات",
+      "description_EN": "This group cover a wide range of subgroups in the context of environment. The geology subgroup contains the geographic layers related to the geological information of mountains, valleys, the distribution of rocks and minerals sites. Additionally, seismic activities and distinct types of earth layers. Land cover subgroup contains the physical and biological cover of the earth's surface including artificial surfaces, agricultural areas, forests, (semi-)natural areas, wetlands, and water bodies. The water subgroup contains the geographical layers of surface water as well as the movement, distribution, and management of water in the Kingdom of Saudi Arabia. This group also contains environmental monitoring facilities such as air quality, noise, weather, and waste disposal sites as well as layers related to rainy areas and agricultural climatic areas in the Kingdom of Saudi Arabia. Additionally, the group contains subgroup related to protected areas for animal, birds, and marine organisms.",
+      "subThemes": [
+        
+        {
+          "id": "environmental-monitoring-facilities",
+          "name_Ar": "مرافق التحكم البيئي",
+          "name_En": "Environmental Monitoring Facilities",
+          "percentage": "33.00",
+          "NoOfFeature": "18",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=environmentalmonitoringfacilities"
+        },
+        {
+          "id": "geology",
+          "name_Ar": "الجيولوجيا",
+          "name_En": "Geology",
+          "percentage": "20.00",
+          "NoOfFeature": "50",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=geology"
+        },
+        {
+          "id": "land-cover",
+          "name_Ar": "غطاء الأرض",
+          "name_En": "Land Cover",
+          "percentage": "100.00",
+          "NoOfFeature": "4",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=landcover"
+        },
+        {
+          "id": "protected-sites",
+          "name_Ar": "المواقع المحمية",
+          "name_En": "Protected Sites",
+          "percentage": "66.67",
+          "NoOfFeature": "3",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=protectedsites"
+        },
+        {
+          "id": "species-distribution",
+          "name_Ar": "مناطق التوزيع البيولوجي",
+          "name_En": "Species Distribution",
+          "percentage": "69.23",
+          "NoOfFeature": "13",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=speciesdistribution"
+        },
+        {
+          "id": "water",
+          "name_Ar": "المياه",
+          "name_En": "Water",
+          "percentage": "14.29",
+          "NoOfFeature": "84",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=water"
+        }
+      ]
+    },
+    {
+      "id": "economic",
+      "name": "Economic",
+      "percentage": "1.03",
+      "NoOfFeature": "18",
+      "SDAFeature": "7",
+      "image": "assets/GEO-Portal/data-catalogue/images/themes/economic.svg",
+      "line": "assets/GEO-Portal/data-catalogue/images/lines/economic.svg",
+      "mapImage": "assets/GEO-Portal/data-catalogue/images/maps/economic-Map.png",
+      "description_Ar": "يندرج تحت هذه الفئة الطبقات الجغرافية لمواقع الثروات الهيدروكروبنية الطبيعية، ومصادر الطاقة الأخرى الحالية والمستقبلية، كما تحتوي في المجموعات الفرعية المناطق الحمراء التي تخضع لأحكام ومتطلبات خاصة في التنمية",
+      "description_EN": "The group contains the geographic layers of the locations and boundaries of petroleum gas wells and any energy sources that may develop in the future for economic activities in the Kingdom of Saudi Arabia. The Red Zones subgroup contains layers representing locations that are subject to special provisions and requirements.",
+      "subThemes": [
+        {
+          "id": "energy-resources",
+          "name_Ar": "مصادر الطاقة",
+          "name_En": "Energy Resources",
+          "percentage": "62.50",
+          "NoOfFeature": "8",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=energyresources"
+        },
+        {
+          "id": "investment",
+          "name_Ar": "استثمار",
+          "name_En": "Investment",
+          "percentage": "20.00",
+          "NoOfFeature": "10",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=investment"
+        }
+      ]
+    },
+    {
+      "id": "culture-heritage-and-tourism",
+      "name": "Culture, Heritage and Tourism",
+      "percentage": "0.59",
+      "NoOfFeature": "5",
+      "SDAFeature": "4",
+      "image": "assets/GEO-Portal/data-catalogue/images/themes/culture-heritage-and-tourism.svg",
+      "line": "assets/GEO-Portal/data-catalogue/images/lines/culture-heritage-and-tourism.svg",
+      "mapImage": "assets/GEO-Portal/data-catalogue/images/maps/culture-heritage-and-tourism-Map.png",
+      "description_Ar": "في هذه المجموعة طبقات المواقع التاريخية والثقافية، ومواقع الجذب السياحي الحالية والمستقبلية، كما تضم بيانات تاريخية على الطبقات الجغرافية للسنوات السابقة للرجوع لها عند الحاجة، ولمقارنة الوضع السابق بالحالي. بالإضافة إلى ذلك تضم الطبقات التغيرات التي طرأت على المباني، والشكل السابق والحالي لها، إضافةً إلى بيانات الملاك",
+      "description_EN": "This group has locations of historical, cultural heritage and tourist’s sites in the Kingdom of Saudi Arabia. The group also hold historical dataset which contains the geographical layers of previous years in order to retrieve them when needed, such as the layer of buildings that includes the names of the previous owners or the previous shape of the buildings before any change in the building.",
+      "subThemes": [
+        {
+          "id": "history",
+          "name_Ar": "التراث",
+          "name_En": "History",
+          "percentage": "80.00",
+          "NoOfFeature": "5",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=history"
+        }
+      ]
+    },
+    {
+      "id": "logistic-and-mobility",
+      "name": "Logistic and Mobility",
+      "percentage": "7.04",
+      "NoOfFeature": "130",
+      "SDAFeature": "48",
+      "image": "assets/GEO-Portal/data-catalogue/images/themes/logistic-and-mobility.svg",
+      "line": "assets/GEO-Portal/data-catalogue/images/lines/logistic-and-mobility.svg",
+      "mapImage": "assets/GEO-Portal/data-catalogue/images/maps/logistic-and-mobility-Map.png",
+      "description_Ar": "تضم هذه المجموعة معلومات منظومة النقل، والتي تضم مجموعات فرعية رئيسة هي: شبكة الطرق، النقل البري والسككي، النقل الجوي، النقل البحري، والبنية التحتية المرتبطة بهذا القطاع. كما تتضمن إشارات المرور، وتنظيم الحركة على الطرق والقيود، وإنارات الشوارع، وغيرها من الخدمات المتعلقة بشبكة الطرق",
+      "description_EN": "This group consists of concepts related to transportation network and all associated transportation concepts. The transport subgroup is a suite of road, rail, air and maritime transportation networks and related infrastructure, including connections between different networks. This group also holds data along roadside including streetlights, traffic signals, restrictions and road signs.",
+      "subThemes": [
+        {
+          "id": "transport",
+          "name_Ar": "المواصلات",
+          "name_En": "Transport",
+          "percentage": "35.00",
+          "NoOfFeature": "125",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=transport"
+        },
+        {
+          "id": "logistic",
+          "name_Ar": "الخدمات اللوجستية",
+          "name_En": "Logistic",
+          "percentage": "80.00",
+          "NoOfFeature": "5",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=logistic%20services"
+        }
+      ]
+    },
+    {
+      "id": "social-services",
+      "name": "Social Services",
+      "percentage": "2.79",
+      "NoOfFeature": "20",
+      "SDAFeature": "19",
+      "image": "assets/GEO-Portal/data-catalogue/images/themes/social-services.svg",
+      "line": "assets/GEO-Portal/data-catalogue/images/lines/social-services.svg",
+      "mapImage": "assets/GEO-Portal/data-catalogue/images/maps/social-services-Map.png",
+      "description_Ar": "توضح هذه المجموعة الخدمات الإدارية والاجتماعية، مثل مباني وأراضي منظومة القطاع الصحي، والقطاع التعليمي، والهيئات الإدارية الأخرى. كما تضم المواقع الحالية والمستقبلية مواقع رئيسة (مثل: المرافق الدينية والمساجد، المرافق والأراضي الترفيهية، المرافق والأراضي الرياضية والسياحية..الخ)",
+      "description_EN": "This group is containing data related to administrative and social governmental services such as public administrations, schools and hospitals provided by public administrative bodies. This group also contains a Point of Interest (POI) which is a specific point location, or useful site such as commercial, cultural, educational, governmental, health, municipal, recreational, religious, sports and tourism.",
+      "subThemes": [
+        {
+          "id": "social-services",
+          "name_Ar": "الخدمات الإجتماعية",
+          "name_En": "Social Services",
+          "percentage": "95.00",
+          "NoOfFeature": "20",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=social%20services"
+        }
+      ]
+    },
+    {
+      "id": "safety-and-security",
+      "name": "Safety and Security",
+      "percentage": "0.44",
+      "NoOfFeature": "14",
+      "SDAFeature": "3",
+      "image": "assets/GEO-Portal/data-catalogue/images/themes/safety-and-security.svg",
+      "line": "assets/GEO-Portal/data-catalogue/images/lines/safety-and-security.svg",
+      "mapImage": "assets/GEO-Portal/data-catalogue/images/maps/safety-and-security-Map.png",
+      "description_Ar": "تتكون هذه المجموعة من الطبقات المتعلقة بالصحة والسلامة العامة، والتقسيم الطبقي الجغرافي للمواقع التي تتأثر بالحالات الجوية والكوارث. إضافةً على المواقع التي تتعلق بالسلامة العامة، والمناطق المستخدمة للأغراض العسكرية والدفاعية",
+      "description_EN": "This group consists of further two subgroups public health and, safety and security. The Public Health subgroup contains the geographical stratification of radioactive contamination areas affected by storms, floods and hazardous areas while the safety and security subgroup contain data related to public security, military areas, and safety.",
+      "subThemes": [
+        {
+          "id": "human-health-and-safety",
+          "name_Ar": "صحة الإنسان وسلامته",
+          "name_En": "Human Health And Safety",
+          "percentage": "21.00",
+          "NoOfFeature": "14",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=humanhealthandsafety"
+        }
+      ]
+    },
+    {
+      "id": "initiatives-and-projects",
+      "name": "Initiatives and Projects",
+      "percentage": "0.15",
+      "NoOfFeature": "2",
+      "SDAFeature": "1",
+      "image": "assets/GEO-Portal/data-catalogue/images/themes/initiatives-and-projects.svg",
+      "line": "assets/GEO-Portal/data-catalogue/images/lines/initiatives-and-projects.svg",
+      "mapImage": "assets/GEO-Portal/data-catalogue/images/maps/initiatives-and-projects-Map.png",
+      "description_Ar": "في هذه المجموعة يمكنك استعراض الطبقات الجغرافية لمختلف المبادرات والمشاريع في المملكة، التي تُنفذ بواسطة الهيئة أو الجهات الأخرى، كما تضم الأصول والممتلكات الخاصة بالبلديات، ومواقع الاستثمار، وتصاريح البناء والرخص التجارية. كما تضم جوانب الطبقات التي تم إنشاؤها بواسطة أعمال الاستطلاع",
+      "description_EN": "The group contains geographic layers (boundaries, location and associated paths) of various initiatives and projects in the Kingdom of Saudi Arabia initiated by various authorities. This group also contains the assets and properties belongs to municipalities. Geographic layers related to excavation of sites, investment locations and their boundaries, construction permits and commercial licenses, complaints locations and encroachment contains in this group. The Survey subgroup contains the geographic layers of the boundaries, locations, and sides of the layers generated by survey works.",
+      "subThemes": [
+        {
+          "id": "project",
+          "name_Ar": "مشروع",
+          "name_En": "Project",
+          "percentage": "100.00",
+          "NoOfFeature": "1",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=project"
+        },
+        {
+          "id": "initiatives",
+          "name_Ar": "المبادرات",
+          "name_En": "Initiatives",
+          "percentage": "00.00",
+          "NoOfFeature": "1",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=initiatives"
+        }
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "percentage": "10.70",
+      "NoOfFeature": "107",
+      "SDAFeature": "73",
+      "image": "assets/GEO-Portal/data-catalogue/images/themes/infrastructure.svg",
+      "line": "assets/GEO-Portal/data-catalogue/images/lines/infrastructure.svg",
+      "mapImage": "assets/GEO-Portal/data-catalogue/images/maps/infrastructure-Map.png",
+      "description_Ar": "تضم هذه المجموعة شبكات مرافق الإنتاج والتوزيع للطاقة، والمواد الكيميائية، وشبكات المياه والصرف الصحي، وشبكات تصريف مياه الأمطار، وإدارة الخدمات في المدينة (مثل: إدارة النفايات، شبكة الاتصالات..الخ)",
+      "description_EN": "This group contains utility networks for collection, transmission and distribution, including electricity, oil/gas and chemicals, sewer, irrigation, water, storm water, waste management and telecommunication.",
+      "subThemes": [
+        {
+          "id": "utility",
+          "name_Ar": "المرافق",
+          "name_En": "Utility",
+          "percentage": "67.31",
+          "NoOfFeature": "104",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=utility"
+        },
+        {
+          "id": "infrastructure-permits",
+          "name_Ar": "تصاريح البنية التحتية",
+          "name_En": "Infrastructure Permits",
+          "percentage": "100.00",
+          "NoOfFeature": "3",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=infrastructurepermits"
+        }
+      ]
+    },
+    {
+      "id": "elevation",
+      "name": "Elevation",
+      "percentage": "2.35",
+      "NoOfFeature": "30",
+      "SDAFeature": "16",
+      "image": "assets/GEO-Portal/data-catalogue/images/themes/elevation.svg",
+      "line": "assets/GEO-Portal/data-catalogue/images/lines/elevation.svg",
+      "mapImage": "assets/GEO-Portal/data-catalogue/images/maps/elevation-Map.png",
+      "description_Ar": "تقيس هذه المجموعة وتصف سطح الأرض على الأرض وتحت جسم مائي، بالنسبة إلى مسند عمودي وأفقي.  يمكن التعبير عن بياناتها بشكل شائع، مثل نموذج التضاريس الرقمية (DTM) 'للأرض المجردة' أو لقاع البحر أو نموذج سطح رقمي (DSM)، لتشمل شكل الأشياء الطبيعية والأجسام من صنع الإنسان.  تحتوي هذه المجموعة على نظام الإسناد المكاني الوطني السعودي (SANSRS) وهو نظام وطني وموحد يسمح للمستخدمين بتحديد المواقع بدقة والتعبير عنها على الأرض، وكذلك تحديد التغيرات في الأرض ومجال الجاذبية في المكان والزمان",
+      "description_EN": "This group measures and describes the surface of the Earth both on land and under a body of water, relative to a vertical and a horizontal datum. Its data may commonly be expressed as a Digital Terrain Model (DTM) of the ‘bare earth’ or seabed or as a Digital Surface Model (DSM), to include the shape of natural and man-made objects. This group contains Saudi Arabian national spatial reference system (SANSRS) is a national and unified system which allows users to precisely determine and express locations on the Earth, as well as to quantify changes of the Earth and its gravity field in space and time.",
+      "subThemes": [
+        {
+          "id": "elevation",
+          "name_Ar": "الإرتفاعات",
+          "name_En": "Elevation",
+          "percentage": "50.00",
+          "NoOfFeature": "28",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=elevation%20level"
+        },
+
+        {
+          "id": "saudi-arabian-national-spatial-reference-system",
+          "name_Ar": "نظام الإسناد المكاني الوطني السعودي",
+          "name_En": "Saudi Arabian National Spatial Reference System",
+          "percentage": "100.00",
+          "NoOfFeature": "2",
+          "url": "https://gis.sda.gov.sa/portal/apps/sites/#/home/search?categories=saudiarabiannationalspatialreferencesystem"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "partners": [
+    {
+      "logo": "assets/SRD/partners/images/ME.png",
+      "name_Ar": "وزارة الطاقة",
+      "name_En": "Ministry of Energy"
+    },
+    {
+      "logo": "assets/SRD/partners/images/MOMRA.svg",
+      "name_Ar": "وزارة الشؤون البلدية والقروية والإسكان",
+      "name_En": "Ministry of Municipal and Rural Affairs and Housing"
+    },
+    {
+      "logo": "assets/SRD/partners/images/RCJ.png",
+      "name_Ar": "الهيئة الملكية للجبيل وينبع",
+      "name_En": "Royal Commission for Jubail and Yanbu"
+    },
+    {
+      "logo": "assets/SRD/partners/images/transportation.png",
+      "name_Ar": "وزارة النقل والخدمات اللوجيستية",
+      "name_En": "Ministry of Transport and Logistic Services"
+    },
+    {
+      "logo": "assets/SRD/partners/images/MEWA.png",
+      "name_Ar": "وزارة البيئة والمياه والزراعة",
+      "name_En": "Ministry of Environment, Water, and Agriculture"
+    },
+    {
+      "logo": "assets/SRD/partners/images/MOI.png",
+      "name_Ar": "وزارة الداخلية",
+      "name_En": "Ministry of Interior"
+    },
+    {
+      "logo": "assets/SRD/partners/images/HRSD.svg",
+      "name_Ar": "وزارة الموارد البشرية والتنمية الاجتماعية",
+      "name_En": "Ministry of Human Resources and Social Development"
+    },
+    {
+      "logo": "assets/SRD/partners/images/MOC.png",
+      "name_Ar": "وزارة التجارة",
+      "name_En": "Ministry of Commerce"
+    },
+    {
+      "logo": "assets/SRD/partners/images/MOH.png",
+      "name_Ar": "وزارة الصحة",
+      "name_En": "Ministry of Health"
+    },
+    {
+      "logo": "assets/SRD/partners/images/MOE.png",
+      "name_Ar": "وزارة التعليم",
+      "name_En": "Ministry of Education"
+    },
+    {
+      "logo": "assets/SRD/partners/images/MOJ.png",
+      "name_Ar": "وزارة العدل",
+      "name_En": "Ministry of Justice"
+    },
+    {
+      "logo": "assets/SRD/partners/images/GEOSA.png",
+      "name_Ar": "الهيئة العامة للمساحة والمعلومات الجيومكانية",
+      "name_En": "General Authority for Geospatial Information"
+    },
+    {
+      "logo": "assets/SRD/partners/images/GAS.png",
+      "name_Ar": "الهيئة العامة للإحصاء",
+      "name_En": "General Authority for Statistics"
+    },
+    {
+      "logo": "assets/SRD/partners/images/SPGA.svg",
+      "name_Ar": "الهيئة العامة لعقارات الدولة",
+      "name_En": "Saudi Public Real Estate Authority"
+    },
+    {
+      "logo": "assets/SRD/partners/images/CST.png",
+      "name_Ar": "هيئة الاتصالات والفضاء والتقنية",
+      "name_En": "Communications and Space Technology Authority"
+    },
+    {
+      "logo": "assets/SRD/partners/images/Sharqia.png",
+      "name_Ar": "أمانة المنطقة الشرقية",
+      "name_En": "Eastern Province Municipality"
+    },
+    {
+      "logo": "assets/SRD/partners/images/HAFR_Al_Batin.jpg",
+      "name_Ar": "أمانة حفر الباطن",
+      "name_En": "Hafar Al-Batin Municipality"
+    },
+ 
+    {
+      "logo": "assets/SRD/partners/images/NCW.png",
+      "name_Ar": "المركز الوطني لتنمية الحياة الفطرية",
+      "name_En": "National Center for Wildlife Development"
+    },
+    {
+      "logo": "assets/SRD/partners/images/Water.png",
+      "name_Ar": "الشبكة الوطنية للمياه",
+      "name_En": "National Water Network"
+    }
+  ]
+}

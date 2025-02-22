@@ -1,0 +1,17 @@
+{
+  "header": "Products",
+  "mainClassification": "Main Classification",
+  "ownership": "Ownership",
+  "subClassification": "Sub Classification",
+  "description": "Description",
+  "target": "Target",
+  "more": "More...",
+  "name": "Product Name",
+  "beneficiaryCategory": "Beneficiary Category",
+  "url": "Product Usage Link",
+  "productCard": "Product Information Card",
+  "standards": "Adopted Standards",
+  "technologies": "Utilized Technologies",
+  "examples": "Examples",
+  "noExamples": "No examples available"
+}

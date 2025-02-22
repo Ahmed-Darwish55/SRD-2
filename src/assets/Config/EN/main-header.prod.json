@@ -1,0 +1,72 @@
+{
+  "showHeader": true,
+  "logos": {
+    "SDA_Logo": "assets/Shared/main/images/SDA-Logo-EN.png",
+    "vision_Logo": "assets/Shared/main/images/visionLogo.png",
+    "mainLogo_href": "#slider",
+    "id": "slider"
+  },
+  "navigationItems": [
+
+    {
+      "id": "about",
+      "title": "SRD",
+      "href": "#about",
+      "isSelected": false
+    },
+    {
+      "id": "geoSpatial-about",
+      "title": "About Region",
+      "href": "GEO-Portal/#geoSpatial-about",
+      "isSelected": false
+    },
+    {
+      "id": "productsCatalogue",
+      "title": "Products",
+      "href": "#productsCatalogue",
+      "isSelected": false
+    },
+    {
+      "id": "servicesCatalogue",
+      "title": "Services",
+      "href": "#servicesCatalogue",
+      "isSelected": false
+    },
+    {
+      "id": "dataCatalogue",
+      "title": "Urban Data",
+      "href": "GEO-Portal/#dataCatalogue",
+      "isSelected": false
+    },
+    {
+      "id": "sectors",
+      "title": "Urban Observatory",
+      "href": "Statistical-Portal/#sectors",
+      "isSelected":false
+    },
+    {
+      "id": "applicationCatalogue",
+      "title": "GeoSpatial Apps",
+      "href": "GEO-Portal/#applicationCatalogue",
+      "isSelected": false
+    },
+    {
+      "id": "studiesAndDocuments",
+      "title": "Documents",
+      "href": "GEO-Portal/#studiesAndDocuments",
+      "isSelected": false
+    },
+    {
+      "id": "partners",
+      "title": "Partners",
+      "href": "#partners",
+      "isSelected": false
+    },
+    {
+      "id": "contactUs",
+      "title": "Contact Us",
+      "href": "#contactUs",
+      "isSelected": false
+    }
+  ]
+}

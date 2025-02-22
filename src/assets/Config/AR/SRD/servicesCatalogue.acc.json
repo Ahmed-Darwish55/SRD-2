@@ -1,0 +1,23 @@
+{
+  "header": "الخدمات",
+  "classification": "التصنيف",
+  "ownership": "الإدارة",
+  "targetCategories": "الفئات المستهدفة",
+  "serviceCharge": "رسوم الخدمة",
+  "more": "لمعرفة المزيد",
+  "name": "إسم الخدمة",
+  "url": "نموذج طلب الخدمة",
+  "survey123": "(Survey 123)",
+  "serviceCard": "بطاقة معلومات الخدمة",
+  "serviceConstraints": "قيود الخدمة",
+  "avgCompletionPeriod": "متوسط مدة إنجاز الخدمة",
+  "outcomes": "المخرجات",
+  "contactInfo": "معلومات الإتصال",
+  "serviceWorkflow": "تدفق سير الخدمة",
+  "workflowURL": "عرض على منصة",
+  "CAMUNDA": "CAMUNDA",
+  "performanceIndicator":"مؤشر الأداء",
+  "goal": "المستهدف",
+  "measurementCycle": "دورة القياس",
+  "measurementResponsibility": "مسؤولية القياس"
+}

@@ -1,0 +1,131 @@
+.card {
+    width: 96%;
+    margin: 10px 2%;
+    min-height: 300px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.top-part {
+    position: absolute;
+    bottom: 20px;
+    transition: all ease 0.3s;
+    border-radius: 14px;
+    width: calc(100% - 100px);
+    height: 40px;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card a {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    opacity: 1;
+    transition: all ease .3s;
+    border: 1px solid #0c273c;
+    background-color: #dcc69d;
+    box-shadow: 0 0 50px 0px #000;
+    border-radius: 14px;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1, 1);
+    transition: all ease .3s;
+}
+
+.card a:hover {
+    color: #000;
+    transform: scale(1.1, 1.1);
+    transition: all ease .3s;
+}
+
+.bottom-part {
+    padding: 1rem;
+    color: #0c273c;
+}
+
+.mt {
+    margin-top: 5%;
+}
+
+.last {
+    border-radius: 14px;
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn-alpha {
+    padding: 10px 16px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #0c273c;
+    border: 1px solid #dcc69d;
+    transform: scale(1, 1);
+    transition: all ease .3s;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: block;
+}
+
+.btn-alpha:hover {
+    transform: scale(1.01, 1.01);
+    padding: 10px 16px;
+    background-color: #0c273c;
+    color: #dcc69d;
+    border: 1px solid #dcc69d;
+    transition: all ease .3s;
+    margin-top: 1rem;
+}
+
+.open {
+    display: none;
+    opacity: 0;
+    height: 0;
+    transition: all ease 1s;
+}
+
+.open p {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.app:hover .open {
+    display: block;
+    height: fit-content;
+    transition: all ease 1s;
+    opacity: 1;
+}
+
+.app {
+    width: 90%;
+    margin: 30px 5%;
+    transition: all ease 1s;
+    transform: scale(1, 1);
+    overflow: hidden;
+    height: 420px;
+    padding: 10px;
+}
+
+.app:hover {
+    border: 1px dashed #dcc69d;
+    border-radius: 14px;
+    transition: all ease 1s;
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 0 20px 0px rgba(79, 79, 79, 0.581);
+}
+
+.front-color {
+    color: #dcc69d;
+    font-weight: bold;
+}

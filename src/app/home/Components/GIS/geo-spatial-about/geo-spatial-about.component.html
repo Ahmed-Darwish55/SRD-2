@@ -1,0 +1,317 @@
+<div class>
+  <ul class="ul-mobile ul-res">
+      <li>
+          <a (click)="showGeographySection()">{{
+      configParam.geoSpatial.about.geography.title
+    }}</a>
+      </li>
+      <li>
+          <a (click)="showAccessibilitySection()">{{
+      configParam.geoSpatial.about.accessibility.title
+    }}</a>
+      </li>
+      <li>
+          <a (click)="showSupervisoryScopeSection()">{{
+      configParam.geoSpatial.about.supervisoryScope.title
+    }}</a>
+      </li>
+  </ul>
+  <div class="rounded-map">
+      <div class="all-container">
+          <div class="geography-section" *ngIf="!isGeographySectionHidden">
+            <video *ngIf="lnnguage=='ar'" class="video" id="geography-video" orgWidth="1536" orgHeight="745" usemap="#geography-video" xmlns="http://www.w3.org/1999/xhtml" [loop]="true" playsinline="true " [autoplay]="true" [muted]="true">
+              <source
+              src="assets/GEO-Portal/about/videos/geography.mp4"
+                type="video/mp4"            
+              />
+            </video>
+           <video *ngIf="lnnguage!='ar'"class="video" id="geography-video" orgWidth="1536" orgHeight="745" usemap="#geography-video" xmlns="http://www.w3.org/1999/xhtml" [loop]="true" playsinline="true " [autoplay]="true" [muted]="true">
+              <source
+              src="assets/GEO-Portal/about/videos/geography-en.mp4"
+
+                type="video/mp4"
+              />
+            </video>
+
+
+              <div class="geography-section" style="position: absolute">
+                  <img *ngFor="
+            let gov of configParam.geoSpatial.about.geography.Governorate
+              | keyvalue
+          " [src]="getGovernorateImageObject(gov.key)['imageURL']" alt [ngStyle]="{
+            visibility: getGovernorateImageObject(gov.key)['hidden']
+              ? 'hidden'
+              : 'unset'
+          }" />
+              </div>
+              <svg class="video curser" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1536 745" width="1536" height="745">
+        <a
+          (mouseenter)="displayGovernorateImage('Qatif')"
+          (mouseleave)="hideGovernorateImage('Qatif')"
+        >
+          <rect
+            x="870"
+            y="22"
+            fill="#fff"
+            opacity="0"
+            width="50"
+            height="50"
+          ></rect>
+        </a>
+        <a
+          (mouseenter)="displayGovernorateImage('RasTanura')"
+          (mouseleave)="hideGovernorateImage('RasTanura')"
+        >
+          <rect
+            x="1139"
+            y="14"
+            fill="#fff"
+            opacity="0"
+            width="52"
+            height="50"
+          ></rect>
+        </a>
+        <a
+          (mouseenter)="displayGovernorateImage('Bayda')"
+          (mouseleave)="hideGovernorateImage('Bayda')"
+        >
+          <rect
+            x="964"
+            y="91"
+            fill="#fff"
+            opacity="0"
+            width="50"
+            height="50"
+          ></rect>
+        </a>
+        <a
+          (mouseenter)="displayGovernorateImage('Dammam')"
+          (mouseleave)="hideGovernorateImage('Dammam')"
+        >
+          <rect
+            x="1165"
+            y="167"
+            fill="#fff"
+            opacity="0"
+            width="50"
+            height="50"
+          ></rect>
+        </a>
+        <a
+          (mouseenter)="displayGovernorateImage('Khobar')"
+          (mouseleave)="hideGovernorateImage('Khobar')"
+        >
+          <rect
+            x="1101"
+            y="249"
+            fill="#fff"
+            opacity="0"
+            width="50"
+            height="50"
+          ></rect>
+        </a>
+        <a
+          (mouseenter)="displayGovernorateImage('HafarAlBatin')"
+          (mouseleave)="hideGovernorateImage('HafarAlBatin')"
+        >
+          <rect
+            x="733"
+            y="185"
+            fill="#fff"
+            opacity="0"
+            width="60"
+            height="50"
+          ></rect>
+        </a>
+        <a
+          (mouseenter)="displayGovernorateImage('Khafji')"
+          (mouseleave)="hideGovernorateImage('Khafji')"
+        >
+          <rect
+            x="832"
+            y="175"
+            fill="#fff"
+            opacity="0"
+            width="50"
+            height="50"
+          ></rect>
+        </a>
+        <a
+          (mouseenter)="displayGovernorateImage('QaryatAlUlya')"
+          (mouseleave)="hideGovernorateImage('QaryatAlUlya')"
+        >
+          <rect
+            x="774"
+            y="240"
+            fill="#fff"
+            opacity="0"
+            width="50"
+            height="50"
+          ></rect>
+        </a>
+        <a
+          (mouseenter)="displayGovernorateImage('Nairyah')"
+          (mouseleave)="hideGovernorateImage('Nairyah')"
+        >
+          <rect
+            x="826"
+            y="262"
+            fill="#fff"
+            opacity="0"
+            width="50"
+            height="50"
+          ></rect>
+        </a>
+        <a
+          (mouseenter)="displayGovernorateImage('Jubail')"
+          (mouseleave)="hideGovernorateImage('Jubail')"
+        >
+          <rect
+            x="880"
+            y="234"
+            fill="#fff"
+            opacity="0"
+            width="50"
+            height="50"
+          ></rect>
+        </a>
+        <a
+          (mouseenter)="displayGovernorateImage('Buqayq')"
+          (mouseleave)="hideGovernorateImage('Buqayq')"
+        >
+          <rect
+            x="880"
+            y="294"
+            fill="#fff"
+            opacity="0"
+            width="50"
+            height="50"
+          ></rect>
+        </a>
+        <a
+          (mouseenter)="displayGovernorateImage('Ahsa')"
+          (mouseleave)="hideGovernorateImage('Ahsa')"
+        >
+          <rect
+            x="840"
+            y="436"
+            fill="#fff"
+            opacity="0"
+            width="123"
+            height="161"
+          ></rect>
+        </a>
+        <a
+          (mouseenter)="displayGovernorateImage('Alodaid')"
+          (mouseleave)="hideGovernorateImage('Alodaid')"
+        >
+          <rect
+            x="994"
+            y="440"
+            fill="#fff"
+            opacity="0"
+            width="100"
+            height="73"
+          ></rect>
+        </a>
+      </svg>
+          </div>
+          <!-- --------------------accessability section-------------------- -->
+          <div class="accessibility-section" *ngIf="!isAccessibilitySectionHidden">
+              <!-- <video class="video" xmlns="http://www.w3.org/1999/xhtml" [loop]="true" playsinline="true " [autoplay]="true" [muted]="true">
+        <source
+          [src]="configParam.geoSpatial.about.accessibility.videoURL"
+          type="video/mp4"
+        />
+      </video> -->
+      <app-accessability-svg></app-accessability-svg>
+          </div>
+          <!-- --------------------accessability section-------------------- -->
+          <div class="supervisoryScope-section" *ngIf="!isSupervisoryScopeSectionHidden">
+            <video *ngIf="lnnguage=='ar'" class="video" id="geography-video" orgWidth="1536" orgHeight="745" usemap="#geography-video" xmlns="http://www.w3.org/1999/xhtml" [loop]="true" playsinline="true " [autoplay]="true" [muted]="true">
+              <source
+              src="assets/GEO-Portal/about/videos/supervisoryScope.mp4"
+                type="video/mp4"            
+              />
+            </video>
+           <video *ngIf="lnnguage!='ar'"class="video" id="geography-video" orgWidth="1536" orgHeight="745" usemap="#geography-video" xmlns="http://www.w3.org/1999/xhtml" [loop]="true" playsinline="true " [autoplay]="true" [muted]="true">
+              <source
+              src="assets/GEO-Portal/about/videos/supervisoryScope-en.mp4"
+
+                type="video/mp4"
+              />
+            </video>
+          </div>
+      </div>
+  </div>
+  <div class="gsp-bg transition" id="sharqia-GOV-Images">
+      <div class="container sda-container big-bg">
+          <div class="row">
+              <div class="col-md-4 mtvh relative-ontop relative-ontop-lg hide-on-mobile">
+                  <ul class="ul">
+                      <li [ngClass]="{ active: !isGeographySectionHidden }">
+                          <a (click)="showGeographySection()">{{
+              configParam.geoSpatial.about.geography.title
+            }}</a>
+                          <div class="brdr"></div>
+                      </li>
+                      <li [ngClass]="{ active: !isAccessibilitySectionHidden }">
+                          <a (click)="showAccessibilitySection()">{{
+              configParam.geoSpatial.about.accessibility.title
+            }}</a>
+                          <div class="brdr"></div>
+                      </li>
+                      <li [ngClass]="{ active: !isSupervisoryScopeSectionHidden }">
+                          <a (click)="showSupervisoryScopeSection()">{{
+              configParam.geoSpatial.about.supervisoryScope.title
+            }}</a>
+                          <div class="brdr"></div>
+                      </li>
+                  </ul>
+              </div>
+              <!-- three main sections -->
+              <div class="col-md-4 hide-on-mobile" *ngIf="!isGeographySectionHidden">
+                  <!-- unused -->
+              </div>
+              <div class="col-md-4 hide-on-mobile" *ngIf="!isAccessibilitySectionHidden">
+                  <!-- <h1 class="mtvh text-center">map2</h1> -->
+              </div>
+              <div class="col-md-4 hide-on-mobile" *ngIf="!isAccessibilitySectionHidden">
+                  <!-- <h1 class="mtvh text-center">map3</h1> -->
+              </div>
+              <div class="col-md-4 text-end relative-ontop relative-ontop-sm mt-all" *ngIf="!isGeographySectionHidden && !isGovernorateHovered">
+                  <h1 class="relative line-after alignLeft">
+                      {{ configParam.geoSpatial.about.geography.title }}
+                  </h1>
+                  <p class="mt-4 alignLeft fix-font">
+                      {{ configParam.geoSpatial.about.geography.description }}
+                  </p>
+              </div>
+              <div class="col-md-4 text-end relative-ontop relative-ontop-sm mt-all" *ngIf="!isAccessibilitySectionHidden">
+                  <!-- section2 -->
+                  <!-- no data الوصولية-->
+                  <!-- section2 -->
+              </div>
+              <div class="col-md-4"></div>
+              <div class="col-md-4 text-end relative-ontop relative-ontop-sm mt-all rowReverse" *ngIf="!isSupervisoryScopeSectionHidden">
+                  <!-- section3 -->
+                  <h1 class="relative line-after alignLeft">
+                      {{ configParam.geoSpatial.about.supervisoryScope.title }}
+                  </h1>
+                  <p class="mt-4 alignLeft fix-font">
+                      {{ configParam.geoSpatial.about.supervisoryScope.description }}
+                  </p>
+                  <!-- section3 -->
+              </div>
+              <!--  end three main sections -->
+          </div>
+      </div>
+      <!-- add class intro and remove -->
+  </div>
+  <div class="cover-video">
+    
+  </div>
+  <video id="video" class="vid" [loop]="true" playsinline="true" [autoplay]="true" [muted]="true">
+  <source [src]="configParam.geoSpatial.about.videoURL" type="video/mp4" />
+</video>
+</div>

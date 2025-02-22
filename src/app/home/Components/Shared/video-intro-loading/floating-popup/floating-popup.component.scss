@@ -1,0 +1,36 @@
+.container {
+  // position: absolute;
+  bottom: 0;
+  z-index: 9;
+  text-align: center;
+  width: 100% !important;
+  background-color: rgba(36, 62, 82, 0.5);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  // left: 50% ;
+  // transform: translateX(-50%);
+  align-items: center;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+  flex-direction: column !important;
+  height: 100%;
+}
+
+.title {
+  font-size: 16px;
+  text-align: center;
+  padding: 3vh 3vw;
+  // transform: translate(0%, 1vh);
+  opacity: 1;
+  color: #c6c6c6;
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 12px;
+    line-height: unset;
+  }
+  .container {
+    padding: 0;
+  }
+}

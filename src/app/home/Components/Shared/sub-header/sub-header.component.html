@@ -1,0 +1,36 @@
+<div class="sub-header-row site-map">
+  <a [href] (click)="onBackPressed()">
+    <div class="back-icon">
+      <i
+        *ngIf="configParam?.isCurrentLanguageArabic"
+        class="fa fa-arrow-right"
+        style="color: #dcc69d"
+      ></i>
+      <i
+        *ngIf="!configParam?.isCurrentLanguageArabic"
+        class="fa fa-arrow-left"
+        style="color: #dcc69d"
+      ></i>
+    </div>
+    <!-- {{this.titleOfProductAndService
+    }} -->
+    {{
+      configParam?.productAndService?.subHeaderConfig?.isProduct
+        ? config?.fromProduct[configService.getCurrentLanguage()]
+        : config?.fromService[configService.getCurrentLanguage()]
+    }}
+    </a
+  >
+  <span class="separator"> | </span>
+  <span>{{
+    configParam?.productAndService?.subHeaderConfig?.ownership[
+      configService.getCurrentLanguage()
+    ]
+  }}</span>
+</div>
+<div class="sub-header-row title">
+  <span id="title-name">{{
+    data?.title[configService.getCurrentLanguage()]
+  }}</span>
+  <span id="title-id">{{ data?.id }}</span>
+</div>

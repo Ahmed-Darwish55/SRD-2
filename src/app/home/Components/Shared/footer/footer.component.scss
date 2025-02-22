@@ -1,0 +1,140 @@
+.footer {
+    position: relative;
+    display: flex;
+    direction: rtl;
+    color: #fff;
+    .wave {
+        position: absolute;
+        top: -100px;
+        width: 100%;
+        height: 100px;
+        left: 0;
+        background: url('../../../../../assets/Shared/footer/images/wave41.png');
+        background-size: 2000px 105px;
+    }
+    @keyframes movewave {
+        0% {
+            background-position-x: 2000px;
+        }
+        100% {
+            background-position-x: 0px;
+        }
+    }
+    @keyframes movewave_2 {
+        0% {
+            background-position-x: 0px;
+        }
+        100% {
+            background-position-x: 2000px;
+        }
+    }
+    .wave#wave1 {
+        z-index: 1000;
+        opacity: 1;
+        bottom: 0;
+        animation: movewave 28s linear infinite;
+    }
+    .wave#wave2 {
+        z-index: 999;
+        opacity: 0.5;
+        bottom: 10px;
+        animation: movewave_2 27s linear infinite;
+    }
+    .wave#wave3 {
+        z-index: 1000;
+        opacity: 0.2;
+        bottom: 15px;
+        animation: movewave 29s linear infinite;
+    }
+    .wave#wave4 {
+        z-index: 999;
+        opacity: 0.5;
+        bottom: 20px;
+        animation: movewave_2 24s linear infinite;
+    }
+    .logo,
+    .services
+     {
+        width: 100%;
+        height: 45vh;
+    }
+    .contactUs {
+        height: 45vh;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        //margin-top: 20px;
+        .icons {
+            width: 80%;
+            margin-top: 25px;
+            // margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            .svg {
+                width: 30px;
+                height: 30px;
+                cursor: pointer;
+                transition: 0.5s;
+                &:hover {
+                    transform: translateY(-5px) scale(1.1);
+                }
+            }
+        }
+    }
+    a {
+        text-decoration: 0;
+        color: #fff;
+        transition: 0.5s;
+        &:hover {
+            transform: scale(1.1, 1.1);
+            color: #dcc69d;
+        }
+    }
+    .services,
+    .contactUs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        z-index: 10;
+        h2 {
+            position: relative;
+            width: fit-content;
+            padding-inline-end: 50px;
+        }
+        h2::after {
+            content: "";
+            width: 50px;
+            height: 2px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background-color: #fff;
+        }
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            grid: 20px;
+            li {
+                margin-top: 15px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.linkedin:hover .svg {
+    fill: #0072b1;
+}
+
+.twitter:hover .svg {
+    fill: #00acee;
+}

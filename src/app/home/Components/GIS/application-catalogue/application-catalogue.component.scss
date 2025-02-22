@@ -1,0 +1,238 @@
+.saudia-bg {
+    background: white;
+    background-image: url('../../../../../assets/Shared/main/images/contour.jpg');
+    background-repeat: repeat;
+    width: 100vw;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    box-sizing: border-box;
+    border-top: 6px solid #dcc69d;
+    overflow: hidden;
+}
+
+.btn-alpha {
+    padding: 10px 16px;
+    border-radius: 4px;
+    background-color: #004c97;
+    color: #fff;
+    border: 1px solid transparent;
+    transform: scale(1, 1);
+    transition: all ease .3s;
+}
+
+.btn-alpha:hover {
+    transform: scale(1.1, 1.1);
+    padding: 10px 16px;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #004c97;
+    border: 1px solid #004c97;
+    transition: all ease .3s;
+}
+
+.gold {
+    color: #dcc69d;
+}
+
+.main-color {
+    color: #004c97;
+    position: relative;
+    z-index: 10;
+}
+
+.mt-h {
+    margin-top: 60px;
+}
+
+.banner {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    z-index: 0;
+    top: 0;
+}
+
+.banner .clouds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.banner .clouds img {
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    animation: animate calc(8s * var(--i)) linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: translate(-100%);
+    }
+    100% {
+        transform: translate(100%);
+    }
+}
+
+// carousel css
+.shape-box {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    height: 60vh;
+    margin: 0;
+    box-shadow: 0px 0px 8px 0px #dcc69d;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 1px solid #efefef !important;
+    width: 85%;
+    padding: 0 1px;
+}
+
+.shape-box_half {
+    overflow: hidden;
+    text-align: left;
+}
+
+.shape-box_half:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: skewY(53.5deg);
+    transform-origin: top left;
+    transition: \transform .4s;
+    background: #fff;
+    z-index: 1;
+    box-sizing: content-box;
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid #efefef !important;
+}
+
+.shape-box>img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.shape-box_half figcaption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 30px 30px;
+    transition: \transform .4s;
+    transform: translateY(100%);
+    z-index: 3;
+}
+
+.shape-box_half figcaption .show-cont {
+    position: absolute;
+    bottom: calc(100% + 30px);
+    left: 30px;
+    right: 30px;
+    transition: bottom .4s;
+}
+
+.card-no {
+    font-size: 36px;
+    color: #dcc69d;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.card-main-title {
+    width: 235px;
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #292b2c;
+    text-shadow: 2px 2px #fff;
+}
+
+.card-content {
+    color: #9f9f9f;
+    margin-top: 20px;
+    line-height: 22px;
+    font-size: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    max-width: 100%;
+    overflow: hidden;
+    text-align: right;
+}
+
+.read-more-btn {
+    height: 3rem;
+    border: 1px solid #dcc69d;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 10px 20px;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    background: #fff;
+    color: #0c273c;
+    border-radius: 30px;
+    margin-top: 25px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-wrap: nowrap;
+}
+.read-more-btn:hover {
+    background: #0c273c;
+    color: #dcc69d;
+    border: 1px solid #0c273c;
+}
+
+.shape-box_half>.after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #dcc69d;
+    opacity: 0;
+    transition: opacity .4s;
+    overflow: hidden;
+}
+
+
+/*On hover*/
+
+.shape-box_half:hover:before {
+    transform: skewY(20deg);
+}
+
+.shape-box_half:hover figcaption {
+    transform: translateY(0);
+}
+
+.shape-box_half:hover figcaption .show-cont {
+    bottom: 100%;
+}
+
+.shape-box_half:hover>.after {
+    opacity: 1;
+}

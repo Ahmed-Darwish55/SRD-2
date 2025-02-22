@@ -1,0 +1,25 @@
+<div class="slider">
+    <ngb-carousel #caro class="slider-wrapper" (slide)="onSlide($event, caro)" [interval]="0">
+        <!-- ---------------------------[0]------------------------------ -->
+        <ng-template ngbSlide *ngFor="let slide of configParam.srd.slider.sliders; index as i">
+            <div class="picsum-img-wrapper">
+                <video class="vid1" *ngIf="slide.isVideo" poster="../../../../../assets/SRD/slider/images/ref.jpg" [loop]="true" playsinline="true" [autoplay]="true" [muted]="true">
+                  <source src={{slide.source}} type="video/mp4">
+              </video>
+                <img *ngIf="!slide.isVideo" src={{slide.source}} alt="">
+            </div>
+            <!-- [ngClass]="{'bg-anime':i == 0}" -->
+            <!-- <div class="carousel-caption" [ngClass]="{'bg-anime':i == 0 && !isInitiated }">
+              <div class="anime-hide-text">
+                  <div class="srow">
+                      <div class="v-title">{{configParam.srd.slider.title}}</div>
+                      <div class="v-sub-title">
+                          {{configParam.srd.slider.subTitle}}
+                      </div>
+                  </div>
+              </div>
+          </div> -->
+        </ng-template>
+        <!-- ---------------------------[1]------------------------------ -->
+    </ngb-carousel>
+</div>

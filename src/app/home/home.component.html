@@ -1,0 +1,226 @@
+<div [ngClass]="{ preloader: newInstance }">
+  <app-video-intro-loading
+    [config]="config"
+    *ngIf="config.srd.slider && newInstance"
+  ></app-video-intro-loading>
+<!-- ---------------------------header----------------------------------- -->
+<div class="header-line"></div>
+<app-header
+[config]="config"
+class="header"
+*ngIf="config.headerConfiguration"
+[ngClass]="{ hidden: config.isHidden }"
+></app-header>
+<!-- -------------------------------------------------------------- -->
+
+  <div class="SRD-Page-container">
+    <app-slider
+      [configParam]="config"
+      id="slider"
+      *ngIf="config.srd.slider"
+    ></app-slider>
+    <app-about
+      [configParam]="config"
+      id="about"
+      *ngIf="config.srd.about"
+    ></app-about>
+
+    <!-- <app-service-gates [configParam]="config" id="gates"></app-service-gates>-->
+
+    <!-- ------------------------------------------ -->
+
+    <!-- ------------------------------------------ -->
+
+    <div class="wrapper">
+      <div
+        class="flex-container"
+        style="border: 1px solid #fff"
+        [ngClass]="{ preloader: newInstance }"
+      >
+        <app-geo-spatial-about
+          #geospatialAbout
+          id="geoSpatial-about"
+          [configParam]="config"
+          *ngIf="config.geoSpatial.about"
+        ></app-geo-spatial-about>
+        <div class="products-and-services" id="products-and-services">
+          <div id="particle-js">
+            <div class="container">
+              <div class="bubbles">
+                <span style="--i: 11"></span>
+                <span style="--i: 12"></span>
+                <span style="--i: 24"></span>
+                <span style="--i: 10"></span>
+                <span style="--i: 14"></span>
+                <span style="--i: 23"></span>
+                <span style="--i: 18"></span>
+                <span style="--i: 16"></span>
+                <span style="--i: 19"></span>
+                <span style="--i: 20"></span>
+                <span style="--i: 22"></span>
+                <span style="--i: 25"></span>
+                <span style="--i: 18"></span>
+                <span style="--i: 21"></span>
+                <span style="--i: 15"></span>
+                <span style="--i: 13"></span>
+                <span style="--i: 26"></span>
+                <span style="--i: 17"></span>
+                <span style="--i: 13"></span>
+                <span style="--i: 28"></span>
+                <span style="--i: 11"></span>
+                <span style="--i: 12"></span>
+                <span style="--i: 24"></span>
+                <span style="--i: 10"></span>
+                <span style="--i: 14"></span>
+                <span style="--i: 23"></span>
+                <span style="--i: 18"></span>
+                <span style="--i: 16"></span>
+                <span style="--i: 19"></span>
+                <span style="--i: 20"></span>
+                <span style="--i: 22"></span>
+                <span style="--i: 25"></span>
+                <span style="--i: 18"></span>
+                <span style="--i: 21"></span>
+                <span style="--i: 15"></span>
+                <span style="--i: 13"></span>
+                <span style="--i: 26"></span>
+                <span style="--i: 17"></span>
+                <span style="--i: 13"></span>
+                <span style="--i: 28"></span>
+              </div>
+            </div>
+          </div>
+          <div class="products-guid" id="productsCatalogue">
+            <app-products-catalogue
+              [configParam]="config"
+              *ngIf="config.srd.products"
+            ></app-products-catalogue>
+          </div>
+          <img
+            class="seprate"
+            [src]="config.mainConfiguration?.ProductAndServices?.separator"
+            alt=""
+          />
+          <div class="services-guid" id="servicesCatalogue">
+            <app-services-catalogue
+              [configParam]="config"
+              *ngIf="config.srd.services"
+            ></app-services-catalogue>
+          </div>
+        </div>
+        <app-data-catalogue
+          id="dataCatalogue"
+          [configParam]="config"
+          *ngIf="config.geoSpatial.dataCatalogue"
+        ></app-data-catalogue>
+
+        <app-sectors
+          id="sectors"
+          [configParam]="config"
+          *ngIf="config.urbanObservatory.sectors"
+        ></app-sectors>
+        <app-application-catalogue
+          id="applicationCatalogue"
+          [configParam]="config"
+          *ngIf="config.geoSpatial.applicationCatalogue"
+        ></app-application-catalogue>
+        <app-studies-and-documents
+          id="studiesAndDocuments"
+          [configParam]="config"
+          *ngIf="config.geoSpatial.studiesAndDocuments"
+        ></app-studies-and-documents>
+      </div>
+    </div>
+
+    <div class="partner-ship" id="partners">
+      <div class="drop-logo">
+        <img [src]="config.mainConfiguration?.partners?.dropLogo" alt="" />
+      </div>
+      <app-partners
+        [configParam]="config"
+        *ngIf="config.srd.partners"
+      ></app-partners>
+    </div>
+  </div>
+
+  <!-- <div
+    class="SRD-Products-Container"
+    id="productsCatalogue-Details"
+    *ngIf="
+      config.productAndService.subHeaderConfig.isProduct && config.isHidden
+    "
+  >
+    <div class="flex-container">
+      <div class="container-row sub-header">
+        <app-sub-header
+          [configParam]="config"
+          [data]="config.productAndService.productsDataConfig"
+          (backPressed)="scrollToSection('productsCatalogue')"
+          class="container-column sub-header"
+        ></app-sub-header>
+      </div>
+
+      <app-product-details-information
+        class="container-row information-content"
+        [config]="config"
+        [data]="config.productAndService.productsDataConfig"
+      ></app-product-details-information>
+
+      <app-product-details-additional-info
+        class="container-row information-content"
+        [config]="config"
+        [data]="config.productAndService.productsDataConfig"
+      ></app-product-details-additional-info>
+
+      <app-product-details-example
+        class="container-row information-content product-example"
+        [config]="config"
+        [data]="config.productAndService.productsDataConfig"
+      ></app-product-details-example>
+    </div>
+  </div> -->
+  <!-- <div
+    class="SRD-Services-Container"
+    id="servicesCatalogue-Details"
+    *ngIf="
+      !config.productAndService.subHeaderConfig.isProduct && config.isHidden
+    "
+  >
+    <div class="flex-container">
+      <div class="container-row sub-header">
+        <app-sub-header
+          [configParam]="config"
+          [data]="config.productAndService.servicesDataConfig"
+          (backPressed)="scrollToSection('servicesCatalogue')"
+          class="container-column sub-header"
+        ></app-sub-header>
+      </div>
+      <app-service-details-information
+        class="container-row information-content"
+        [config]="config"
+        [data]="config.productAndService.servicesDataConfig"
+      ></app-service-details-information>
+
+      <app-service-details-additional-info
+        class="container-row information-content"
+        [config]="config"
+        [data]="config.productAndService.servicesDataConfig"
+      ></app-service-details-additional-info>
+
+      <app-service-details-workflow
+        class="container-row information-content service-workflow"
+        [config]="config"
+        [data]="config.productAndService.servicesDataConfig"
+      ></app-service-details-workflow>
+
+      <app-service-details-performance-measurements
+        class="container-row information-content"
+        [config]="config"
+        [data]="config.productAndService.servicesDataConfig"
+      ></app-service-details-performance-measurements>
+    </div>
+  </div> -->
+  <div class="footer">
+    <app-footer id="contactUs" [configParam]="config"></app-footer>
+  </div>
+</div>

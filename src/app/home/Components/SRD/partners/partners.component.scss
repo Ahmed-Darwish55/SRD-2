@@ -1,0 +1,129 @@
+.patrner {
+    width: 100vw;
+    // background: linear-gradient(to bottom ,#071625,#fff, transparent,#fff);
+    padding-bottom: 100px;
+    padding-top: 30px;
+    .div-block-2 {
+        padding-top: 60px;
+        text-align: center;
+    }
+    .text-block-5 {
+        text-align: center;
+        width: fit-content;
+        margin: auto;
+    }
+    .text-block-5 {
+        font-size: 28px;
+    }
+    .text-block-6 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #0c273c;
+        text-shadow: 0 0 5px #fff;
+        font-size: 38px;
+        line-height: 61px;
+        font-weight: 600;
+    }
+    // .image-2 {
+    //     padding-bottom: 50px;
+    // }
+    .image-3 {
+        display: block;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        width: 70%;
+    }
+    .patrnericon {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        //gap: 30px;
+        width: 71%;
+        margin: auto;
+        // max-height: 368px;
+        overflow-y: auto;
+    }
+    .brand {
+        margin: 10px 15px;
+        img {
+            width: 150px;
+            // height: 100px;
+            filter: grayscale(100%);
+            transition: 0.5s;
+        }
+        &:hover img {
+            filter: grayscale(0);
+            cursor: pointer;
+            // margin-bottom: 20px;
+            transform: scale(1.1, 1.1);
+        }
+    }
+}
+
+.mt-all {
+    margin: 60px auto 0 !important;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #efefef;
+    /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #dcc69d;
+    /* color of the scroll thumb */
+    border-radius: 5px;
+    /* roundness of the scroll thumb */
+    border: 3px solid #dcc69d;
+    /* creates padding around scroll thumb */
+}
+
+//sm-mobile
+@media (max-width: 376px) {
+    .patrner {
+        height: 120vh;
+    }
+    .patrnericon {
+        max-height: 420px;
+    }
+}
+
+//mobile
+@media (min-width: 377px) and (max-width: 480px) {
+    .patrner {
+        height: fit-content;
+    }
+    .patrnericon {
+        max-height: 420px;
+    }
+}
+
+// tablet
+@media (min-width: 481px) and (max-width: 1200px) {
+    .patrner {
+        height: fit-content;
+    }
+    .patrnericon {
+        max-height: 580px;
+    }
+}
+
+//pc
+@media (min-width:1201px) {
+    .patrner {
+        height: 135vh;
+    }
+    .patrnericon {
+        max-height: 800px;
+    }
+}

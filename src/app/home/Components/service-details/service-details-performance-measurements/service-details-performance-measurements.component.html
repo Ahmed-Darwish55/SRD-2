@@ -1,0 +1,61 @@
+<div class="performance-measurements-container">
+  <div class="container-row performance-measurements-header">
+    <div class="header-col">
+      <span>
+        <i class="fa-solid fa-chart-line"></i>
+        {{ config.srd?.services?.performanceIndicator }}
+      </span>
+    </div>
+    <div class="header-col">
+      <span>
+        <i class="fa-solid fa-circle-check"></i>
+        {{ config.srd?.services?.goal }}
+      </span>
+    </div>
+    <div class="header-col">
+      <span>
+        <i class="fa-solid fa-ruler-combined"></i>
+        {{ config.srd?.services?.measurementCycle }}
+      </span>
+    </div>
+    <div class="header-col">
+      <span>
+        <i class="fa-solid fa-people-line"></i>
+        {{ config.srd?.services?.measurementResponsibility }}
+      </span>
+    </div>
+  </div>
+  <div
+    class="container-row performance-measurements-data"
+    *ngFor="let item of data.performanceMeasurements"
+  >
+    <div class="data-col">
+      <span>
+        {{ item.performanceIndicator[configService.getCurrentLanguage()] }}
+      </span>
+    </div>
+    <div class="data-col">
+      <span>
+        {{ item.goal | percent }}
+      </span>
+    </div>
+    <div class="data-col">
+      <span>
+        {{ item.measurementCycle[configService.getCurrentLanguage()] }}
+      </span>
+    </div>
+    <div class="data-col">
+      <span>
+        {{ item.measurementResponsibility[configService.getCurrentLanguage()] }}
+      </span>
+    </div>
+  </div>
+  <!-- <div class="container-row performance-measurements-action">
+    <a [href]="data.link + '?locale=' + configService.getCurrentLanguage()" target="_blank">
+      <i class="fa-regular fa-hand-pointer fa-beat"></i>
+      <span>
+        {{ config.srd?.services?.url }}
+      </span>
+    </a>
+  </div> -->
+</div>

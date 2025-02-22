@@ -1,0 +1,7 @@
+<div #lottieContainer style="width: 100%; height: 100%;"></div>
+<!-- isLoading -->
+<div *ngIf="isLoading" class="loading-container">
+    <h1 *ngIf="!loadingError">جاري التحميل... </h1>
+    <h1 *ngIf="loadingError" style="color: red;">{{loadingError}}</h1>
+    <div class="laoding" *ngIf="!loadingError"> <img src="../../../../../assets/animations/Animation - 1737960356151.gif" alt=""></div>
+</div>

@@ -1,0 +1,59 @@
+<!-- ===================start service gate======================== -->
+<div class="service-Wrapper" id="service-gate-Wrapper">
+  <!-- mobile -->
+  <div class="row center-div mobile-ui" *ngIf="screenWidth<=600">
+    <div class="col-md-12 relative">
+      <h1 class="main-title"> {{this.configParam.srd.gates.mainTitle}}</h1>
+      <div class="button-control">
+        <button class="prev-next" (click)="NextGate()"><i class="fa-solid fa-angle-up"></i></button>
+        <button class="prev-next" (click)="PreviousGate()"><i class="fa-solid fa-chevron-down"></i></button>
+      </div>
+      <div class="service-gate-descriptio" id="service-gate-description">
+        <div class="gate-detail">
+          <h2 class="gate-titl">{{this.configParam.srd.gates.gates[this.selectedIndex].title}}</h2>
+        </div>
+      </div>
+      <div class="imge">
+        <img class="gate-img hidden" *ngFor="let gate of this.configParam.srd.gates.gates.slice().reverse() let i = index;"
+          [src]="gate.image" alt="" [id]="'gate-image-'+(this.configParam.srd.gates.gates.length-1-i)">
+      </div>
+
+      <p class="gate-description gate-description-res">{{this.configParam.srd.gates.gates[this.selectedIndex].description}}</p>
+      <div class="center-btn">
+        <button class="btn" (click)="openGate(this.configParam.srd.gates.gates[this.selectedIndex])" style="border: unset;"
+          [disabled]="!this.configParam.srd.gates.gates[this.selectedIndex].isAvailable">
+          <a href="#">{{this.configParam.srd.gates.buttonTitle}}</a>
+        </button>
+      </div>
+
+    </div>
+  </div>
+  <!-- end mobile -->
+  <!-- pc -->
+  <div class="row center-div pc-ui" *ngIf="screenWidth>600">
+    <div class="col-md-12 relative">
+      <h1 class="main-title"> {{this.configParam.srd.gates.mainTitle}}</h1>
+      <div class="button-control">
+        <button class="prev-next" (click)="NextGate()"><i class="fa-solid fa-angle-up"></i></button>
+        <button class="prev-next" (click)="PreviousGate()"><i class="fa-solid fa-chevron-down"></i></button>
+      </div>
+      <div class="service-gate-description" id="service-gate-description">
+        <div class="gate-details">
+          <h2 class="gate-title">{{this.configParam.srd.gates.gates[this.selectedIndex].title}}</h2>
+          <p class="gate-description">{{this.configParam.srd.gates.gates[this.selectedIndex].description}}</p>
+        </div>
+        <div class="center-btn">
+          <button class="btn" (click)="openGate(this.configParam.srd.gates.gates[this.selectedIndex])" style="border: unset;"
+            [disabled]="!this.configParam.srd.gates.gates[this.selectedIndex].isAvailable"><a href="#">{{this.configParam.srd.gates.buttonTitle}}</a>
+          </button>
+        </div>
+      </div>
+      <div class="imges">
+        <img class="gate-img hidden" *ngFor="let gate of this.configParam.srd.gates.gates.slice().reverse() let i = index;"
+          [src]="gate.image" alt="" [id]="'gate-image-'+(this.configParam.srd.gates.gates.length-1-i)">
+      </div>
+    </div>
+  </div>
+  <!-- end pc -->
+</div>
+<!-- ===================End service gate======================== -->

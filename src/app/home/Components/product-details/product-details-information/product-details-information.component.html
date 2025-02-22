@@ -1,0 +1,69 @@
+<div class="product-information">
+  <div class="product-image">
+    <img [src]="data?.coverURL" [alt]="data?.title" />
+  </div>
+  <div class="product-description">
+    <span
+      class="textbox"
+      [innerHTML]="data?.description[configService.getCurrentLanguage()]"
+    ></span>
+  </div>
+</div>
+<div class="product-card">
+  <div class="product-card-header">
+    <a  [href]="!configService.isUserCanAccessPortal?configService.userCantAccessPage:data?.url" target="_blank">
+      <i class="fa-regular fa-hand-pointer fa-beat"></i>
+      <span>{{ config?.srd?.products?.url }}</span>
+    </a>
+  </div>
+  <div class="product-card-container">
+    <div class="product-card-wrapper">
+      <div class="product-card-title">
+        {{ config?.srd?.products?.productCard }}
+      </div>
+      <div class="product-card-item">
+        <div class="product-card-item-title">
+          {{ config?.srd?.products?.name }}
+        </div>
+        <div class="product-card-item-text">
+          {{ data?.title[configService.getCurrentLanguage()] }}
+        </div>
+      </div>
+      <div class="product-card-item">
+        <div class="product-card-item-title">
+          {{ config?.srd?.products?.mainClassification }}
+        </div>
+        <div class="product-card-item-text">
+          {{ data?.mainClassification[configService.getCurrentLanguage()] }}
+        </div>
+      </div>
+
+
+      
+      <!-- <div class="product-card-item">
+        <div class="product-card-item-title">{{config.srd.products.subClassification}}</div>
+        <div class="product-card-item-text">{{data.subClassification}}</div>
+      </div> -->
+      <div class="product-card-item">
+        <div class="product-card-item-title">
+          {{ config?.srd?.products?.ownership }}
+        </div>
+        <div class="product-card-item-text">
+          {{ data?.ownership[configService.getCurrentLanguage()] }}
+        </div>
+      </div>
+      <div class="product-card-item">
+        <div class="product-card-item-title">
+          {{ config?.srd?.products?.beneficiaryCategory }}
+        </div>
+        <div class="product-card-item-text">
+          <ul>
+            <li *ngFor="let item of data?.beneficiaryCategory">
+              {{ item?.name[configService.getCurrentLanguage()] }}
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

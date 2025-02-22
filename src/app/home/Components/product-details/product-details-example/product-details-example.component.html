@@ -1,0 +1,22 @@
+<div class="product-example-container">
+  <div class="container-row example-header">
+    {{ config.srd.products.examples }}
+  </div>
+  <div class="container-row product-example-list">
+    <div class="product-example-col" *ngFor="let item of data.examples">
+      <div class="product-example-list item">
+        <i class="fa-solid fa-caret-left" style="color: #004c97"></i>
+        <span>{{ item.name[configService.getCurrentLanguage()] }}</span>
+      </div>
+    </div>
+    <div class="product-example-no-data" *ngIf="data.examples.length == 0">
+      {{ config.srd.products.noExamples }}
+    </div>
+  </div>
+  <div class="container-row product-action">
+    <a [href]="data.url" target="_blank">
+      <i class="fa-regular fa-hand-pointer fa-beat"></i>
+      <span>{{ config.srd.products.url }}</span>
+    </a>
+  </div>
+</div>

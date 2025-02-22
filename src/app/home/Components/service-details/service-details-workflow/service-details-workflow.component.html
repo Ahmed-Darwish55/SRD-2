@@ -1,0 +1,16 @@
+<div class="service-workflow-container">
+  <div class="container-row service-workflow-header">{{config.srd?.services?.serviceWorkflow}} </div>
+  <div class="container-row service-workflow">
+    <!-- for testing until finalize all process and display them here as embedded URL -->
+    <img [src]="data.workflowURL[configService.getCurrentLanguage()]"/>
+  </div>
+  <!-- Workflow action button is purposed from YA and it may be deleted -->
+  <!-- <div class="container-row service-workflow-action">
+    <a [href]="data.workflowURL" target="_blank">
+      <i class="fa-regular fa-hand-pointer fa-beat"></i>
+      <span> {{config.srd.services.CAMUNDA}} {{config.srd.services.workflowURL}} </span>
+    </a>
+  </div> -->
+
+
+</div>

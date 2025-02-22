@@ -1,0 +1,77 @@
+<div class="service-information">
+  <div class="service-image">
+    <img [src]="data.imageURL" [alt]="data.title" />
+  </div>
+  <div class="service-description">
+    <span class="textbox">{{
+      data.description[configService.getCurrentLanguage()]
+    }}</span>
+  </div>
+</div>
+<div class="service-card">
+  <div class="service-card-header">
+    <a
+      [href]="!configService.isUserCanAccessPortal? configService.userCantAccessPage:data?.link + '?locale=' + configService.getCurrentLanguage()"
+      target="_blank"
+    >
+      <i class="fa-regular fa-hand-pointer fa-beat"></i>
+      <span>{{ config?.srd?.services?.url }} </span>
+    </a>
+  </div>
+  <div class="service-card-container">
+    <div class="service-card-wrapper">
+      <div class="service-card-title">
+        {{ config.srd?.services?.serviceCard }}
+      </div>
+      <div class="service-card-item">
+        <div class="service-card-item-title">
+          {{ config.srd?.services?.name }}
+        </div>
+        <div class="service-card-item-text">
+          {{ data.title[configService.getCurrentLanguage()] }}
+        </div>
+      </div>
+
+      <div class="service-card-item">
+        <div class="service-card-item-title">
+          {{ config.srd?.services?.ownership }}
+        </div>
+        <div class="service-card-item-text">
+          {{ data.ownership[configService.getCurrentLanguage()] }}
+        </div>
+      </div>
+
+      <!-- <div class="service-card-item">
+        <div class="service-card-item-title">{{config.srd.services.classification}}</div>
+        <div class="service-card-item-text">{{data.classification}}</div>
+      </div> -->
+
+      <div class="service-card-item">
+        <div class="service-card-item-title">
+          {{ config.srd?.services?.targetCategories }}
+        </div>
+        <div class="service-card-item-text">
+          {{ data.targetCategories[configService.getCurrentLanguage()] }}
+        </div>
+      </div>
+
+      <div class="service-card-item">
+        <div class="service-card-item-title">
+          {{ config.srd?.services?.serviceCharge }}
+        </div>
+        <div class="service-card-item-text">
+          {{ data.serviceCharge[configService.getCurrentLanguage()] }}
+        </div>
+      </div>
+
+      <div class="service-card-item">
+        <div class="service-card-item-title">
+          {{ config.srd?.services?.serviceConstraints }}
+        </div>
+        <div class="service-card-item-text">
+          {{ data.serviceConstraints[configService.getCurrentLanguage()] }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

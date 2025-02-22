@@ -1,0 +1,26 @@
+<section class="full">
+  <div class="anime-hide-text">
+    <div class="sro">
+      <div class="v-title">
+        <!-- <p>{{loadingTitle}}</p> -->
+        <!-- <p>مركز البيانات الحضرية بالمنطقة الشرقية (سرد)</p> -->
+        <p *ngIf="currentLanguage == 'ar'" class="rtl" style="direction: rtl">
+          <span class="first">منصة</span>
+          <span class="second">المعلومات الحضرية</span>
+          <span class="third">بالمنطقة الشرقية</span>
+          <span class="fourth">"سرد"</span>
+        </p>
+        <p *ngIf="currentLanguage == 'en'" class="rtl" style="direction: ltr">
+          <span class="first">Sharqia Region</span>&nbsp;<span class="second"
+            >Urban</span
+          >&nbsp;<span class="third">Data hub</span>&nbsp;<span class="fourth"
+            >(SRD)</span
+          >
+        </p>
+        <div class="floating-popup">
+          <app-floating-popup></app-floating-popup>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

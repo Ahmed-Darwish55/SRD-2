@@ -1,0 +1,191 @@
+/* Importing Bootstrap SCSS file. */
+
+@import 'bootstrap/scss/bootstrap';
+@import 'node_modules/keen-slider/keen-slider.min.css';
+
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400;500;600;700&display=swap');
+// english lang
+@import '../src/assets/css/en.scss';
+// zoom 150
+@import '../src/assets/css/zoom.scss';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    // background:linear-gradient(to bottom , #0c273c ,transparent);
+    background: #0c273c ;
+    box-shadow: 0 0 1px 1px #bbb, inset 0 0 7px rgba(0,0,0,0.3);
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+	background-image: -webkit-gradient(linear,
+									   left bottom,								
+                                	   left top,
+									   color-stop(0.44, #dcc69d06),
+									   color-stop(0.96, #dcc69d));
+    // border-image: linear-gradient(to bottom ,#dcc69d, transparent);
+    /* creates padding around scroll thumb */
+}
+
+body {
+    //background:#00041A;
+    background-size: auto;
+    background-repeat: no-repeat;
+    font-family: 'Tajawal', sans-serif;
+    overflow-x: hidden;
+    position: relative;
+    background: red;
+    // For testing
+    display: flex;
+}
+
+svg {
+    width: auto;
+    height: auto;
+    max-width: 100%
+}
+
+// =======================|shape1|====================
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+// ====================== urban =======================
+@import 'bootstrap/scss/bootstrap';
+// Header Styling Section
+.header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 120px;
+    z-index: 9999;
+    transition: all ease .3s;
+    opacity: 1;
+    //box-shadow: 0 0 10px #42424292;
+}
+
+.header:has(.hide) {
+    opacity: 0;
+    top: -150px;
+    transition: all ease .3s;
+}
+
+// -------------------------------|footer|-------------------------------------
+.footer {
+    width: 100vw;
+    min-height: 50vh;
+    position: relative;
+    z-index: 2;
+    background: #0c273c;
+    .footer-background {
+        position: absolute;
+        bottom: 0;
+        z-index: 0;
+        img {
+            width: 100%
+        }
+        // left: 70px;
+        //  .img-footer-1{
+        //  }
+        .img-footer {
+            position: absolute;
+            width: 170px;
+            bottom: 0;
+            // left: -70px;
+            opacity: 0.1;
+        }
+    }
+}
+//hide geo-portal pages carousel-indicators and buttons
+.geo-slider .carousel-control-prev,
+.geo-slider .carousel-control-next,
+.geo-slider .carousel-indicators {
+    display: none;
+}
+//Data Catalogue chart meter
+#raphael-paper-2 g:nth-child(4) {
+    display: none;
+}
+fusioncharts {
+    div:nth-child(1) {
+        width: 100% !important;
+        height: 100% !important;
+        text-align: center !important;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    span {
+        width: 100% !important;
+        height: 100% !important;
+        text-align: center !important;
+        svg {
+            top: unset !important;
+            bottom: -50px !important;
+        }
+    }
+}
+
+.carousel-indicators .active {
+    background-color: #dcc69d !important;
+}
+
+.owl-carousel {
+    touch-action: manipulation;
+}
+
+//pc
+@media screen and (min-width:1201px) {
+    fusioncharts div:nth-child(1) {
+        padding-bottom: 20px;
+    }
+    app-partners {
+        .patrner {
+            padding-top: 0 !important;
+            height: fit-content !important;
+        }
+        .div-block-2 {
+            padding-top: 0 !important;
+        }
+    }
+}
+// .sda-container {
+//     position: absolute;
+//     left: 102px;
+//     z-index: 999;
+// }
+
+@media (min-width: 1400px) {
+    .sda-container {
+        max-width: 90vw !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}

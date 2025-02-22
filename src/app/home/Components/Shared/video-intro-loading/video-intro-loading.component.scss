@@ -1,0 +1,257 @@
+.full {
+  width: 100vw;
+  height: 100vh;
+  //background-color: #0c273c;
+  background: url("../../../../../assets/Shared/video-intro-loading/images/Picture7.jpg")
+    no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  bottom: 0;
+  z-index: 99990;
+  padding: 15% 2% 0 2%;
+  animation: hidebg 10s ease forwards;
+  -moz-animation: hidebg 10s ease forwards;
+  -webkit-animation: hidebg 10s ease forwards;
+  -o-animation: hidebg 10s ease forwards;
+}
+
+.floating-popup {
+  z-index: 999999;
+  position: absolute;
+  top: 50vh;
+  text-align: center;
+  width: 80vw;
+  // height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 !important;
+  padding: 0 !important;
+  animation: showPopup 3.5s ease forwards;
+  -moz-animation: showPopup 3.5s ease forwards;
+  -webkit-animation: showPopup 3.5s ease forwards;
+  -o-animation: showPopup 3.5s ease forwards;
+}
+
+@media screen and (max-width: 480px) {
+  .floating-popup {
+    top: 15vh;
+    width: 80vw;
+    height: 1vh;
+    padding: 0;
+  }
+}
+
+@-webkit-keyframes hidebg
+/* Safari and Chrome */ {
+  0% {
+    background-color: rgb(12, 39, 60);
+    z-index: 99990;
+    opacity: 1;
+  }
+  50% {
+    background-color: rgb(12, 39, 60);
+    opacity: 1;
+  }
+  100% {
+    background-color: rgba(12, 39, 60, 0);
+    z-index: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes hidebg {
+  0% {
+    background-color: rgb(12, 39, 60);
+    z-index: 99990;
+    opacity: 1;
+  }
+  50% {
+    background-color: rgb(12, 39, 60);
+    opacity: 1;
+  }
+  100% {
+    background-color: rgba(12, 39, 60, 0);
+    z-index: 0;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes showPopup
+/* Safari and Chrome */ {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes showPopup {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.v-title {
+  padding-bottom: 20px;
+  font-size: 4.5vw;
+  color: #fff;
+  font-weight: 400;
+  text-align: right;
+  // direction: rtl;
+}
+
+.v-sub-title {
+  font-size: 3vw;
+  color: #fff;
+}
+
+.anime-hide-text {
+  width: fit-content;
+  height: fit-content;
+  // overflow: hidden;
+  animation: smallhidetext 8s ease forwards;
+  -moz-animation: smallhidetext 8s ease forwards;
+  -webkit-animation: smallhidetext 8s ease forwards;
+  -o-animation: smallhidetext 8s ease forwards;
+}
+
+@-webkit-keyframes smallhidetext
+/* Safari and Chrome */ {
+  0% {
+    transform: scale(1);
+    translate: 5% 0%;
+  }
+  83% {
+    transform: scale(1);
+    translate: 5% 0%;
+  }
+  100% {
+    transform: scale(0.5);
+    translate: 35% 110%;
+  }
+}
+
+@keyframes smallhidetext {
+  0% {
+    transform: scale(1);
+    translate: 5% 0%;
+    opacity: 1;
+  }
+  83% {
+    transform: scale(1);
+    translate: 5% 0%;
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.5);
+    translate: 35% 110%;
+    opacity: 0;
+  }
+}
+
+.srow {
+  width: fit-content;
+  height: auto;
+  direction: rtl;
+  text-align: right;
+  white-space: nowrap;
+  animation: hidetext 10s ease forwards;
+  -moz-animation: hidetext 10s ease forwards;
+  -webkit-animation: hidetext 10s ease forwards;
+  -o-animation: hidetext 10s ease forwards;
+}
+
+@-webkit-keyframes hidetext
+/* Safari and Chrome */ {
+  0% {
+    translate: -100% 0px;
+  }
+  100% {
+    translate: 0% 0px;
+  }
+}
+
+@keyframes hidetext {
+  0% {
+    translate: -100% 0px;
+  }
+  100% {
+    translate: 0% 0px;
+  }
+}
+
+.first {
+  animation: first 2s ease forwards;
+  -moz-animation: first 2s ease forwards;
+  -webkit-animation: first 2s ease forwards;
+  -o-animation: first 2s ease forwards;
+}
+
+.second {
+  animation: first 3s ease forwards;
+  -moz-animation: first 3s ease forwards;
+  -webkit-animation: first 3s ease forwards;
+  -o-animation: first 3s ease forwards;
+}
+
+.third {
+  animation: first 4s ease forwards;
+  -moz-animation: first 4s ease forwards;
+  -webkit-animation: first 4s ease forwards;
+  -o-animation: first 4s ease forwards;
+}
+
+.fourth {
+  animation: first 5s ease forwards;
+  -moz-animation: first 5s ease forwards;
+  -webkit-animation: first 5s ease forwards;
+  -o-animation: first 5s ease forwards;
+}
+
+@-webkit-keyframes first
+/* Safari and Chrome */ {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes first {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,89 @@
+<section class="products">
+    <div class="products-heder">
+        <h1 class="text-block-5">{{ configParam.srd.products.header }}</h1>
+        <!-- <div class="scrollButton">
+            <button (click)="next()">
+                <i class="fa-solid fa-angle-up fa-rotate-270"></i>
+
+            </button>
+            <button (click)="previous()">
+                <i class="fa-solid fa-angle-up fa-rotate-90"></i>
+            </button>
+        </div> -->
+    </div>
+    <div class="slider-container">
+        <div class="slider-next scrollButton">
+            <button (click)="next()">
+        <i class="fa-solid fa-angle-up fa-rotate-270"></i>
+      </button>
+        </div>
+        <div class="cardsWrapper" #cardsWrapper>
+            <!-- ---------------------|start card 1|--------------------------- -->
+
+            <div class="product" *ngFor="let product of data.products">
+                <div class="box" (click)="openProductDetails(product)">
+                    <!-- ---------front------------ -->
+                    <div class="front">
+                        <div class="card rgb">
+                            <div class="card-image" style="background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%), url(&quot;{{
+                  product.imageURL
+                }}&quot;);background-size: cover"></div>
+                            <div class="card-text">
+                                <h2>{{ product.title[config.getCurrentLanguage()] }}</h2>
+                                <div class="catigore">
+                                    <span class="s-title">{{ configParam.srd.products.mainClassification }}
+                  </span>
+                                    <span class="s-title">{{
+                      product.mainClassification[config.getCurrentLanguage()]
+                    }}
+                  </span>
+                                </div>
+                                <div class="catigore">
+                                    <span class="s-title">{{ configParam.srd.products.ownership }}
+                  </span>
+                                    <span class="s-title">{{
+                    product.ownership[config.getCurrentLanguage()]
+                  }}</span>
+                                </div>
+                                <!-- <div class="catigore">
+                                        <span class="s-title">{{configParam.srd.products.subClassification}} </span>
+                                        <span class="s-title">{{product.subClassification}} </span>
+                                    </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ---------back------------ -->
+                    <div class="back">
+                        <span class="product-num">
+              {{ product.id }}
+            </span>
+                        <h5 class="subtitle">{{ configParam.srd.products.description }}</h5>
+                        <p [innerHTML]="product.description[config.getCurrentLanguage()]"></p>
+                        <h5 class="subtitle">{{ configParam.srd.products.target }}</h5>
+                        <p>{{ product.goal[config.getCurrentLanguage()] }}</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ---------------------|End card 1  |--------------------------- -->
+        </div>
+        <div class="slider-prev scrollButton">
+            <button (click)="previous()">
+        <i class="fa-solid fa-angle-up fa-rotate-90"></i>
+      </button>
+        </div>
+    </div>
+
+    <!-- <div class="row view-on-mobile">
+        <div class="col-md-12 justify-content-center">
+            <div class="scrollButton mx-auto" style="width: 140px;">
+                <button (click)="next()">
+          <i class="fa-solid fa-angle-up fa-rotate-270"></i>
+
+        </button>
+                <button (click)="previous()">
+          <i class="fa-solid fa-angle-up fa-rotate-90"></i>
+        </button>
+            </div>
+        </div>
+    </div> -->
+</section>

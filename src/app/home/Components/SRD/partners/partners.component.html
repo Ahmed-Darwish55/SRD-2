@@ -1,0 +1,16 @@
+<section class="patrner">
+    <div class="div-block-2">
+        <!-- <div class="text-block-5 mt-all">{{configParam.srd.partners.mainHeader}}</div> -->
+        <div class="text-block-5 mt-all"></div>
+        <div class="text-block-6">{{configParam.srd.partners.header}}</div>
+        <img [src]="configParam.srd.partners.separatorImage" alt="" class="image-2">
+        <!-- ---------------------------------------------- -->
+        <div class="patrnericon">
+            <div *ngFor="let partner of data.partners" class="brand">
+                <a href="javascript:void(0)">
+                    <img src={{partner.logo}} alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,50 @@
+<app-header
+  [config]="configService.config"
+  class="header"
+></app-header>
+<div
+  class="SRD-Services-Container"
+  id="servicesCatalogue-Details"
+  *ngIf="
+    !configService?.config?.productAndService?.subHeaderConfig?.isProduct
+  "
+>
+  <div class="flex-container">
+    <div class="container-row sub-header">
+      <app-sub-header
+        [configParam]="configService.config"
+        [data]="configService.config.productAndService.servicesDataConfig"
+        (backPressed)="scrollToSection('servicesCatalogue')"
+        class="container-column sub-header"
+      ></app-sub-header>
+    </div>
+    <app-service-details-information
+      class="container-row information-content"
+      [config]="configService.config"
+      [data]="configService.config?.productAndService?.servicesDataConfig"
+    ></app-service-details-information>
+
+    <app-service-details-additional-info
+      class="container-row information-content"
+      [config]="configService.config"
+      [data]="configService.config?.productAndService?.servicesDataConfig"
+    ></app-service-details-additional-info>
+
+    <app-service-details-workflow
+      class="container-row information-content service-workflow"
+      [config]="configService.config"
+      [data]="configService.config?.productAndService?.servicesDataConfig"
+    ></app-service-details-workflow>
+
+    <app-service-details-performance-measurements
+      class="container-row information-content"
+      style="margin-bottom: 20px;"
+      [config]="configService.config"
+      [data]="configService.config?.productAndService?.servicesDataConfig"
+    ></app-service-details-performance-measurements>
+ 
+  </div>
+</div>
+<div class="footer">
+  <app-footer id="contactUs" [configParam]="configService.config"></app-footer>
+</div>

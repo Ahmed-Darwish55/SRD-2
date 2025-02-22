@@ -1,0 +1,87 @@
+.wrapper-bg {
+    width: 100vw;
+    height: 100vh;
+    color: #000;
+    background-image: url('../../../../../assets/Urban-Observatory/Studies/data-bg.jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 100% 100%;
+    border-top: #dcc69d 4px solid;
+}
+
+.mt {
+    margin-top: 3%;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 14px;
+    width: 90%;
+    min-height: 55vh;
+    border-right: 4px solid #dcc69d !important;
+    border-left: 4px solid #0c273c !important;
+    margin: 50px auto;
+    //  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.478);
+    transform: perspective(650px) rotateY(-45deg)scale(.8, .8);
+    transition: all ease 1s;
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: perspective(650px) rotateY(0deg)scale(1, 1);
+    transition: all ease 1s;
+}
+
+.img,
+.img img {
+    width: 100%;
+    margin: 0;
+    border: 1px solid #0c273c;
+    object-fit: cover;
+    overflow: hidden;
+    height: 55vh;
+    border-radius: 14px;
+}
+
+.btn-alpha {
+    padding: 10px 16px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #0c273c;
+    border: 1px solid #dcc69d;
+    transform: scale(1, 1);
+    transition: all ease .3s;
+    text-decoration: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.btn-alpha:hover {
+    transform: scale(1.1, 1.1);
+    padding: 10px 16px;
+    background-color: #0c273c;
+    color: #dcc69d;
+    border: 1px solid #0c273c;
+    transition: all ease .3s;
+}
+
+.top-card {
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    z-index: 2;
+    padding: 1rem;
+    top: 49vh;
+    color: #fff;
+    transition: all ease 1s;
+}
+
+.card:hover .top-card {
+    top: 0;
+    transition: all ease 1s;
+}
+
+.gold {
+    color: #dcc69d;
+}

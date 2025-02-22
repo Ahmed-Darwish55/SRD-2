@@ -1,0 +1,45 @@
+<div class="additional-info-col">
+  <div class="additional-info-row info-header">
+    {{ config.srd?.services?.avgCompletionPeriod }}
+  </div>
+
+  <div class="additional-info-row">
+    <div class="additional-info-list item-icon">
+      <i class="fa-solid fa-caret-left" style="color: #dcc69d"></i>
+    </div>
+    <div class="additional-info-list item-text">
+      {{ data.avgCompletionPeriod[configService.getCurrentLanguage()] }}
+    </div>
+  </div>
+</div>
+
+<div class="additional-info-col">
+  <div class="additional-info-row info-header">
+    {{ config.srd?.services?.outcomes }}
+  </div>
+  <div class="additional-info-row">
+    <div class="additional-info-list item-icon">
+      <i class="fa-solid fa-caret-left" style="color: #dcc69d"></i>
+    </div>
+    <div class="additional-info-list item-text">
+      {{ data.outcomes[configService.getCurrentLanguage()] }}
+    </div>
+  </div>
+</div>
+
+<div class="additional-info-col">
+  <div class="additional-info-row info-header">
+    {{ config.srd?.services?.contactInfo }}
+  </div>
+  <div class="additional-info-row" *ngFor="let item of data.contactInfo">
+    <div class="additional-info-list item-icon">
+      <i class="fa-solid fa-caret-left" style="color: #dcc69d"></i>
+    </div>
+    <div class="additional-info-list item-text" style="flex-basis: unset">
+      {{ item.name[configService.getCurrentLanguage()] }}
+    </div>
+    <div class="additional-info-list item-text" style="flex-basis: unset">
+      {{ item.contact }}
+    </div>
+  </div>
+</div>

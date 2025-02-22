@@ -1,0 +1,28 @@
+<div class="gsp-bg">
+    <div class="container sda-container">
+        <div class="row text-end">
+            <h1 class="baige mt-h">{{configParam.geoSpatial.studiesAndDocuments.title}}</h1>
+        </div>
+    </div>
+    <div class="w-100 mt-5 mb-5" style="min-height:450px;">
+        <div class="keen-slider" #sliderRef >
+            <div class="keen-slider__slide number-slide1" *ngFor="let item of data.studiesAndDocuments; index as i;">
+                <div class="" >
+                    <div class="card"  (mouseenter)="pauseSlider()" (mouseleave)="resumeSlider()">
+                        <img [src]="item.imageUrl" alt="">
+                        <div class="top">
+                            <div class="text-center">
+                                <h4 class="my-4 blue adjust-t">{{configParam.isCurrentLanguageArabic?item.name_Ar :item.name_En }}</h4>
+                                <p class="black text-end adjust-h">{{configParam.isCurrentLanguageArabic?item.description_Ar :item.description_En }}</p>
+                            </div>
+                            <div class="text-center">
+                                
+                                <a class="btn-alpha mt-2 mb-3" [href]="!config.isUserCanAccessPortal?config.userCantAccessPage:item.url" target="_blank" type="button">{{configParam.geoSpatial.studiesAndDocuments.buttonText}}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

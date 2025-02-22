@@ -1,0 +1,81 @@
+<section class="section">
+    <div class="container">
+        <div class="row mt-all mb-4">
+            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 col-md-f">
+                <div class="hide-on-pc about-block">
+                    <div class="over-title mt-4">
+                        <div class="title-lie"></div>
+                        <div class="text-block-2">{{configParam.srd.about.sectionName}}</div>
+                    </div>
+                    <h1 class="heading">
+                        {{configParam.srd.about.sectionHeader.subHeaderOne}}
+                        <span class="text-span">{{configParam.srd.about.sectionHeader.subHeaderTwo}}</span> {{configParam.srd.about.sectionHeader.subHeaderThree}}
+                    </h1>
+                    <p class="paragraph">
+                        {{configParam.srd.about.description}}
+                    </p>
+                </div>
+                <div class="five-h">
+                    <div class="pic-block">
+                        <img src="assets/SRD/about/images/Des-2.png" class="w-100" />
+                        <!-- <img [src]="configParam.srd.about.images.imageOne" loading="lazy" style="opacity: 1" class="about-pic1" />
+            <img [src]="configParam.srd.about.images.imageTwo" loading="lazy" class="about-pic2" />
+            <img [src]="configParam.srd.about.images.imageThree" loading="lazy" style="opacity: 1" class="about-pic-3" /> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 about-block mt-10 mt-5 col-md-f">
+                <div class="show-on-pc">
+                    <div class="over-title mt-4">
+                        <div class="title-lie"></div>
+                        <div class="text-block-2">{{configParam.srd.about.sectionName}}</div>
+                    </div>
+                    <h1 class="heading">
+                        {{configParam.srd.about.sectionHeader.subHeaderOne}}
+                        <span class="text-span">{{configParam.srd.about.sectionHeader.subHeaderTwo}}</span> {{configParam.srd.about.sectionHeader.subHeaderThree}}
+                    </h1>
+                    <p class="paragraph">
+                        {{configParam.srd.about.description}}
+                    </p>
+                </div>
+                 <div class="row about-sublock-wrapper mt-4" style="margin-top: unset;"> 
+                    <div class="about-sublock">
+                        <div style="opacity: 1" class="div-block">
+                            <div class="sub-b-title-row">
+                                <h2 class="heading-2">{{configParam.srd.about.vision.title}}</h2>
+                                <div>
+                                    <img [src]="configParam.srd.about.vision.icon" loading="lazy" height="55" alt="" class="icon-change" /><img [src]="configParam.srd.about.vision.whiteIcon" loading="lazy" height="55" alt="" class="icon-change white"
+                                    />
+                                </div>
+                            </div>
+                            <div class="sb-bg"></div>
+                            <p class="paragraph-2">{{configParam.srd.about.vision.content}}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-sublock">
+                        <div style="opacity: 1" class="div-block">
+                            <div class="sub-b-title-row">
+                                <h2 class="heading-2">{{configParam.srd.about.target.title}}</h2>
+                                <div>
+                                    <img [src]="configParam.srd.about.target.icon" loading="lazy" height="55" alt="" class="icon-change" />
+                                    <img [src]="configParam.srd.about.target.whiteIcon" loading="lazy" height="55" alt="" class="icon-change white" />
+                                </div>
+                            </div>
+                            <p class="paragraph-2">
+                                {{configParam.srd.about.target.content}}
+                            </p>
+                            <div class="elemnts">
+                                <span *ngFor="let item of  configParam.srd.about.target.principles">
+                  {{item.title}}
+                  <br />
+                </span>
+                            </div>
+                            <div class="sb-bg"></div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</section>

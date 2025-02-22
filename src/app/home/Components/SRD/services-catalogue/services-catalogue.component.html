@@ -1,0 +1,86 @@
+<!-- partial:index.partial.html -->
+<section class="carousel mt-all">
+    <div class="sevice-heder">
+        <h1 class="categories__title">{{ configParam.srd.services.header }}</h1>
+        <!-- <div class="scrollButton">
+            <button (click)="next()">
+        <i class="fa-solid fa-angle-up fa-rotate-270"></i>
+
+      </button>
+            <button (click)="previous()">
+        <i class="fa-solid fa-angle-up fa-rotate-90"></i>
+      </button>
+        </div> -->
+    </div>
+    <div class="slider-container">
+        <div class="slider-next scrollButton">
+            <button (click)="next()">
+        <i class="fa-solid fa-angle-up fa-rotate-270"></i>
+      </button>
+        </div>
+        <div class="carousel__container" #carouselContainer>
+            <div *ngFor="let service of data.services" class="carousel-item">
+                <div class="carousel-wrapper">
+                    <img class="carousel-item__img" [src]="service.imageURL" alt="people" />
+                    <div class="carousel-item__details">
+                        <div class="carousel-item-header">
+                            <h3>{{ service.title[config.getCurrentLanguage()] }}</h3>
+                            <!-- <span>{{ service.id }}</span> -->
+                        </div>
+                        <div class="elements">
+                            <div class="element">
+                                <div class="eltitle">
+                                    {{ configParam.srd.services.ownership }}
+                                </div>
+                                <div class="eldesc">
+                                    {{ service.ownership[config.getCurrentLanguage()] }}
+                                </div>
+                            </div>
+                            <div class="element">
+                                <div class="eltitle">
+                                    {{ configParam.srd.services.targetCategories }}
+                                </div>
+                                <div class="eldesc">
+                                    {{ service.targetCategories[config.getCurrentLanguage()] }}
+                                </div>
+                            </div>
+                            <div class="element">
+                                <div class="eltitle">
+                                    {{ configParam.srd.services.serviceCharge }}
+                                </div>
+                                <div class="eldesc">
+                                    {{ service.serviceCharge[config.getCurrentLanguage()] }}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item-footer" (click)="openServiceDetails(service)">
+                            <!-- <i class="fa-solid fa-plus  i-first"></i> -->
+                            <a class="custom-btn">{{ configParam.srd.services.more }}</a>
+                            <!-- <i class="fa-solid fa-plus i-last"></i> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-prev scrollButton">
+            <button (click)="previous()">
+        <i class="fa-solid fa-angle-up fa-rotate-90"></i>
+      </button>
+        </div>
+    </div>
+
+    <!-- <div class="row view-on-mobile">
+        <div class="col-md-12 justify-content-center">
+            <div class="scrollButton mx-auto mt-4" style="width: 140px;">
+                <button (click)="next()">
+          <i class="fa-solid fa-angle-up fa-rotate-270"></i>
+
+        </button>
+                <button (click)="previous()">
+          <i class="fa-solid fa-angle-up fa-rotate-90"></i>
+        </button>
+            </div>
+        </div>
+    </div> -->
+</section>
+<!-- partial -->

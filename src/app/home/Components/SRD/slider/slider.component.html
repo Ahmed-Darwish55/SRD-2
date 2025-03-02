@@ -3,10 +3,14 @@
         <!-- ---------------------------[0]------------------------------ -->
         <ng-template ngbSlide *ngFor="let slide of configParam.srd.slider.sliders; index as i">
             <div class="picsum-img-wrapper">
-                <video class="vid1" *ngIf="slide.isVideo" poster="../../../../../assets/SRD/slider/images/ref.jpg" [loop]="true" playsinline="true" [autoplay]="true" [muted]="true">
+                <!-- <video class="vid1" *ngIf="slide.isVideo" poster="../../../../../assets/SRD/slider/images/ref.jpg" [loop]="true" playsinline="true" [autoplay]="true" [muted]="true">
                   <source src={{slide.source}} type="video/mp4">
-              </video>
-                <img *ngIf="!slide.isVideo" src={{slide.source}} alt="">
+              </video> -->
+              <div class="overlay-svg-hero"></div>
+                <img class="svg-hero" width="100%" height="100%"  src={{slider}} alt="">
+                <h1 class="title"> المعلومات الحضرية بالمنطقة الشرقية
+                  سرد  </h1>
+
             </div>
             <!-- [ngClass]="{'bg-anime':i == 0}" -->
             <!-- <div class="carousel-caption" [ngClass]="{'bg-anime':i == 0 && !isInitiated }">
@@ -22,4 +26,10 @@
         </ng-template>
         <!-- ---------------------------[1]------------------------------ -->
     </ngb-carousel>
+    <div class="wrapper">
+      <div class="slider-footer">
+        <div class="curve-container">
+        </div>
+      </div>
+    </div>
 </div>

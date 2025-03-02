@@ -1,22 +1,30 @@
 {
   "showHeader": true,
   "logos": {
-    "SDA_Logo": "assets/Shared/main/images/SDA-Logo-dark.png",
+    "SDA_Logo": "assets/SRD/header/logo-light.svg",
     "vision_Logo": "assets/Shared/main/images/visionLogo.png",
     "mainLogo_href": "#",
     "id": "slider"
   },
+  "language_icon": {
+    "src": "assets/SRD/header/lang-globe.svg",
+    "id": "iconLanguage"
+  },
+  "hover_icon": {
+    "src": "assets/SRD/header/hover_icon.svg",
+    "id": "iconHover"
+  },
   "navigationItems": [
 
     {
-      "id": "about",
+      "id": "slider",
       "title": "سرد",
-      "href": "#about",
+      "href": "#slider",
       "isSelected": false
     },
     {
       "id": "geoSpatial-about",
-      "title": "عن المنطقة",
+      "title": " الشرقية",
       "href": "GEO-Portal/#geoSpatial-about",
       "isSelected": false
     },
@@ -33,39 +41,15 @@
       "isSelected": false
     },
     {
-      "id": "dataCatalogue",
-      "title": "البيانات الحضرية",
-      "href": "GEO-Portal/#dataCatalogue",
-      "isSelected": false
-    },
-    {
-      "id": "sectors",
-      "title": "المؤشرات الحضرية",
-      "href": "Statistical-Portal/#sectors",
-      "isSelected":false
-    },
-    {
-      "id": "applicationCatalogue",
-      "title": "التطبيقات الحضرية",
+      "id": "srdOfNumbers",
+      "title": "سرد فى ارقام",
       "href": "GEO-Portal/#applicationCatalogue",
       "isSelected": false
     },
     {
-      "id": "studiesAndDocuments",
-      "title": "الوثائق والدراسات",
-      "href": "GEO-Portal/#studiesAndDocuments",
-      "isSelected": false
-    },
-    {
       "id": "partners",
-      "title": "الشركاء",
+      "title": " شركاء النجاح",
       "href": "#partners",
-      "isSelected": false
-    },
-    {
-      "id": "contactUs",
-      "title": "إتصل بنا",
-      "href": "#contactUs",
       "isSelected": false
     }
   ]

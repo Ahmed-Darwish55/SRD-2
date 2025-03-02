@@ -9,9 +9,9 @@
   "navigationItems": [
 
     {
-      "id": "about",
+      "id": "slider",
       "title": "SRD",
-      "href": "#about",
+      "href": "#slider",
       "isSelected": false
     },
     {
@@ -33,29 +33,12 @@
       "isSelected": false
     },
     {
-      "id": "dataCatalogue",
-      "title": "Urban Data",
-      "href": "GEO-Portal/#dataCatalogue",
+      "id": "srdOfNumbers",
+      "title": "SRD of Numbers",
+      "href": "GEO-Portal/#SRD_of_Numbers",
       "isSelected": false
     },
-    {
-      "id": "sectors",
-      "title": "Urban Observatory",
-      "href": "Statistical-Portal/#sectors",
-      "isSelected":false
-    },
-    {
-      "id": "applicationCatalogue",
-      "title": "GeoSpatial Apps",
-      "href": "GEO-Portal/#applicationCatalogue",
-      "isSelected": false
-    },
-    {
-      "id": "studiesAndDocuments",
-      "title": "Documents",
-      "href": "GEO-Portal/#studiesAndDocuments",
-      "isSelected": false
-    },
+
     {
       "id": "partners",
       "title": "Partners",

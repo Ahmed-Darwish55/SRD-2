@@ -16,7 +16,7 @@ import FeatureLayer from '@arcgis/core/layers/FeatureLayer.js';
   providedIn: 'root',
 })
 export class ConfigurationService {
-  
+
   lang = new BehaviorSubject('en');
   isUserCanAccessPortal: boolean = false;
   userCantAccessPage: string = '';
@@ -188,7 +188,7 @@ export class ConfigurationService {
       map((response) => response.status >= 200 && response.status < 400),
       catchError((error: HttpErrorResponse) => {
         console.warn(`URL check failed: ${url}`, error.message);
-        return of(false); 
+        return of(false);
       })
     );
   }

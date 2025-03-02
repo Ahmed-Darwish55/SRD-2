@@ -19,11 +19,6 @@ class="header"
       id="slider"
       *ngIf="config.srd.slider"
     ></app-slider>
-    <app-about
-      [configParam]="config"
-      id="about"
-      *ngIf="config.srd.about"
-    ></app-about>
 
     <!-- <app-service-gates [configParam]="config" id="gates"></app-service-gates>-->
 
@@ -90,17 +85,22 @@ class="header"
               </div>
             </div>
           </div>
+          <!-- ----------------------products------------------------- -->
           <div class="products-guid" id="productsCatalogue">
             <app-products-catalogue
               [configParam]="config"
               *ngIf="config.srd.products"
             ></app-products-catalogue>
           </div>
+          <!-- ----------------------separate line------------------------- -->
+
           <img
             class="seprate"
             [src]="config.mainConfiguration?.ProductAndServices?.separator"
             alt=""
           />
+          <!-- ----------------------service------------------------- -->
+
           <div class="services-guid" id="servicesCatalogue">
             <app-services-catalogue
               [configParam]="config"
@@ -108,18 +108,18 @@ class="header"
             ></app-services-catalogue>
           </div>
         </div>
-        <app-data-catalogue
+        <!-- <app-data-catalogue
           id="dataCatalogue"
           [configParam]="config"
           *ngIf="config.geoSpatial.dataCatalogue"
-        ></app-data-catalogue>
+        ></app-data-catalogue> -->
 
-        <app-sectors
+        <!-- <app-sectors
           id="sectors"
           [configParam]="config"
           *ngIf="config.urbanObservatory.sectors"
-        ></app-sectors>
-        <app-application-catalogue
+        ></app-sectors> -->
+        <!-- <app-application-catalogue
           id="applicationCatalogue"
           [configParam]="config"
           *ngIf="config.geoSpatial.applicationCatalogue"
@@ -128,10 +128,15 @@ class="header"
           id="studiesAndDocuments"
           [configParam]="config"
           *ngIf="config.geoSpatial.studiesAndDocuments"
-        ></app-studies-and-documents>
+        ></app-studies-and-documents> -->
       </div>
     </div>
-
+    <div class="srd-in-Numbers" id="srdOfNumbers">
+        <!-- <app-srd-in-numbers
+        [configParam]="config"
+        *ngIf="config.srd"
+        ></app-srd-in-numbers> -->
+    </div>
     <div class="partner-ship" id="partners">
       <div class="drop-logo">
         <img [src]="config.mainConfiguration?.partners?.dropLogo" alt="" />
@@ -143,83 +148,6 @@ class="header"
     </div>
   </div>
 
-  <!-- <div
-    class="SRD-Products-Container"
-    id="productsCatalogue-Details"
-    *ngIf="
-      config.productAndService.subHeaderConfig.isProduct && config.isHidden
-    "
-  >
-    <div class="flex-container">
-      <div class="container-row sub-header">
-        <app-sub-header
-          [configParam]="config"
-          [data]="config.productAndService.productsDataConfig"
-          (backPressed)="scrollToSection('productsCatalogue')"
-          class="container-column sub-header"
-        ></app-sub-header>
-      </div>
-
-      <app-product-details-information
-        class="container-row information-content"
-        [config]="config"
-        [data]="config.productAndService.productsDataConfig"
-      ></app-product-details-information>
-
-      <app-product-details-additional-info
-        class="container-row information-content"
-        [config]="config"
-        [data]="config.productAndService.productsDataConfig"
-      ></app-product-details-additional-info>
-
-      <app-product-details-example
-        class="container-row information-content product-example"
-        [config]="config"
-        [data]="config.productAndService.productsDataConfig"
-      ></app-product-details-example>
-    </div>
-  </div> -->
-  <!-- <div
-    class="SRD-Services-Container"
-    id="servicesCatalogue-Details"
-    *ngIf="
-      !config.productAndService.subHeaderConfig.isProduct && config.isHidden
-    "
-  >
-    <div class="flex-container">
-      <div class="container-row sub-header">
-        <app-sub-header
-          [configParam]="config"
-          [data]="config.productAndService.servicesDataConfig"
-          (backPressed)="scrollToSection('servicesCatalogue')"
-          class="container-column sub-header"
-        ></app-sub-header>
-      </div>
-      <app-service-details-information
-        class="container-row information-content"
-        [config]="config"
-        [data]="config.productAndService.servicesDataConfig"
-      ></app-service-details-information>
-
-      <app-service-details-additional-info
-        class="container-row information-content"
-        [config]="config"
-        [data]="config.productAndService.servicesDataConfig"
-      ></app-service-details-additional-info>
-
-      <app-service-details-workflow
-        class="container-row information-content service-workflow"
-        [config]="config"
-        [data]="config.productAndService.servicesDataConfig"
-      ></app-service-details-workflow>
-
-      <app-service-details-performance-measurements
-        class="container-row information-content"
-        [config]="config"
-        [data]="config.productAndService.servicesDataConfig"
-      ></app-service-details-performance-measurements>
-    </div>
-  </div> -->
   <div class="footer">
     <app-footer id="contactUs" [configParam]="config"></app-footer>
   </div>

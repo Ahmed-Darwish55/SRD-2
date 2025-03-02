@@ -9,9 +9,9 @@
   "navigationItems": [
 
     {
-      "id": "about",
+      "id": "slider",
       "title": "سرد",
-      "href": "#about",
+      "href": "#slider",
       "isSelected": false
     },
     {
@@ -33,27 +33,9 @@
       "isSelected": false
     },
     {
-      "id": "dataCatalogue",
-      "title": "البيانات الحضرية",
-      "href": "GEO-Portal/#dataCatalogue",
-      "isSelected": false
-    },
-    {
-      "id": "sectors",
-      "title": "المؤشرات الحضرية",
-      "href": "Statistical-Portal/#sectors",
-      "isSelected":false
-    },
-    {
-      "id": "applicationCatalogue",
-      "title": "التطبيقات الحضرية",
+      "id": "srdOfNumbers",
+      "title": "سرد فى ارقام",
       "href": "GEO-Portal/#applicationCatalogue",
-      "isSelected": false
-    },
-    {
-      "id": "studiesAndDocuments",
-      "title": "الوثائق والدراسات",
-      "href": "GEO-Portal/#studiesAndDocuments",
       "isSelected": false
     },
     {

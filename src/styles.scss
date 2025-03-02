@@ -6,6 +6,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
 // @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400;500;600;700&display=swap');
 // english lang
 @import '../src/assets/css/en.scss';
@@ -33,7 +34,7 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-track {
     // background:linear-gradient(to bottom , #0c273c ,transparent);
-    background: #0c273c ;
+    background: #000000 ;
     box-shadow: 0 0 1px 1px #bbb, inset 0 0 7px rgba(0,0,0,0.3);
     /* color of the tracking area */
 }
@@ -41,12 +42,10 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
     border-radius: 10px;
 	background-image: -webkit-gradient(linear,
-									   left bottom,								
-                                	   left top,
+									   left bottom,
+                     left top,
 									   color-stop(0.44, #dcc69d06),
-									   color-stop(0.96, #dcc69d));
-    // border-image: linear-gradient(to bottom ,#dcc69d, transparent);
-    /* creates padding around scroll thumb */
+									   color-stop(0.96, #2E90FA));
 }
 
 body {
@@ -56,7 +55,7 @@ body {
     font-family: 'Tajawal', sans-serif;
     overflow-x: hidden;
     position: relative;
-    background: red;
+    background: rgb(0, 0, 0);
     // For testing
     display: flex;
 }
@@ -76,6 +75,7 @@ body {
 body {
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: #000000
 }
 
 // ====================== urban =======================
@@ -85,7 +85,7 @@ body {
     position: fixed;
     top: 0;
     width: 100vw;
-    height: 120px;
+
     z-index: 9999;
     transition: all ease .3s;
     opacity: 1;
@@ -188,4 +188,7 @@ fusioncharts {
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
+}
+.relative{
+  background-color: #000000;
 }

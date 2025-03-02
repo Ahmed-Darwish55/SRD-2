@@ -106,7 +106,7 @@ async ngAfterViewInit() {
         this.playNextAnimation();
       });
         this.anim.addEventListener('DOMLoaded', () => {
-            this.isLoading = false; 
+            this.isLoading = false;
         });
     } else {
       this.isLoading = false;

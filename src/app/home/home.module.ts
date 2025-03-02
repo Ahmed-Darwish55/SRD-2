@@ -39,6 +39,7 @@ import { AccessabilitySvgComponent } from './Components/GIS/accessability-svg/ac
 import { LottieModule } from 'ngx-lottie';
 // import { LottieTestingComponent} from './lottie-testing/lottie-testing.component'
 import player from 'lottie-web';
+import { SRDInNumbersComponent } from './Components/SRD/srd-in-numbers/srd-in-numbers.component';
 
 export function playerFactory() {
   return player;
@@ -57,6 +58,7 @@ export function playerFactory() {
     FullProductDetailsComponent,
     FullServiceDetailsComponent,
     AccessabilitySvgComponent,
+    SRDInNumbersComponent,
   ],
   imports: [
     CommonModule,

@@ -9,6 +9,7 @@ import {
 })
 export class SliderComponent {
   @Input() configParam: any;
+  slider:string='../../../../../assets/SRD/slider/hero s.svg'
   isInitiated:boolean = false;
   constructor(carouselConfig: NgbCarouselConfig) {
     // customize default values of carousels used by this component tree
